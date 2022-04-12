@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.5753424657534246" branch-rate="0.65" lines-covered="42" lines-valid="73" branches-covered="26" branches-valid="40" complexity="2.533333333333333" version="2.1.1" timestamp="1649800999607">
+	<sources>
+		<source>C:/Users/namra/Desktop/Spring_2022/PAT_AVL_4/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="Avltree" line-rate="0.5753424657534246" branch-rate="0.65" complexity="2.533333333333333">
+			<classes>
+				<class name="Avltree.AVLTree" filename="Avltree/AVLTree.java" line-rate="0.5571428571428572" branch-rate="0.65" complexity="2.533333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="141" branch="false"/>
+							</lines>
+						</method>
+						<method name="delete" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="122" branch="false"/>
+								<line number="35" hits="122" branch="false"/>
+							</lines>
+						</method>
+						<method name="delete" signature="(LAvltree/AVLTree$Node;I)LAvltree/AVLTree$Node;" line-rate="0.6428571428571429" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="59" hits="127" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="60" hits="122" branch="false"/>
+								<line number="61" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="62" hits="3" branch="false"/>
+								<line number="63" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="64" hits="2" branch="false"/>
+								<line number="66" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="67" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+								<line number="71" hits="0" branch="false"/>
+								<line number="74" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="75" hits="5" branch="false"/>
+								<line number="77" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="find" signature="(I)LAvltree/AVLTree$Node;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="185" branch="false"/>
+								<line number="20" hits="205" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="21" hits="26" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="22" hits="6" branch="false"/>
+								<line number="24" hits="20" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="26" hits="185" branch="false"/>
+							</lines>
+						</method>
+						<method name="getBalance" signature="(LAvltree/AVLTree$Node;)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="139" hits="133" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="getRoot" signature="()LAvltree/AVLTree$Node;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="130" branch="false"/>
+							</lines>
+						</method>
+						<method name="height" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="42" hits="53" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="height" signature="(LAvltree/AVLTree$Node;)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="135" hits="168" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="insert" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="83" branch="false"/>
+								<line number="31" hits="81" branch="false"/>
+							</lines>
+						</method>
+						<method name="insert" signature="(LAvltree/AVLTree$Node;I)LAvltree/AVLTree$Node;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="46" hits="98" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="47" hits="81" branch="false"/>
+								<line number="48" hits="17" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="49" hits="12" branch="false"/>
+								<line number="50" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="51" hits="3" branch="false"/>
+								<line number="53" hits="2" branch="false"/>
+								<line number="55" hits="15" branch="false"/>
+							</lines>
+						</method>
+						<method name="mostLeftChild" signature="(LAvltree/AVLTree$Node;)LAvltree/AVLTree$Node;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="81" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="84" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="rebalance" signature="(LAvltree/AVLTree$Node;)LAvltree/AVLTree$Node;" line-rate="0.38461538461538464" branch-rate="0.25" complexity="0">
+							<lines>
+								<line number="90" hits="20" branch="false"/>
+								<line number="91" hits="20" branch="false"/>
+								<line number="92" hits="20" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="93" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="94" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="false"/>
+								<line number="97" hits="0" branch="false"/>
+								<line number="99" hits="20" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="101" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="false"/>
+								<line number="107" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="rotateLeft" signature="(LAvltree/AVLTree$Node;)LAvltree/AVLTree$Node;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="121" hits="0" branch="false"/>
+								<line number="122" hits="0" branch="false"/>
+								<line number="123" hits="0" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="rotateRight" signature="(LAvltree/AVLTree$Node;)LAvltree/AVLTree$Node;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="111" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="updateHeight" signature="(LAvltree/AVLTree$Node;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="131" hits="20" branch="false"/>
+								<line number="132" hits="20" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="141" branch="false"/>
+						<line number="19" hits="185" branch="false"/>
+						<line number="20" hits="205" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="21" hits="26" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="22" hits="6" branch="false"/>
+						<line number="24" hits="20" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="26" hits="185" branch="false"/>
+						<line number="30" hits="83" branch="false"/>
+						<line number="31" hits="81" branch="false"/>
+						<line number="34" hits="122" branch="false"/>
+						<line number="35" hits="122" branch="false"/>
+						<line number="38" hits="130" branch="false"/>
+						<line number="42" hits="53" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="46" hits="98" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="47" hits="81" branch="false"/>
+						<line number="48" hits="17" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="49" hits="12" branch="false"/>
+						<line number="50" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="51" hits="3" branch="false"/>
+						<line number="53" hits="2" branch="false"/>
+						<line number="55" hits="15" branch="false"/>
+						<line number="59" hits="127" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="60" hits="122" branch="false"/>
+						<line number="61" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="62" hits="3" branch="false"/>
+						<line number="63" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="64" hits="2" branch="false"/>
+						<line number="66" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="67" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="74" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="75" hits="5" branch="false"/>
+						<line number="77" hits="5" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="84" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="90" hits="20" branch="false"/>
+						<line number="91" hits="20" branch="false"/>
+						<line number="92" hits="20" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="93" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="94" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+						<line number="99" hits="20" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="101" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="107" hits="20" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+						<line number="122" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="131" hits="20" branch="false"/>
+						<line number="132" hits="20" branch="false"/>
+						<line number="135" hits="168" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="139" hits="133" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+					</lines>
+				</class>
+				<class name="Avltree.AVLTree$Node" filename="Avltree/AVLTree.java" line-rate="1.0" branch-rate="1.0" complexity="2.533333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="(LAvltree/AVLTree;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="81" branch="false"/>
+								<line number="12" hits="81" branch="false"/>
+								<line number="13" hits="81" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="81" branch="false"/>
+						<line number="12" hits="81" branch="false"/>
+						<line number="13" hits="81" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
