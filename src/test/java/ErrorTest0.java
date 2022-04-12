@@ -36,5 +36,21 @@ public class ErrorTest0 {
         // during test generation this statement threw an exception of type java.lang.NullPointerException in error
         aVLTree0.delete(0);
     }
+
+    @Test
+    public void test3() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "ErrorTest0.test3");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
+        aVLTree0.insert(0);
+        aVLTree0.insert((int) (byte) -1);
+        // during test generation this statement threw an exception of type java.lang.NullPointerException in error
+        aVLTree0.delete((int) (byte) 0);
+    }
 }
 

@@ -8,18 +8,18 @@ public class RegressionTest0 {
     public static boolean debug = false;
 
     @Test
-    public void test001() throws Throwable {
+    public void test0001() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test001");
+            System.out.format("%n%s%n", "RegressionTest0.test0001");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         java.lang.Class<?> wildcardClass1 = aVLTree0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
     @Test
-    public void test002() throws Throwable {
+    public void test0002() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test002");
+            System.out.format("%n%s%n", "RegressionTest0.test0002");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -29,9 +29,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test003() throws Throwable {
+    public void test0003() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test003");
+            System.out.format("%n%s%n", "RegressionTest0.test0003");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -41,9 +41,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test004() throws Throwable {
+    public void test0004() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test004");
+            System.out.format("%n%s%n", "RegressionTest0.test0004");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -55,9 +55,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test005() throws Throwable {
+    public void test0005() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test005");
+            System.out.format("%n%s%n", "RegressionTest0.test0005");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -69,9 +69,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test006() throws Throwable {
+    public void test0006() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test006");
+            System.out.format("%n%s%n", "RegressionTest0.test0006");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -84,9 +84,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test007() throws Throwable {
+    public void test0007() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test007");
+            System.out.format("%n%s%n", "RegressionTest0.test0007");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -99,9 +99,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test008() throws Throwable {
+    public void test0008() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test008");
+            System.out.format("%n%s%n", "RegressionTest0.test0008");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -121,9 +121,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test009() throws Throwable {
+    public void test0009() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test009");
+            System.out.format("%n%s%n", "RegressionTest0.test0009");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -140,9 +140,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test010() throws Throwable {
+    public void test0010() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test010");
+            System.out.format("%n%s%n", "RegressionTest0.test0010");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -159,9 +159,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test011() throws Throwable {
+    public void test0011() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test011");
+            System.out.format("%n%s%n", "RegressionTest0.test0011");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         java.lang.Class<?> wildcardClass3 = aVLTree0.getClass();
@@ -169,9 +169,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test012() throws Throwable {
+    public void test0012() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test012");
+            System.out.format("%n%s%n", "RegressionTest0.test0012");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -185,9 +185,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test013() throws Throwable {
+    public void test0013() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test013");
+            System.out.format("%n%s%n", "RegressionTest0.test0013");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -203,9 +203,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test014() throws Throwable {
+    public void test0014() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test014");
+            System.out.format("%n%s%n", "RegressionTest0.test0014");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -221,9 +221,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test015() throws Throwable {
+    public void test0015() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test015");
+            System.out.format("%n%s%n", "RegressionTest0.test0015");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -236,9 +236,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test016() throws Throwable {
+    public void test0016() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test016");
+            System.out.format("%n%s%n", "RegressionTest0.test0016");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -257,9 +257,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test017() throws Throwable {
+    public void test0017() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test017");
+            System.out.format("%n%s%n", "RegressionTest0.test0017");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -273,9 +273,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test018() throws Throwable {
+    public void test0018() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test018");
+            System.out.format("%n%s%n", "RegressionTest0.test0018");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -302,9 +302,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test019() throws Throwable {
+    public void test0019() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test019");
+            System.out.format("%n%s%n", "RegressionTest0.test0019");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -316,9 +316,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test020() throws Throwable {
+    public void test0020() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test020");
+            System.out.format("%n%s%n", "RegressionTest0.test0020");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -334,9 +334,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test021() throws Throwable {
+    public void test0021() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test021");
+            System.out.format("%n%s%n", "RegressionTest0.test0021");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -350,9 +350,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test022() throws Throwable {
+    public void test0022() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test022");
+            System.out.format("%n%s%n", "RegressionTest0.test0022");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -370,9 +370,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test023() throws Throwable {
+    public void test0023() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test023");
+            System.out.format("%n%s%n", "RegressionTest0.test0023");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -418,18 +418,18 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test024() throws Throwable {
+    public void test0024() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test024");
+            System.out.format("%n%s%n", "RegressionTest0.test0024");
         java.lang.Object obj0 = new java.lang.Object();
         java.lang.Class<?> wildcardClass1 = obj0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
     @Test
-    public void test025() throws Throwable {
+    public void test0025() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test025");
+            System.out.format("%n%s%n", "RegressionTest0.test0025");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -444,9 +444,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test026() throws Throwable {
+    public void test0026() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test026");
+            System.out.format("%n%s%n", "RegressionTest0.test0026");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -460,9 +460,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test027() throws Throwable {
+    public void test0027() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test027");
+            System.out.format("%n%s%n", "RegressionTest0.test0027");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -492,9 +492,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test028() throws Throwable {
+    public void test0028() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test028");
+            System.out.format("%n%s%n", "RegressionTest0.test0028");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -514,24 +514,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test029() throws Throwable {
+    public void test0029() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test029");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        int int7 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-    }
-
-    @Test
-    public void test030() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test030");
+            System.out.format("%n%s%n", "RegressionTest0.test0029");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -546,9 +531,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test031() throws Throwable {
+    public void test0030() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test031");
+            System.out.format("%n%s%n", "RegressionTest0.test0030");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -569,9 +554,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test032() throws Throwable {
+    public void test0031() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test032");
+            System.out.format("%n%s%n", "RegressionTest0.test0031");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -586,29 +571,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test033() throws Throwable {
+    public void test0032() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test033");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) (short) 100);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
-        int int9 = aVLTree0.height();
-        aVLTree0.insert((int) 'a');
-        int int12 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 1 + "'", int12 == 1);
-    }
-
-    @Test
-    public void test034() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test034");
+            System.out.format("%n%s%n", "RegressionTest0.test0032");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -623,40 +588,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test035() throws Throwable {
+    public void test0033() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test035");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree0.getBalance(node8);
-        int int10 = aVLTree0.height();
-        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
-        Avltree.AVLTree.Node node14 = aVLTree11.getRoot();
-        aVLTree11.delete(100);
-        aVLTree11.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node19 = aVLTree11.getRoot();
-        int int20 = aVLTree0.getBalance(node19);
-        int int21 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNotNull(node19);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertTrue("'" + int21 + "' != '" + (-1) + "'", int21 == (-1));
-    }
-
-    @Test
-    public void test036() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test036");
+            System.out.format("%n%s%n", "RegressionTest0.test0033");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -668,9 +602,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test037() throws Throwable {
+    public void test0034() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test037");
+            System.out.format("%n%s%n", "RegressionTest0.test0034");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -699,9 +633,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test038() throws Throwable {
+    public void test0035() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test038");
+            System.out.format("%n%s%n", "RegressionTest0.test0035");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -755,9 +689,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test039() throws Throwable {
+    public void test0036() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test039");
+            System.out.format("%n%s%n", "RegressionTest0.test0036");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -771,9 +705,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test040() throws Throwable {
+    public void test0037() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test040");
+            System.out.format("%n%s%n", "RegressionTest0.test0037");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -790,9 +724,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test041() throws Throwable {
+    public void test0038() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test041");
+            System.out.format("%n%s%n", "RegressionTest0.test0038");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -813,9 +747,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test042() throws Throwable {
+    public void test0039() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test042");
+            System.out.format("%n%s%n", "RegressionTest0.test0039");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -861,9 +795,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test043() throws Throwable {
+    public void test0040() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test043");
+            System.out.format("%n%s%n", "RegressionTest0.test0040");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -890,9 +824,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test044() throws Throwable {
+    public void test0041() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test044");
+            System.out.format("%n%s%n", "RegressionTest0.test0041");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -908,9 +842,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test045() throws Throwable {
+    public void test0042() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test045");
+            System.out.format("%n%s%n", "RegressionTest0.test0042");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -963,9 +897,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test046() throws Throwable {
+    public void test0043() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test046");
+            System.out.format("%n%s%n", "RegressionTest0.test0043");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1007,9 +941,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test047() throws Throwable {
+    public void test0044() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test047");
+            System.out.format("%n%s%n", "RegressionTest0.test0044");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -1024,9 +958,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test048() throws Throwable {
+    public void test0045() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test048");
+            System.out.format("%n%s%n", "RegressionTest0.test0045");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -1046,9 +980,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test049() throws Throwable {
+    public void test0046() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test049");
+            System.out.format("%n%s%n", "RegressionTest0.test0046");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1068,9 +1002,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test050() throws Throwable {
+    public void test0047() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test050");
+            System.out.format("%n%s%n", "RegressionTest0.test0047");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1088,9 +1022,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test051() throws Throwable {
+    public void test0048() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test051");
+            System.out.format("%n%s%n", "RegressionTest0.test0048");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -1104,9 +1038,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test052() throws Throwable {
+    public void test0049() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test052");
+            System.out.format("%n%s%n", "RegressionTest0.test0049");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1152,9 +1086,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test053() throws Throwable {
+    public void test0050() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test053");
+            System.out.format("%n%s%n", "RegressionTest0.test0050");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -1168,9 +1102,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test054() throws Throwable {
+    public void test0051() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test054");
+            System.out.format("%n%s%n", "RegressionTest0.test0051");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -1186,9 +1120,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test055() throws Throwable {
+    public void test0052() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test055");
+            System.out.format("%n%s%n", "RegressionTest0.test0052");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -1207,9 +1141,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test056() throws Throwable {
+    public void test0053() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test056");
+            System.out.format("%n%s%n", "RegressionTest0.test0053");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -1244,9 +1178,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test057() throws Throwable {
+    public void test0054() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test057");
+            System.out.format("%n%s%n", "RegressionTest0.test0054");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1261,9 +1195,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test058() throws Throwable {
+    public void test0055() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test058");
+            System.out.format("%n%s%n", "RegressionTest0.test0055");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1280,9 +1214,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test059() throws Throwable {
+    public void test0056() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test059");
+            System.out.format("%n%s%n", "RegressionTest0.test0056");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1312,9 +1246,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test060() throws Throwable {
+    public void test0057() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test060");
+            System.out.format("%n%s%n", "RegressionTest0.test0057");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = aVLTree0.getRoot();
         aVLTree0.insert((int) (short) 10);
@@ -1322,9 +1256,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test061() throws Throwable {
+    public void test0058() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test061");
+            System.out.format("%n%s%n", "RegressionTest0.test0058");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1436,9 +1370,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test062() throws Throwable {
+    public void test0059() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test062");
+            System.out.format("%n%s%n", "RegressionTest0.test0059");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1467,9 +1401,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test063() throws Throwable {
+    public void test0060() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test063");
+            System.out.format("%n%s%n", "RegressionTest0.test0060");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1485,9 +1419,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test064() throws Throwable {
+    public void test0061() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test064");
+            System.out.format("%n%s%n", "RegressionTest0.test0061");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -1521,9 +1455,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test065() throws Throwable {
+    public void test0062() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test065");
+            System.out.format("%n%s%n", "RegressionTest0.test0062");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1600,22 +1534,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test066() throws Throwable {
+    public void test0063() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test066");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.delete((int) '4');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((-1));
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertNull(node6);
-    }
-
-    @Test
-    public void test067() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test067");
+            System.out.format("%n%s%n", "RegressionTest0.test0063");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1652,9 +1573,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test068() throws Throwable {
+    public void test0064() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test068");
+            System.out.format("%n%s%n", "RegressionTest0.test0064");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -1669,9 +1590,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test069() throws Throwable {
+    public void test0065() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test069");
+            System.out.format("%n%s%n", "RegressionTest0.test0065");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -1695,9 +1616,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test070() throws Throwable {
+    public void test0066() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test070");
+            System.out.format("%n%s%n", "RegressionTest0.test0066");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1708,9 +1629,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test071() throws Throwable {
+    public void test0067() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test071");
+            System.out.format("%n%s%n", "RegressionTest0.test0067");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1740,9 +1661,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test072() throws Throwable {
+    public void test0068() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test072");
+            System.out.format("%n%s%n", "RegressionTest0.test0068");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1772,9 +1693,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test073() throws Throwable {
+    public void test0069() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test073");
+            System.out.format("%n%s%n", "RegressionTest0.test0069");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -1793,9 +1714,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test074() throws Throwable {
+    public void test0070() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test074");
+            System.out.format("%n%s%n", "RegressionTest0.test0070");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -1814,9 +1735,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test075() throws Throwable {
+    public void test0071() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test075");
+            System.out.format("%n%s%n", "RegressionTest0.test0071");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -1844,9 +1765,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test076() throws Throwable {
+    public void test0072() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test076");
+            System.out.format("%n%s%n", "RegressionTest0.test0072");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -1862,9 +1783,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test077() throws Throwable {
+    public void test0073() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test077");
+            System.out.format("%n%s%n", "RegressionTest0.test0073");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -1878,9 +1799,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test078() throws Throwable {
+    public void test0074() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test078");
+            System.out.format("%n%s%n", "RegressionTest0.test0074");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -1902,9 +1823,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test079() throws Throwable {
+    public void test0075() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test079");
+            System.out.format("%n%s%n", "RegressionTest0.test0075");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -1931,125 +1852,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test080() throws Throwable {
+    public void test0076() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test080");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) (short) 1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-    }
-
-    @Test
-    public void test081() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test081");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        int int6 = aVLTree0.height();
-        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
-        aVLTree7.delete((int) 'a');
-        Avltree.AVLTree.Node node12 = aVLTree7.getRoot();
-        aVLTree7.delete(0);
-        Avltree.AVLTree.Node node15 = null;
-        int int16 = aVLTree7.getBalance(node15);
-        int int17 = aVLTree7.height();
-        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node20 = aVLTree18.find((int) '4');
-        Avltree.AVLTree.Node node21 = aVLTree18.getRoot();
-        aVLTree18.delete(100);
-        aVLTree18.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node26 = aVLTree18.getRoot();
-        int int27 = aVLTree7.getBalance(node26);
-        Avltree.AVLTree aVLTree28 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node30 = aVLTree28.find((int) '4');
-        aVLTree28.delete((int) 'a');
-        Avltree.AVLTree.Node node33 = aVLTree28.getRoot();
-        aVLTree28.delete(0);
-        Avltree.AVLTree.Node node36 = null;
-        int int37 = aVLTree28.getBalance(node36);
-        int int38 = aVLTree28.height();
-        Avltree.AVLTree aVLTree39 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node41 = aVLTree39.find((int) '4');
-        Avltree.AVLTree.Node node42 = aVLTree39.getRoot();
-        aVLTree39.delete(100);
-        aVLTree39.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node47 = aVLTree39.getRoot();
-        int int48 = aVLTree28.getBalance(node47);
-        int int49 = aVLTree7.getBalance(node47);
-        int int50 = aVLTree0.getBalance(node47);
-        aVLTree0.delete((-1));
-        int int53 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNotNull(node26);
-        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
-        org.junit.Assert.assertNull(node30);
-        org.junit.Assert.assertNull(node33);
-        org.junit.Assert.assertTrue("'" + int37 + "' != '" + 0 + "'", int37 == 0);
-        org.junit.Assert.assertTrue("'" + int38 + "' != '" + (-1) + "'", int38 == (-1));
-        org.junit.Assert.assertNull(node41);
-        org.junit.Assert.assertNull(node42);
-        org.junit.Assert.assertNotNull(node47);
-        org.junit.Assert.assertTrue("'" + int48 + "' != '" + 0 + "'", int48 == 0);
-        org.junit.Assert.assertTrue("'" + int49 + "' != '" + 0 + "'", int49 == 0);
-        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
-        org.junit.Assert.assertTrue("'" + int53 + "' != '" + (-1) + "'", int53 == (-1));
-    }
-
-    @Test
-    public void test082() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test082");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) 'a');
-        int int7 = aVLTree0.height();
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete((int) (byte) 100);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-    }
-
-    @Test
-    public void test083() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test083");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete(1);
-        aVLTree0.delete((int) '#');
-        aVLTree0.delete((int) (short) -1);
-        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node13 = aVLTree0.find((int) (byte) 100);
-        int int14 = aVLTree0.height();
-        Avltree.AVLTree.Node node16 = aVLTree0.find(0);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + (-1) + "'", int14 == (-1));
-        org.junit.Assert.assertNull(node16);
-    }
-
-    @Test
-    public void test084() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test084");
+            System.out.format("%n%s%n", "RegressionTest0.test0076");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -2069,9 +1874,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test085() throws Throwable {
+    public void test0077() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test085");
+            System.out.format("%n%s%n", "RegressionTest0.test0077");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2087,41 +1892,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test086() throws Throwable {
+    public void test0078() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test086");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = null;
-        int int7 = aVLTree0.getBalance(node6);
-        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
-        int int10 = aVLTree0.height();
-        aVLTree0.delete(0);
-        Avltree.AVLTree aVLTree13 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node14 = null;
-        int int15 = aVLTree13.getBalance(node14);
-        aVLTree13.insert((int) (byte) 100);
-        aVLTree13.insert((int) 'a');
-        Avltree.AVLTree.Node node21 = aVLTree13.find((int) (byte) 100);
-        int int22 = aVLTree0.getBalance(node21);
-        Avltree.AVLTree.Node node23 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
-        org.junit.Assert.assertNotNull(node21);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + (-1) + "'", int22 == (-1));
-        org.junit.Assert.assertNull(node23);
-    }
-
-    @Test
-    public void test087() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test087");
+            System.out.format("%n%s%n", "RegressionTest0.test0078");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2173,9 +1946,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test088() throws Throwable {
+    public void test0079() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test088");
+            System.out.format("%n%s%n", "RegressionTest0.test0079");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -2190,9 +1963,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test089() throws Throwable {
+    public void test0080() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test089");
+            System.out.format("%n%s%n", "RegressionTest0.test0080");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2227,9 +2000,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test090() throws Throwable {
+    public void test0081() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test090");
+            System.out.format("%n%s%n", "RegressionTest0.test0081");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2271,9 +2044,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test091() throws Throwable {
+    public void test0082() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test091");
+            System.out.format("%n%s%n", "RegressionTest0.test0082");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2292,9 +2065,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test092() throws Throwable {
+    public void test0083() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test092");
+            System.out.format("%n%s%n", "RegressionTest0.test0083");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -2313,9 +2086,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test093() throws Throwable {
+    public void test0084() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test093");
+            System.out.format("%n%s%n", "RegressionTest0.test0084");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -2348,9 +2121,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test094() throws Throwable {
+    public void test0085() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test094");
+            System.out.format("%n%s%n", "RegressionTest0.test0085");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -2365,9 +2138,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test095() throws Throwable {
+    public void test0086() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test095");
+            System.out.format("%n%s%n", "RegressionTest0.test0086");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2380,9 +2153,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test096() throws Throwable {
+    public void test0087() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test096");
+            System.out.format("%n%s%n", "RegressionTest0.test0087");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -2397,25 +2170,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test097() throws Throwable {
+    public void test0088() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test097");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) (short) 100);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
-        aVLTree0.delete((int) (byte) 1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-    }
-
-    @Test
-    public void test098() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test098");
+            System.out.format("%n%s%n", "RegressionTest0.test0088");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -2431,42 +2188,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test099() throws Throwable {
+    public void test0089() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test099");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.insert((int) (short) 1);
-        aVLTree0.insert((int) '#');
-        aVLTree0.delete(10);
-        aVLTree0.delete((int) (byte) 10);
-        org.junit.Assert.assertNull(node2);
-    }
-
-    @Test
-    public void test100() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test100");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.delete((int) (byte) -1);
-        int int5 = aVLTree0.height();
-        int int6 = aVLTree0.height();
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
-        Avltree.AVLTree.Node node10 = aVLTree0.find((int) ' ');
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertTrue("'" + int5 + "' != '" + (-1) + "'", int5 == (-1));
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node10);
-    }
-
-    @Test
-    public void test101() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test101");
+            System.out.format("%n%s%n", "RegressionTest0.test0089");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2534,9 +2258,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test102() throws Throwable {
+    public void test0090() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test102");
+            System.out.format("%n%s%n", "RegressionTest0.test0090");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2559,9 +2283,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test103() throws Throwable {
+    public void test0091() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test103");
+            System.out.format("%n%s%n", "RegressionTest0.test0091");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -2577,9 +2301,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test104() throws Throwable {
+    public void test0092() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test104");
+            System.out.format("%n%s%n", "RegressionTest0.test0092");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2600,9 +2324,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test105() throws Throwable {
+    public void test0093() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test105");
+            System.out.format("%n%s%n", "RegressionTest0.test0093");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -2663,9 +2387,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test106() throws Throwable {
+    public void test0094() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test106");
+            System.out.format("%n%s%n", "RegressionTest0.test0094");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -2678,9 +2402,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test107() throws Throwable {
+    public void test0095() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test107");
+            System.out.format("%n%s%n", "RegressionTest0.test0095");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -2750,9 +2474,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test108() throws Throwable {
+    public void test0096() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test108");
+            System.out.format("%n%s%n", "RegressionTest0.test0096");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2782,9 +2506,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test109() throws Throwable {
+    public void test0097() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test109");
+            System.out.format("%n%s%n", "RegressionTest0.test0097");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -2889,9 +2613,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test110() throws Throwable {
+    public void test0098() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test110");
+            System.out.format("%n%s%n", "RegressionTest0.test0098");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -2932,9 +2656,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test111() throws Throwable {
+    public void test0099() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test111");
+            System.out.format("%n%s%n", "RegressionTest0.test0099");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -2966,9 +2690,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test112() throws Throwable {
+    public void test0100() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test112");
+            System.out.format("%n%s%n", "RegressionTest0.test0100");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -2981,9 +2705,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test113() throws Throwable {
+    public void test0101() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test113");
+            System.out.format("%n%s%n", "RegressionTest0.test0101");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -2996,9 +2720,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test114() throws Throwable {
+    public void test0102() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test114");
+            System.out.format("%n%s%n", "RegressionTest0.test0102");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -3011,25 +2735,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test115() throws Throwable {
+    public void test0103() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test115");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.insert((int) (byte) 100);
-        aVLTree0.delete((int) '4');
-        int int7 = aVLTree0.height();
-        Avltree.AVLTree.Node node9 = aVLTree0.find((int) (byte) -1);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node9);
-    }
-
-    @Test
-    public void test116() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test116");
+            System.out.format("%n%s%n", "RegressionTest0.test0103");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3042,9 +2750,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test117() throws Throwable {
+    public void test0104() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test117");
+            System.out.format("%n%s%n", "RegressionTest0.test0104");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3064,9 +2772,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test118() throws Throwable {
+    public void test0105() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test118");
+            System.out.format("%n%s%n", "RegressionTest0.test0105");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3110,24 +2818,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test119() throws Throwable {
+    public void test0106() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test119");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.insert((int) (short) 1);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
-        aVLTree0.insert((int) (short) 10);
-        aVLTree0.delete((-1));
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node8);
-    }
-
-    @Test
-    public void test120() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test120");
+            System.out.format("%n%s%n", "RegressionTest0.test0106");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3146,9 +2839,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test121() throws Throwable {
+    public void test0107() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test121");
+            System.out.format("%n%s%n", "RegressionTest0.test0107");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3168,42 +2861,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test122() throws Throwable {
+    public void test0108() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test122");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((int) (short) 0);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) 10);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node8);
-    }
-
-    @Test
-    public void test123() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test123");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
-        int int9 = aVLTree0.height();
-        Avltree.AVLTree.Node node11 = aVLTree0.find((int) (short) 100);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertNull(node11);
-    }
-
-    @Test
-    public void test124() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test124");
+            System.out.format("%n%s%n", "RegressionTest0.test0108");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -3214,27 +2874,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test125() throws Throwable {
+    public void test0109() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test125");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node7);
-    }
-
-    @Test
-    public void test126() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test126");
+            System.out.format("%n%s%n", "RegressionTest0.test0109");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -3251,9 +2893,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test127() throws Throwable {
+    public void test0110() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test127");
+            System.out.format("%n%s%n", "RegressionTest0.test0110");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3285,9 +2927,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test128() throws Throwable {
+    public void test0111() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test128");
+            System.out.format("%n%s%n", "RegressionTest0.test0111");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -3299,9 +2941,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test129() throws Throwable {
+    public void test0112() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test129");
+            System.out.format("%n%s%n", "RegressionTest0.test0112");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -3309,9 +2951,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test130() throws Throwable {
+    public void test0113() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test130");
+            System.out.format("%n%s%n", "RegressionTest0.test0113");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3331,9 +2973,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test131() throws Throwable {
+    public void test0114() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test131");
+            System.out.format("%n%s%n", "RegressionTest0.test0114");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -3372,9 +3014,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test132() throws Throwable {
+    public void test0115() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test132");
+            System.out.format("%n%s%n", "RegressionTest0.test0115");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -3390,9 +3032,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test133() throws Throwable {
+    public void test0116() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test133");
+            System.out.format("%n%s%n", "RegressionTest0.test0116");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3410,27 +3052,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test134() throws Throwable {
+    public void test0117() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test134");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        int int6 = aVLTree0.height();
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
-        aVLTree0.insert(0);
-        aVLTree0.delete((int) 'a');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
-        org.junit.Assert.assertNull(node8);
-    }
-
-    @Test
-    public void test135() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test135");
+            System.out.format("%n%s%n", "RegressionTest0.test0117");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3460,9 +3084,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test136() throws Throwable {
+    public void test0118() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test136");
+            System.out.format("%n%s%n", "RegressionTest0.test0118");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3498,9 +3122,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test137() throws Throwable {
+    public void test0119() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test137");
+            System.out.format("%n%s%n", "RegressionTest0.test0119");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3520,9 +3144,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test138() throws Throwable {
+    public void test0120() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test138");
+            System.out.format("%n%s%n", "RegressionTest0.test0120");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3534,9 +3158,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test139() throws Throwable {
+    public void test0121() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test139");
+            System.out.format("%n%s%n", "RegressionTest0.test0121");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3560,9 +3184,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test140() throws Throwable {
+    public void test0122() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test140");
+            System.out.format("%n%s%n", "RegressionTest0.test0122");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -3577,9 +3201,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test141() throws Throwable {
+    public void test0123() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test141");
+            System.out.format("%n%s%n", "RegressionTest0.test0123");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3597,9 +3221,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test142() throws Throwable {
+    public void test0124() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test142");
+            System.out.format("%n%s%n", "RegressionTest0.test0124");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3641,9 +3265,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test143() throws Throwable {
+    public void test0125() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test143");
+            System.out.format("%n%s%n", "RegressionTest0.test0125");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3667,9 +3291,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test144() throws Throwable {
+    public void test0126() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test144");
+            System.out.format("%n%s%n", "RegressionTest0.test0126");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -3686,9 +3310,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test145() throws Throwable {
+    public void test0127() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test145");
+            System.out.format("%n%s%n", "RegressionTest0.test0127");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3705,9 +3329,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test146() throws Throwable {
+    public void test0128() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test146");
+            System.out.format("%n%s%n", "RegressionTest0.test0128");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -3801,9 +3425,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test147() throws Throwable {
+    public void test0129() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test147");
+            System.out.format("%n%s%n", "RegressionTest0.test0129");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3858,9 +3482,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test148() throws Throwable {
+    public void test0130() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test148");
+            System.out.format("%n%s%n", "RegressionTest0.test0130");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3889,9 +3513,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test149() throws Throwable {
+    public void test0131() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test149");
+            System.out.format("%n%s%n", "RegressionTest0.test0131");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -3909,9 +3533,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test150() throws Throwable {
+    public void test0132() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test150");
+            System.out.format("%n%s%n", "RegressionTest0.test0132");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -3924,9 +3548,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test151() throws Throwable {
+    public void test0133() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test151");
+            System.out.format("%n%s%n", "RegressionTest0.test0133");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -3983,9 +3607,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test152() throws Throwable {
+    public void test0134() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test152");
+            System.out.format("%n%s%n", "RegressionTest0.test0134");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4037,95 +3661,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test153() throws Throwable {
+    public void test0135() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test153");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (short) -1);
-        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
-        aVLTree6.delete((int) 'a');
-        Avltree.AVLTree.Node node11 = aVLTree6.getRoot();
-        aVLTree6.delete(0);
-        Avltree.AVLTree.Node node14 = null;
-        int int15 = aVLTree6.getBalance(node14);
-        int int16 = aVLTree6.height();
-        aVLTree6.delete(100);
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
-        Avltree.AVLTree.Node node22 = aVLTree19.getRoot();
-        aVLTree19.delete(100);
-        aVLTree19.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node27 = aVLTree19.getRoot();
-        int int28 = aVLTree6.getBalance(node27);
-        int int29 = aVLTree0.getBalance(node27);
-        Avltree.AVLTree.Node node30 = aVLTree0.getRoot();
-        Avltree.AVLTree aVLTree31 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node33 = aVLTree31.find((int) '4');
-        Avltree.AVLTree.Node node35 = aVLTree31.find((int) 'a');
-        int int36 = aVLTree31.height();
-        Avltree.AVLTree aVLTree37 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node38 = null;
-        int int39 = aVLTree37.getBalance(node38);
-        Avltree.AVLTree.Node node40 = aVLTree37.getRoot();
-        aVLTree37.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree43 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node45 = aVLTree43.find((int) '4');
-        aVLTree43.delete((int) 'a');
-        Avltree.AVLTree.Node node48 = aVLTree43.getRoot();
-        aVLTree43.delete(0);
-        Avltree.AVLTree.Node node51 = null;
-        int int52 = aVLTree43.getBalance(node51);
-        int int53 = aVLTree43.height();
-        Avltree.AVLTree aVLTree54 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node56 = aVLTree54.find((int) '4');
-        Avltree.AVLTree.Node node57 = aVLTree54.getRoot();
-        aVLTree54.delete(100);
-        aVLTree54.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node62 = aVLTree54.getRoot();
-        int int63 = aVLTree43.getBalance(node62);
-        int int64 = aVLTree37.getBalance(node62);
-        int int65 = aVLTree31.getBalance(node62);
-        int int66 = aVLTree0.getBalance(node62);
-        Avltree.AVLTree.Node node67 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node22);
-        org.junit.Assert.assertNotNull(node27);
-        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
-        org.junit.Assert.assertNull(node30);
-        org.junit.Assert.assertNull(node33);
-        org.junit.Assert.assertNull(node35);
-        org.junit.Assert.assertTrue("'" + int36 + "' != '" + (-1) + "'", int36 == (-1));
-        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
-        org.junit.Assert.assertNull(node40);
-        org.junit.Assert.assertNull(node45);
-        org.junit.Assert.assertNull(node48);
-        org.junit.Assert.assertTrue("'" + int52 + "' != '" + 0 + "'", int52 == 0);
-        org.junit.Assert.assertTrue("'" + int53 + "' != '" + (-1) + "'", int53 == (-1));
-        org.junit.Assert.assertNull(node56);
-        org.junit.Assert.assertNull(node57);
-        org.junit.Assert.assertNotNull(node62);
-        org.junit.Assert.assertTrue("'" + int63 + "' != '" + 0 + "'", int63 == 0);
-        org.junit.Assert.assertTrue("'" + int64 + "' != '" + 0 + "'", int64 == 0);
-        org.junit.Assert.assertTrue("'" + int65 + "' != '" + 0 + "'", int65 == 0);
-        org.junit.Assert.assertTrue("'" + int66 + "' != '" + 0 + "'", int66 == 0);
-        org.junit.Assert.assertNull(node67);
-    }
-
-    @Test
-    public void test154() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test154");
+            System.out.format("%n%s%n", "RegressionTest0.test0135");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -4138,9 +3676,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test155() throws Throwable {
+    public void test0136() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test155");
+            System.out.format("%n%s%n", "RegressionTest0.test0136");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4196,82 +3734,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test156() throws Throwable {
+    public void test0137() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test156");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        aVLTree0.delete((int) (short) -1);
-        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
-        aVLTree8.insert((int) (short) 0);
-        Avltree.AVLTree.Node node14 = aVLTree8.find(100);
-        Avltree.AVLTree aVLTree15 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node17 = aVLTree15.find((int) '4');
-        aVLTree15.delete((int) 'a');
-        Avltree.AVLTree.Node node20 = aVLTree15.getRoot();
-        aVLTree15.delete(0);
-        Avltree.AVLTree.Node node23 = null;
-        int int24 = aVLTree15.getBalance(node23);
-        int int25 = aVLTree15.height();
-        Avltree.AVLTree aVLTree26 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node28 = aVLTree26.find((int) '4');
-        Avltree.AVLTree.Node node29 = aVLTree26.getRoot();
-        aVLTree26.delete(100);
-        aVLTree26.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node34 = aVLTree26.getRoot();
-        int int35 = aVLTree15.getBalance(node34);
-        Avltree.AVLTree aVLTree36 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node38 = aVLTree36.find((int) '4');
-        aVLTree36.delete((int) 'a');
-        Avltree.AVLTree.Node node41 = aVLTree36.getRoot();
-        aVLTree36.delete(0);
-        Avltree.AVLTree.Node node44 = null;
-        int int45 = aVLTree36.getBalance(node44);
-        int int46 = aVLTree36.height();
-        Avltree.AVLTree aVLTree47 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node49 = aVLTree47.find((int) '4');
-        Avltree.AVLTree.Node node50 = aVLTree47.getRoot();
-        aVLTree47.delete(100);
-        aVLTree47.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node55 = aVLTree47.getRoot();
-        int int56 = aVLTree36.getBalance(node55);
-        int int57 = aVLTree15.getBalance(node55);
-        int int58 = aVLTree8.getBalance(node55);
-        int int59 = aVLTree0.getBalance(node55);
-        int int60 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
-        org.junit.Assert.assertTrue("'" + int25 + "' != '" + (-1) + "'", int25 == (-1));
-        org.junit.Assert.assertNull(node28);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNotNull(node34);
-        org.junit.Assert.assertTrue("'" + int35 + "' != '" + 0 + "'", int35 == 0);
-        org.junit.Assert.assertNull(node38);
-        org.junit.Assert.assertNull(node41);
-        org.junit.Assert.assertTrue("'" + int45 + "' != '" + 0 + "'", int45 == 0);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + (-1) + "'", int46 == (-1));
-        org.junit.Assert.assertNull(node49);
-        org.junit.Assert.assertNull(node50);
-        org.junit.Assert.assertNotNull(node55);
-        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
-        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 0 + "'", int57 == 0);
-        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
-        org.junit.Assert.assertTrue("'" + int59 + "' != '" + 0 + "'", int59 == 0);
-        org.junit.Assert.assertTrue("'" + int60 + "' != '" + (-1) + "'", int60 == (-1));
-    }
-
-    @Test
-    public void test157() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test157");
+            System.out.format("%n%s%n", "RegressionTest0.test0137");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4289,9 +3754,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test158() throws Throwable {
+    public void test0138() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test158");
+            System.out.format("%n%s%n", "RegressionTest0.test0138");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -4307,9 +3772,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test159() throws Throwable {
+    public void test0139() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test159");
+            System.out.format("%n%s%n", "RegressionTest0.test0139");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -4325,9 +3790,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test160() throws Throwable {
+    public void test0140() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test160");
+            System.out.format("%n%s%n", "RegressionTest0.test0140");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -4344,23 +3809,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test161() throws Throwable {
+    public void test0141() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test161");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        aVLTree0.insert((int) (byte) 10);
-        aVLTree0.delete(0);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-    }
-
-    @Test
-    public void test162() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test162");
+            System.out.format("%n%s%n", "RegressionTest0.test0141");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -4448,9 +3899,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test163() throws Throwable {
+    public void test0142() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test163");
+            System.out.format("%n%s%n", "RegressionTest0.test0142");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -4463,9 +3914,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test164() throws Throwable {
+    public void test0143() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test164");
+            System.out.format("%n%s%n", "RegressionTest0.test0143");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4484,9 +3935,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test165() throws Throwable {
+    public void test0144() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test165");
+            System.out.format("%n%s%n", "RegressionTest0.test0144");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -4504,9 +3955,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test166() throws Throwable {
+    public void test0145() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test166");
+            System.out.format("%n%s%n", "RegressionTest0.test0145");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4523,9 +3974,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test167() throws Throwable {
+    public void test0146() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test167");
+            System.out.format("%n%s%n", "RegressionTest0.test0146");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -4539,9 +3990,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test168() throws Throwable {
+    public void test0147() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test168");
+            System.out.format("%n%s%n", "RegressionTest0.test0147");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -4606,9 +4057,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test169() throws Throwable {
+    public void test0148() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test169");
+            System.out.format("%n%s%n", "RegressionTest0.test0148");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -4623,29 +4074,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test170() throws Throwable {
+    public void test0149() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test170");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) (short) 100);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
-        int int9 = aVLTree0.height();
-        aVLTree0.delete(0);
-        int int12 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-    }
-
-    @Test
-    public void test171() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test171");
+            System.out.format("%n%s%n", "RegressionTest0.test0149");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -4662,48 +4093,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test172() throws Throwable {
+    public void test0150() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test172");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete((int) (short) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        int int9 = aVLTree0.height();
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
-        aVLTree10.insert((int) (short) 0);
-        Avltree.AVLTree.Node node16 = aVLTree10.find(100);
-        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
-        Avltree.AVLTree.Node node20 = aVLTree17.getRoot();
-        aVLTree17.delete(100);
-        aVLTree17.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node25 = aVLTree17.getRoot();
-        int int26 = aVLTree10.getBalance(node25);
-        int int27 = aVLTree0.getBalance(node25);
-        Avltree.AVLTree.Node node29 = aVLTree0.find((int) (byte) 10);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + (-1) + "'", int9 == (-1));
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node19);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNotNull(node25);
-        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
-        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
-        org.junit.Assert.assertNull(node29);
-    }
-
-    @Test
-    public void test173() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test173");
+            System.out.format("%n%s%n", "RegressionTest0.test0150");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -4719,9 +4111,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test174() throws Throwable {
+    public void test0151() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test174");
+            System.out.format("%n%s%n", "RegressionTest0.test0151");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4740,9 +4132,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test175() throws Throwable {
+    public void test0152() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test175");
+            System.out.format("%n%s%n", "RegressionTest0.test0152");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -4781,9 +4173,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test176() throws Throwable {
+    public void test0153() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test176");
+            System.out.format("%n%s%n", "RegressionTest0.test0153");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4802,9 +4194,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test177() throws Throwable {
+    public void test0154() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test177");
+            System.out.format("%n%s%n", "RegressionTest0.test0154");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -4827,9 +4219,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test178() throws Throwable {
+    public void test0155() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test178");
+            System.out.format("%n%s%n", "RegressionTest0.test0155");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -4840,9 +4232,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test179() throws Throwable {
+    public void test0156() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test179");
+            System.out.format("%n%s%n", "RegressionTest0.test0156");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -4857,9 +4249,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test180() throws Throwable {
+    public void test0157() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test180");
+            System.out.format("%n%s%n", "RegressionTest0.test0157");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -4953,9 +4345,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test181() throws Throwable {
+    public void test0158() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test181");
+            System.out.format("%n%s%n", "RegressionTest0.test0158");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -5056,9 +4448,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test182() throws Throwable {
+    public void test0159() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test182");
+            System.out.format("%n%s%n", "RegressionTest0.test0159");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -5073,9 +4465,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test183() throws Throwable {
+    public void test0160() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test183");
+            System.out.format("%n%s%n", "RegressionTest0.test0160");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -5085,9 +4477,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test184() throws Throwable {
+    public void test0161() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test184");
+            System.out.format("%n%s%n", "RegressionTest0.test0161");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -5133,9 +4525,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test185() throws Throwable {
+    public void test0162() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test185");
+            System.out.format("%n%s%n", "RegressionTest0.test0162");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -5223,9 +4615,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test186() throws Throwable {
+    public void test0163() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test186");
+            System.out.format("%n%s%n", "RegressionTest0.test0163");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -5295,9 +4687,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test187() throws Throwable {
+    public void test0164() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test187");
+            System.out.format("%n%s%n", "RegressionTest0.test0164");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -5314,9 +4706,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test188() throws Throwable {
+    public void test0165() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test188");
+            System.out.format("%n%s%n", "RegressionTest0.test0165");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -5326,25 +4718,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test189() throws Throwable {
+    public void test0166() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test189");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
-        int int3 = aVLTree0.height();
-        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (byte) 100);
-        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
-        aVLTree0.insert((int) (short) 0);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node6);
-    }
-
-    @Test
-    public void test190() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test190");
+            System.out.format("%n%s%n", "RegressionTest0.test0166");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -5360,9 +4736,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test191() throws Throwable {
+    public void test0167() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test191");
+            System.out.format("%n%s%n", "RegressionTest0.test0167");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5398,9 +4774,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test192() throws Throwable {
+    public void test0168() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test192");
+            System.out.format("%n%s%n", "RegressionTest0.test0168");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5520,9 +4896,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test193() throws Throwable {
+    public void test0169() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test193");
+            System.out.format("%n%s%n", "RegressionTest0.test0169");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5546,9 +4922,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test194() throws Throwable {
+    public void test0170() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test194");
+            System.out.format("%n%s%n", "RegressionTest0.test0170");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -5561,64 +4937,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test195() throws Throwable {
+    public void test0171() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test195");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        int int6 = aVLTree0.height();
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = null;
-        int int12 = aVLTree10.getBalance(node11);
-        aVLTree10.insert((int) (byte) 100);
-        aVLTree10.insert((int) 'a');
-        Avltree.AVLTree.Node node18 = aVLTree10.find((int) (byte) 100);
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
-        aVLTree19.delete((int) 'a');
-        Avltree.AVLTree.Node node24 = aVLTree19.getRoot();
-        aVLTree19.delete(0);
-        Avltree.AVLTree.Node node27 = null;
-        int int28 = aVLTree19.getBalance(node27);
-        int int29 = aVLTree19.height();
-        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node32 = aVLTree30.find((int) '4');
-        Avltree.AVLTree.Node node33 = aVLTree30.getRoot();
-        aVLTree30.delete(100);
-        aVLTree30.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node38 = aVLTree30.getRoot();
-        int int39 = aVLTree19.getBalance(node38);
-        int int40 = aVLTree10.getBalance(node38);
-        int int41 = aVLTree0.getBalance(node38);
-        Avltree.AVLTree.Node node42 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertNotNull(node18);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node24);
-        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + (-1) + "'", int29 == (-1));
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertNull(node33);
-        org.junit.Assert.assertNotNull(node38);
-        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
-        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
-        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
-        org.junit.Assert.assertNull(node42);
-    }
-
-    @Test
-    public void test196() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test196");
+            System.out.format("%n%s%n", "RegressionTest0.test0171");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -5642,9 +4963,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test197() throws Throwable {
+    public void test0172() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test197");
+            System.out.format("%n%s%n", "RegressionTest0.test0172");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -5709,9 +5030,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test198() throws Throwable {
+    public void test0173() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test198");
+            System.out.format("%n%s%n", "RegressionTest0.test0173");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -5727,9 +5048,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test199() throws Throwable {
+    public void test0174() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test199");
+            System.out.format("%n%s%n", "RegressionTest0.test0174");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -5758,33 +5079,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test200() throws Throwable {
+    public void test0175() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test200");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) 'a');
-        aVLTree0.delete((int) (byte) 10);
-        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
-        Avltree.AVLTree.Node node13 = aVLTree9.find((int) 'a');
-        aVLTree9.insert((int) (short) -1);
-        Avltree.AVLTree.Node node16 = aVLTree9.getRoot();
-        int int17 = aVLTree0.getBalance(node16);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNotNull(node16);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-    }
-
-    @Test
-    public void test201() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test201");
+            System.out.format("%n%s%n", "RegressionTest0.test0175");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5799,9 +5096,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test202() throws Throwable {
+    public void test0176() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test202");
+            System.out.format("%n%s%n", "RegressionTest0.test0176");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5818,9 +5115,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test203() throws Throwable {
+    public void test0177() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test203");
+            System.out.format("%n%s%n", "RegressionTest0.test0177");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -5831,9 +5128,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test204() throws Throwable {
+    public void test0178() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test204");
+            System.out.format("%n%s%n", "RegressionTest0.test0178");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -5849,9 +5146,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test205() throws Throwable {
+    public void test0179() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test205");
+            System.out.format("%n%s%n", "RegressionTest0.test0179");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -5885,9 +5182,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test206() throws Throwable {
+    public void test0180() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test206");
+            System.out.format("%n%s%n", "RegressionTest0.test0180");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5941,9 +5238,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test207() throws Throwable {
+    public void test0181() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test207");
+            System.out.format("%n%s%n", "RegressionTest0.test0181");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -5986,9 +5283,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test208() throws Throwable {
+    public void test0182() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test208");
+            System.out.format("%n%s%n", "RegressionTest0.test0182");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -6006,9 +5303,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test209() throws Throwable {
+    public void test0183() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test209");
+            System.out.format("%n%s%n", "RegressionTest0.test0183");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = aVLTree0.getRoot();
         Avltree.AVLTree aVLTree2 = new Avltree.AVLTree();
@@ -6052,9 +5349,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test210() throws Throwable {
+    public void test0184() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test210");
+            System.out.format("%n%s%n", "RegressionTest0.test0184");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -6133,71 +5430,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test211() throws Throwable {
+    public void test0185() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test211");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree0.getBalance(node8);
-        int int10 = aVLTree0.height();
-        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
-        Avltree.AVLTree.Node node14 = aVLTree11.getRoot();
-        aVLTree11.delete(100);
-        aVLTree11.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node19 = aVLTree11.getRoot();
-        int int20 = aVLTree0.getBalance(node19);
-        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
-        aVLTree21.delete((int) 'a');
-        Avltree.AVLTree.Node node26 = aVLTree21.getRoot();
-        aVLTree21.delete(0);
-        Avltree.AVLTree.Node node29 = null;
-        int int30 = aVLTree21.getBalance(node29);
-        int int31 = aVLTree21.height();
-        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
-        Avltree.AVLTree.Node node35 = aVLTree32.getRoot();
-        aVLTree32.delete(100);
-        aVLTree32.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node40 = aVLTree32.getRoot();
-        int int41 = aVLTree21.getBalance(node40);
-        int int42 = aVLTree0.getBalance(node40);
-        Avltree.AVLTree.Node node43 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node44 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node46 = aVLTree0.find((int) (short) 1);
-        aVLTree0.insert((int) '#');
-        aVLTree0.insert(1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNotNull(node19);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertNull(node23);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
-        org.junit.Assert.assertTrue("'" + int31 + "' != '" + (-1) + "'", int31 == (-1));
-        org.junit.Assert.assertNull(node34);
-        org.junit.Assert.assertNull(node35);
-        org.junit.Assert.assertNotNull(node40);
-        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
-        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
-        org.junit.Assert.assertNull(node43);
-        org.junit.Assert.assertNull(node44);
-        org.junit.Assert.assertNull(node46);
-    }
-
-    @Test
-    public void test212() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test212");
+            System.out.format("%n%s%n", "RegressionTest0.test0185");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -6285,9 +5520,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test213() throws Throwable {
+    public void test0186() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test213");
+            System.out.format("%n%s%n", "RegressionTest0.test0186");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -6319,24 +5554,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test214() throws Throwable {
+    public void test0187() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test214");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.delete((int) '4');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node7 = aVLTree0.find((int) (byte) 0);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node7);
-    }
-
-    @Test
-    public void test215() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test215");
+            System.out.format("%n%s%n", "RegressionTest0.test0187");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -6352,9 +5572,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test216() throws Throwable {
+    public void test0188() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test216");
+            System.out.format("%n%s%n", "RegressionTest0.test0188");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -6370,9 +5590,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test217() throws Throwable {
+    public void test0189() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test217");
+            System.out.format("%n%s%n", "RegressionTest0.test0189");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -6474,9 +5694,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test218() throws Throwable {
+    public void test0190() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test218");
+            System.out.format("%n%s%n", "RegressionTest0.test0190");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -6571,9 +5791,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test219() throws Throwable {
+    public void test0191() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test219");
+            System.out.format("%n%s%n", "RegressionTest0.test0191");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -6586,9 +5806,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test220() throws Throwable {
+    public void test0192() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test220");
+            System.out.format("%n%s%n", "RegressionTest0.test0192");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -6642,9 +5862,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test221() throws Throwable {
+    public void test0193() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test221");
+            System.out.format("%n%s%n", "RegressionTest0.test0193");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -6661,72 +5881,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test222() throws Throwable {
+    public void test0194() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test222");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete(1);
-        aVLTree0.delete((int) '#');
-        Avltree.AVLTree.Node node9 = null;
-        int int10 = aVLTree0.getBalance(node9);
-        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
-        Avltree.AVLTree aVLTree12 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node14 = aVLTree12.find((int) '4');
-        Avltree.AVLTree.Node node16 = aVLTree12.find((int) 'a');
-        int int17 = aVLTree12.height();
-        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node19 = null;
-        int int20 = aVLTree18.getBalance(node19);
-        Avltree.AVLTree.Node node21 = aVLTree18.getRoot();
-        aVLTree18.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree24 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node26 = aVLTree24.find((int) '4');
-        aVLTree24.delete((int) 'a');
-        Avltree.AVLTree.Node node29 = aVLTree24.getRoot();
-        aVLTree24.delete(0);
-        Avltree.AVLTree.Node node32 = null;
-        int int33 = aVLTree24.getBalance(node32);
-        int int34 = aVLTree24.height();
-        Avltree.AVLTree aVLTree35 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node37 = aVLTree35.find((int) '4');
-        Avltree.AVLTree.Node node38 = aVLTree35.getRoot();
-        aVLTree35.delete(100);
-        aVLTree35.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node43 = aVLTree35.getRoot();
-        int int44 = aVLTree24.getBalance(node43);
-        int int45 = aVLTree18.getBalance(node43);
-        int int46 = aVLTree12.getBalance(node43);
-        int int47 = aVLTree0.getBalance(node43);
-        int int48 = aVLTree0.height();
-        aVLTree0.insert(10);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertTrue("'" + int33 + "' != '" + 0 + "'", int33 == 0);
-        org.junit.Assert.assertTrue("'" + int34 + "' != '" + (-1) + "'", int34 == (-1));
-        org.junit.Assert.assertNull(node37);
-        org.junit.Assert.assertNull(node38);
-        org.junit.Assert.assertNotNull(node43);
-        org.junit.Assert.assertTrue("'" + int44 + "' != '" + 0 + "'", int44 == 0);
-        org.junit.Assert.assertTrue("'" + int45 + "' != '" + 0 + "'", int45 == 0);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertTrue("'" + int48 + "' != '" + (-1) + "'", int48 == (-1));
-    }
-
-    @Test
-    public void test223() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test223");
+            System.out.format("%n%s%n", "RegressionTest0.test0194");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -6739,9 +5896,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test224() throws Throwable {
+    public void test0195() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test224");
+            System.out.format("%n%s%n", "RegressionTest0.test0195");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -6764,9 +5921,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test225() throws Throwable {
+    public void test0196() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test225");
+            System.out.format("%n%s%n", "RegressionTest0.test0196");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -6807,9 +5964,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test226() throws Throwable {
+    public void test0197() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test226");
+            System.out.format("%n%s%n", "RegressionTest0.test0197");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -6821,46 +5978,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test227() throws Throwable {
+    public void test0198() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test227");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = null;
-        int int7 = aVLTree0.getBalance(node6);
-        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
-        int int10 = aVLTree0.height();
-        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (short) 1);
-        int int13 = aVLTree0.height();
-        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
-        Avltree.AVLTree.Node node17 = null;
-        int int18 = aVLTree14.getBalance(node17);
-        aVLTree14.insert((int) '4');
-        Avltree.AVLTree.Node node22 = aVLTree14.find(100);
-        Avltree.AVLTree.Node node23 = aVLTree14.getRoot();
-        int int24 = aVLTree0.getBalance(node23);
-        aVLTree0.insert((int) 'a');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertTrue("'" + int13 + "' != '" + (-1) + "'", int13 == (-1));
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
-        org.junit.Assert.assertNull(node22);
-        org.junit.Assert.assertNotNull(node23);
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
-    }
-
-    @Test
-    public void test228() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test228");
+            System.out.format("%n%s%n", "RegressionTest0.test0198");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -6871,9 +5991,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test229() throws Throwable {
+    public void test0199() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test229");
+            System.out.format("%n%s%n", "RegressionTest0.test0199");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -6898,9 +6018,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test230() throws Throwable {
+    public void test0200() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test230");
+            System.out.format("%n%s%n", "RegressionTest0.test0200");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -6924,9 +6044,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test231() throws Throwable {
+    public void test0201() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test231");
+            System.out.format("%n%s%n", "RegressionTest0.test0201");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -6950,9 +6070,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test232() throws Throwable {
+    public void test0202() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test232");
+            System.out.format("%n%s%n", "RegressionTest0.test0202");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7058,9 +6178,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test233() throws Throwable {
+    public void test0203() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test233");
+            System.out.format("%n%s%n", "RegressionTest0.test0203");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7115,9 +6235,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test234() throws Throwable {
+    public void test0204() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test234");
+            System.out.format("%n%s%n", "RegressionTest0.test0204");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7139,9 +6259,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test235() throws Throwable {
+    public void test0205() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test235");
+            System.out.format("%n%s%n", "RegressionTest0.test0205");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7173,27 +6293,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test236() throws Throwable {
+    public void test0206() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test236");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) 0);
-        int int9 = aVLTree0.height();
-        aVLTree0.delete(0);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-    }
-
-    @Test
-    public void test237() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test237");
+            System.out.format("%n%s%n", "RegressionTest0.test0206");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -7207,9 +6309,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test238() throws Throwable {
+    public void test0207() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test238");
+            System.out.format("%n%s%n", "RegressionTest0.test0207");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -7233,9 +6335,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test239() throws Throwable {
+    public void test0208() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test239");
+            System.out.format("%n%s%n", "RegressionTest0.test0208");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -7262,25 +6364,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test240() throws Throwable {
+    public void test0209() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test240");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        aVLTree0.delete((int) (short) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) 'a');
-        int int9 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + (-1) + "'", int9 == (-1));
-    }
-
-    @Test
-    public void test241() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test241");
+            System.out.format("%n%s%n", "RegressionTest0.test0209");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7294,9 +6380,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test242() throws Throwable {
+    public void test0210() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test242");
+            System.out.format("%n%s%n", "RegressionTest0.test0210");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7323,9 +6409,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test243() throws Throwable {
+    public void test0211() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test243");
+            System.out.format("%n%s%n", "RegressionTest0.test0211");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7342,9 +6428,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test244() throws Throwable {
+    public void test0212() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test244");
+            System.out.format("%n%s%n", "RegressionTest0.test0212");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7404,9 +6490,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test245() throws Throwable {
+    public void test0213() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test245");
+            System.out.format("%n%s%n", "RegressionTest0.test0213");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -7430,9 +6516,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test246() throws Throwable {
+    public void test0214() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test246");
+            System.out.format("%n%s%n", "RegressionTest0.test0214");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7461,9 +6547,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test247() throws Throwable {
+    public void test0215() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test247");
+            System.out.format("%n%s%n", "RegressionTest0.test0215");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -7474,27 +6560,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test248() throws Throwable {
+    public void test0216() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test248");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        int int5 = aVLTree0.height();
-        aVLTree0.delete((int) (byte) 1);
-        int int8 = aVLTree0.height();
-        Avltree.AVLTree.Node node10 = aVLTree0.find(1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertTrue("'" + int5 + "' != '" + (-1) + "'", int5 == (-1));
-        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
-        org.junit.Assert.assertNull(node10);
-    }
-
-    @Test
-    public void test249() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test249");
+            System.out.format("%n%s%n", "RegressionTest0.test0216");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7514,9 +6582,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test250() throws Throwable {
+    public void test0217() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test250");
+            System.out.format("%n%s%n", "RegressionTest0.test0217");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -7537,9 +6605,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test251() throws Throwable {
+    public void test0218() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test251");
+            System.out.format("%n%s%n", "RegressionTest0.test0218");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7567,9 +6635,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test252() throws Throwable {
+    public void test0219() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test252");
+            System.out.format("%n%s%n", "RegressionTest0.test0219");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -7594,33 +6662,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test253() throws Throwable {
+    public void test0220() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test253");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
-        aVLTree0.delete((int) (byte) 10);
-        int int10 = aVLTree0.height();
-        int int11 = aVLTree0.height();
-        Avltree.AVLTree.Node node13 = aVLTree0.find((int) (byte) 1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node7);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertTrue("'" + int11 + "' != '" + (-1) + "'", int11 == (-1));
-        org.junit.Assert.assertNull(node13);
-    }
-
-    @Test
-    public void test254() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test254");
+            System.out.format("%n%s%n", "RegressionTest0.test0220");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -7643,9 +6687,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test255() throws Throwable {
+    public void test0221() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test255");
+            System.out.format("%n%s%n", "RegressionTest0.test0221");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -7663,9 +6707,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test256() throws Throwable {
+    public void test0222() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test256");
+            System.out.format("%n%s%n", "RegressionTest0.test0222");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -7679,9 +6723,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test257() throws Throwable {
+    public void test0223() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test257");
+            System.out.format("%n%s%n", "RegressionTest0.test0223");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7702,9 +6746,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test258() throws Throwable {
+    public void test0224() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test258");
+            System.out.format("%n%s%n", "RegressionTest0.test0224");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7726,9 +6770,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test259() throws Throwable {
+    public void test0225() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test259");
+            System.out.format("%n%s%n", "RegressionTest0.test0225");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7786,9 +6830,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test260() throws Throwable {
+    public void test0226() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test260");
+            System.out.format("%n%s%n", "RegressionTest0.test0226");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -7805,9 +6849,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test261() throws Throwable {
+    public void test0227() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test261");
+            System.out.format("%n%s%n", "RegressionTest0.test0227");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -7823,9 +6867,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test262() throws Throwable {
+    public void test0228() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test262");
+            System.out.format("%n%s%n", "RegressionTest0.test0228");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -7843,9 +6887,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test263() throws Throwable {
+    public void test0229() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test263");
+            System.out.format("%n%s%n", "RegressionTest0.test0229");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7928,9 +6972,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test264() throws Throwable {
+    public void test0230() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test264");
+            System.out.format("%n%s%n", "RegressionTest0.test0230");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -7942,9 +6986,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test265() throws Throwable {
+    public void test0231() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test265");
+            System.out.format("%n%s%n", "RegressionTest0.test0231");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -7977,9 +7021,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test266() throws Throwable {
+    public void test0232() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test266");
+            System.out.format("%n%s%n", "RegressionTest0.test0232");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -8072,9 +7116,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test267() throws Throwable {
+    public void test0233() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test267");
+            System.out.format("%n%s%n", "RegressionTest0.test0233");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -8099,9 +7143,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test268() throws Throwable {
+    public void test0234() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test268");
+            System.out.format("%n%s%n", "RegressionTest0.test0234");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -8112,9 +7156,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test269() throws Throwable {
+    public void test0235() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test269");
+            System.out.format("%n%s%n", "RegressionTest0.test0235");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -8128,9 +7172,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test270() throws Throwable {
+    public void test0236() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test270");
+            System.out.format("%n%s%n", "RegressionTest0.test0236");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -8208,9 +7252,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test271() throws Throwable {
+    public void test0237() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test271");
+            System.out.format("%n%s%n", "RegressionTest0.test0237");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -8220,9 +7264,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test272() throws Throwable {
+    public void test0238() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test272");
+            System.out.format("%n%s%n", "RegressionTest0.test0238");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -8234,9 +7278,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test273() throws Throwable {
+    public void test0239() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test273");
+            System.out.format("%n%s%n", "RegressionTest0.test0239");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -8256,26 +7300,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test274() throws Throwable {
+    public void test0240() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test274");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
-        aVLTree0.insert(0);
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNotNull(node9);
-    }
-
-    @Test
-    public void test275() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test275");
+            System.out.format("%n%s%n", "RegressionTest0.test0240");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -8295,24 +7322,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test276() throws Throwable {
+    public void test0241() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test276");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) 'a');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-    }
-
-    @Test
-    public void test277() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test277");
+            System.out.format("%n%s%n", "RegressionTest0.test0241");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -8419,25 +7431,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test278() throws Throwable {
+    public void test0242() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test278");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
-        aVLTree0.insert((int) (byte) 100);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node6);
-    }
-
-    @Test
-    public void test279() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test279");
+            System.out.format("%n%s%n", "RegressionTest0.test0242");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -8502,9 +7498,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test280() throws Throwable {
+    public void test0243() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test280");
+            System.out.format("%n%s%n", "RegressionTest0.test0243");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.insert((int) (short) 0);
@@ -8573,9 +7569,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test281() throws Throwable {
+    public void test0244() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test281");
+            System.out.format("%n%s%n", "RegressionTest0.test0244");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -8584,9 +7580,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test282() throws Throwable {
+    public void test0245() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test282");
+            System.out.format("%n%s%n", "RegressionTest0.test0245");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -8600,9 +7596,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test283() throws Throwable {
+    public void test0246() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test283");
+            System.out.format("%n%s%n", "RegressionTest0.test0246");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -8662,73 +7658,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test284() throws Throwable {
+    public void test0247() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test284");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
-        Avltree.AVLTree.Node node10 = aVLTree0.find((int) (byte) 0);
-        Avltree.AVLTree.Node node12 = aVLTree0.find((int) '#');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node12);
-    }
-
-    @Test
-    public void test285() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test285");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete((int) (short) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        aVLTree0.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree12 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node14 = aVLTree12.find((int) '4');
-        aVLTree12.delete((int) 'a');
-        Avltree.AVLTree.Node node17 = aVLTree12.getRoot();
-        Avltree.AVLTree.Node node18 = null;
-        int int19 = aVLTree12.getBalance(node18);
-        Avltree.AVLTree.Node node21 = aVLTree12.find((int) ' ');
-        int int22 = aVLTree12.height();
-        aVLTree12.delete(0);
-        Avltree.AVLTree aVLTree25 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node26 = null;
-        int int27 = aVLTree25.getBalance(node26);
-        aVLTree25.insert((int) (byte) 100);
-        aVLTree25.insert((int) 'a');
-        Avltree.AVLTree.Node node33 = aVLTree25.find((int) (byte) 100);
-        int int34 = aVLTree12.getBalance(node33);
-        int int35 = aVLTree0.getBalance(node33);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + (-1) + "'", int22 == (-1));
-        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
-        org.junit.Assert.assertNotNull(node33);
-        org.junit.Assert.assertTrue("'" + int34 + "' != '" + (-1) + "'", int34 == (-1));
-        org.junit.Assert.assertTrue("'" + int35 + "' != '" + (-1) + "'", int35 == (-1));
-    }
-
-    @Test
-    public void test286() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test286");
+            System.out.format("%n%s%n", "RegressionTest0.test0247");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -8787,66 +7719,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test287() throws Throwable {
+    public void test0248() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test287");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert(0);
-        aVLTree0.insert((int) (short) 10);
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree aVLTree12 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node14 = aVLTree12.find((int) '4');
-        aVLTree12.delete((int) 'a');
-        Avltree.AVLTree.Node node17 = aVLTree12.getRoot();
-        aVLTree12.delete(0);
-        Avltree.AVLTree.Node node20 = null;
-        int int21 = aVLTree12.getBalance(node20);
-        Avltree.AVLTree.Node node22 = null;
-        int int23 = aVLTree12.getBalance(node22);
-        Avltree.AVLTree aVLTree24 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node26 = aVLTree24.find((int) '4');
-        Avltree.AVLTree.Node node28 = aVLTree24.find((int) 'a');
-        Avltree.AVLTree.Node node29 = aVLTree24.getRoot();
-        aVLTree24.delete((int) (short) 10);
-        Avltree.AVLTree.Node node32 = aVLTree24.getRoot();
-        Avltree.AVLTree.Node node33 = aVLTree24.getRoot();
-        Avltree.AVLTree aVLTree34 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node35 = null;
-        int int36 = aVLTree34.getBalance(node35);
-        aVLTree34.insert((int) (byte) 100);
-        aVLTree34.insert((int) 'a');
-        Avltree.AVLTree.Node node42 = aVLTree34.find((int) (byte) 100);
-        int int43 = aVLTree24.getBalance(node42);
-        int int44 = aVLTree12.getBalance(node42);
-        int int45 = aVLTree0.getBalance(node42);
-        aVLTree0.insert((int) '#');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNotNull(node9);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
-        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 0 + "'", int23 == 0);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertNull(node28);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertNull(node33);
-        org.junit.Assert.assertTrue("'" + int36 + "' != '" + 0 + "'", int36 == 0);
-        org.junit.Assert.assertNotNull(node42);
-        org.junit.Assert.assertTrue("'" + int43 + "' != '" + (-1) + "'", int43 == (-1));
-        org.junit.Assert.assertTrue("'" + int44 + "' != '" + (-1) + "'", int44 == (-1));
-        org.junit.Assert.assertTrue("'" + int45 + "' != '" + (-1) + "'", int45 == (-1));
-    }
-
-    @Test
-    public void test288() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test288");
+            System.out.format("%n%s%n", "RegressionTest0.test0248");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -8876,9 +7751,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test289() throws Throwable {
+    public void test0249() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test289");
+            System.out.format("%n%s%n", "RegressionTest0.test0249");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -8901,9 +7776,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test290() throws Throwable {
+    public void test0250() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test290");
+            System.out.format("%n%s%n", "RegressionTest0.test0250");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -9010,9 +7885,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test291() throws Throwable {
+    public void test0251() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test291");
+            System.out.format("%n%s%n", "RegressionTest0.test0251");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -9033,58 +7908,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test292() throws Throwable {
+    public void test0252() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test292");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
-        aVLTree0.insert(0);
-        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
-        aVLTree11.delete((int) 'a');
-        Avltree.AVLTree.Node node16 = aVLTree11.getRoot();
-        Avltree.AVLTree.Node node17 = null;
-        int int18 = aVLTree11.getBalance(node17);
-        Avltree.AVLTree.Node node20 = aVLTree11.find((int) ' ');
-        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
-        Avltree.AVLTree.Node node25 = aVLTree21.find((int) 'a');
-        aVLTree21.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree28 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node29 = null;
-        int int30 = aVLTree28.getBalance(node29);
-        aVLTree28.insert((int) (byte) 100);
-        aVLTree28.insert((int) 'a');
-        Avltree.AVLTree.Node node36 = aVLTree28.find((int) (byte) 100);
-        int int37 = aVLTree21.getBalance(node36);
-        int int38 = aVLTree11.getBalance(node36);
-        int int39 = aVLTree0.getBalance(node36);
-        Avltree.AVLTree.Node node41 = aVLTree0.find((int) ' ');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNull(node23);
-        org.junit.Assert.assertNull(node25);
-        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
-        org.junit.Assert.assertNotNull(node36);
-        org.junit.Assert.assertTrue("'" + int37 + "' != '" + (-1) + "'", int37 == (-1));
-        org.junit.Assert.assertTrue("'" + int38 + "' != '" + (-1) + "'", int38 == (-1));
-        org.junit.Assert.assertTrue("'" + int39 + "' != '" + (-1) + "'", int39 == (-1));
-        org.junit.Assert.assertNull(node41);
-    }
-
-    @Test
-    public void test293() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test293");
+            System.out.format("%n%s%n", "RegressionTest0.test0252");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -9101,32 +7927,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test294() throws Throwable {
+    public void test0253() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test294");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = null;
-        int int7 = aVLTree0.getBalance(node6);
-        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
-        aVLTree0.insert((-1));
-        int int12 = aVLTree0.height();
-        aVLTree0.insert(1);
-        aVLTree0.insert((int) ' ');
-        aVLTree0.delete((int) ' ');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-    }
-
-    @Test
-    public void test295() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test295");
+            System.out.format("%n%s%n", "RegressionTest0.test0253");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -9159,9 +7962,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test296() throws Throwable {
+    public void test0254() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test296");
+            System.out.format("%n%s%n", "RegressionTest0.test0254");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -9246,9 +8049,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test297() throws Throwable {
+    public void test0255() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test297");
+            System.out.format("%n%s%n", "RegressionTest0.test0255");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -9337,9 +8140,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test298() throws Throwable {
+    public void test0256() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test298");
+            System.out.format("%n%s%n", "RegressionTest0.test0256");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -9376,9 +8179,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test299() throws Throwable {
+    public void test0257() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test299");
+            System.out.format("%n%s%n", "RegressionTest0.test0257");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -9391,100 +8194,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test300() throws Throwable {
+    public void test0258() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test300");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node6 = null;
-        int int7 = aVLTree0.getBalance(node6);
-        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
-        Avltree.AVLTree.Node node14 = aVLTree10.find((int) 'a');
-        aVLTree10.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node18 = null;
-        int int19 = aVLTree17.getBalance(node18);
-        aVLTree17.insert((int) (byte) 100);
-        aVLTree17.insert((int) 'a');
-        Avltree.AVLTree.Node node25 = aVLTree17.find((int) (byte) 100);
-        int int26 = aVLTree10.getBalance(node25);
-        int int27 = aVLTree0.getBalance(node25);
-        Avltree.AVLTree aVLTree28 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node30 = aVLTree28.find((int) '4');
-        Avltree.AVLTree.Node node32 = aVLTree28.find((int) 'a');
-        int int33 = aVLTree28.height();
-        aVLTree28.delete(1);
-        aVLTree28.insert((int) 'a');
-        aVLTree28.insert((int) '#');
-        Avltree.AVLTree aVLTree40 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node42 = aVLTree40.find((int) '4');
-        int int43 = aVLTree40.height();
-        int int44 = aVLTree40.height();
-        Avltree.AVLTree aVLTree45 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node46 = null;
-        int int47 = aVLTree45.getBalance(node46);
-        aVLTree45.insert((int) (byte) 100);
-        aVLTree45.insert((int) 'a');
-        Avltree.AVLTree.Node node53 = aVLTree45.find((int) (byte) 100);
-        Avltree.AVLTree aVLTree54 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node56 = aVLTree54.find((int) '4');
-        aVLTree54.delete((int) 'a');
-        Avltree.AVLTree.Node node59 = aVLTree54.getRoot();
-        aVLTree54.delete(0);
-        Avltree.AVLTree.Node node62 = null;
-        int int63 = aVLTree54.getBalance(node62);
-        int int64 = aVLTree54.height();
-        Avltree.AVLTree aVLTree65 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node67 = aVLTree65.find((int) '4');
-        Avltree.AVLTree.Node node68 = aVLTree65.getRoot();
-        aVLTree65.delete(100);
-        aVLTree65.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node73 = aVLTree65.getRoot();
-        int int74 = aVLTree54.getBalance(node73);
-        int int75 = aVLTree45.getBalance(node73);
-        int int76 = aVLTree40.getBalance(node73);
-        int int77 = aVLTree28.getBalance(node73);
-        int int78 = aVLTree0.getBalance(node73);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
-        org.junit.Assert.assertNotNull(node25);
-        org.junit.Assert.assertTrue("'" + int26 + "' != '" + (-1) + "'", int26 == (-1));
-        org.junit.Assert.assertTrue("'" + int27 + "' != '" + (-1) + "'", int27 == (-1));
-        org.junit.Assert.assertNull(node30);
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertTrue("'" + int33 + "' != '" + (-1) + "'", int33 == (-1));
-        org.junit.Assert.assertNull(node42);
-        org.junit.Assert.assertTrue("'" + int43 + "' != '" + (-1) + "'", int43 == (-1));
-        org.junit.Assert.assertTrue("'" + int44 + "' != '" + (-1) + "'", int44 == (-1));
-        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
-        org.junit.Assert.assertNotNull(node53);
-        org.junit.Assert.assertNull(node56);
-        org.junit.Assert.assertNull(node59);
-        org.junit.Assert.assertTrue("'" + int63 + "' != '" + 0 + "'", int63 == 0);
-        org.junit.Assert.assertTrue("'" + int64 + "' != '" + (-1) + "'", int64 == (-1));
-        org.junit.Assert.assertNull(node67);
-        org.junit.Assert.assertNull(node68);
-        org.junit.Assert.assertNotNull(node73);
-        org.junit.Assert.assertTrue("'" + int74 + "' != '" + 0 + "'", int74 == 0);
-        org.junit.Assert.assertTrue("'" + int75 + "' != '" + 0 + "'", int75 == 0);
-        org.junit.Assert.assertTrue("'" + int76 + "' != '" + 0 + "'", int76 == 0);
-        org.junit.Assert.assertTrue("'" + int77 + "' != '" + 0 + "'", int77 == 0);
-        org.junit.Assert.assertTrue("'" + int78 + "' != '" + 0 + "'", int78 == 0);
-    }
-
-    @Test
-    public void test301() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test301");
+            System.out.format("%n%s%n", "RegressionTest0.test0258");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -9503,9 +8215,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test302() throws Throwable {
+    public void test0259() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test302");
+            System.out.format("%n%s%n", "RegressionTest0.test0259");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -9521,9 +8233,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test303() throws Throwable {
+    public void test0260() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test303");
+            System.out.format("%n%s%n", "RegressionTest0.test0260");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -9572,9 +8284,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test304() throws Throwable {
+    public void test0261() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test304");
+            System.out.format("%n%s%n", "RegressionTest0.test0261");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -9608,55 +8320,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test305() throws Throwable {
+    public void test0262() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test305");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) (short) 100);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
-        int int9 = aVLTree0.height();
-        aVLTree0.delete(0);
-        aVLTree0.delete(10);
-        aVLTree0.insert(0);
-        Avltree.AVLTree aVLTree16 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node18 = aVLTree16.find((int) '4');
-        aVLTree16.delete((int) 'a');
-        Avltree.AVLTree.Node node21 = aVLTree16.getRoot();
-        aVLTree16.delete(0);
-        Avltree.AVLTree.Node node24 = null;
-        int int25 = aVLTree16.getBalance(node24);
-        int int26 = aVLTree16.height();
-        aVLTree16.delete(100);
-        Avltree.AVLTree aVLTree29 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node31 = aVLTree29.find((int) '4');
-        Avltree.AVLTree.Node node32 = aVLTree29.getRoot();
-        aVLTree29.delete(100);
-        aVLTree29.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node37 = aVLTree29.getRoot();
-        int int38 = aVLTree16.getBalance(node37);
-        int int39 = aVLTree0.getBalance(node37);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertNull(node18);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 0 + "'", int25 == 0);
-        org.junit.Assert.assertTrue("'" + int26 + "' != '" + (-1) + "'", int26 == (-1));
-        org.junit.Assert.assertNull(node31);
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertNotNull(node37);
-        org.junit.Assert.assertTrue("'" + int38 + "' != '" + 0 + "'", int38 == 0);
-        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
-    }
-
-    @Test
-    public void test306() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test306");
+            System.out.format("%n%s%n", "RegressionTest0.test0262");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -9741,9 +8407,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test307() throws Throwable {
+    public void test0263() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test307");
+            System.out.format("%n%s%n", "RegressionTest0.test0263");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -9764,9 +8430,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test308() throws Throwable {
+    public void test0264() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test308");
+            System.out.format("%n%s%n", "RegressionTest0.test0264");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -9826,64 +8492,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test309() throws Throwable {
+    public void test0265() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test309");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.insert((int) (byte) 100);
-        aVLTree0.insert((int) 'a');
-        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
-        Avltree.AVLTree.Node node10 = null;
-        int int11 = aVLTree7.getBalance(node10);
-        aVLTree7.insert((int) (short) 100);
-        Avltree.AVLTree.Node node15 = aVLTree7.find((int) ' ');
-        int int16 = aVLTree7.height();
-        Avltree.AVLTree.Node node17 = aVLTree7.getRoot();
-        int int18 = aVLTree0.getBalance(node17);
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
-        aVLTree19.delete((int) 'a');
-        Avltree.AVLTree.Node node24 = aVLTree19.getRoot();
-        aVLTree19.delete(0);
-        Avltree.AVLTree.Node node27 = null;
-        int int28 = aVLTree19.getBalance(node27);
-        int int29 = aVLTree19.height();
-        aVLTree19.delete(100);
-        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
-        Avltree.AVLTree.Node node35 = aVLTree32.getRoot();
-        aVLTree32.delete(100);
-        aVLTree32.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node40 = aVLTree32.getRoot();
-        int int41 = aVLTree19.getBalance(node40);
-        int int42 = aVLTree0.getBalance(node40);
-        int int43 = aVLTree0.height();
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
-        org.junit.Assert.assertNull(node15);
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
-        org.junit.Assert.assertNotNull(node17);
-        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node24);
-        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + (-1) + "'", int29 == (-1));
-        org.junit.Assert.assertNull(node34);
-        org.junit.Assert.assertNull(node35);
-        org.junit.Assert.assertNotNull(node40);
-        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
-        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
-        org.junit.Assert.assertTrue("'" + int43 + "' != '" + 1 + "'", int43 == 1);
-    }
-
-    @Test
-    public void test310() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test310");
+            System.out.format("%n%s%n", "RegressionTest0.test0265");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -9910,9 +8521,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test311() throws Throwable {
+    public void test0266() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test311");
+            System.out.format("%n%s%n", "RegressionTest0.test0266");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -9952,9 +8563,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test312() throws Throwable {
+    public void test0267() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test312");
+            System.out.format("%n%s%n", "RegressionTest0.test0267");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10000,9 +8611,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test313() throws Throwable {
+    public void test0268() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test313");
+            System.out.format("%n%s%n", "RegressionTest0.test0268");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -10039,9 +8650,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test314() throws Throwable {
+    public void test0269() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test314");
+            System.out.format("%n%s%n", "RegressionTest0.test0269");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -10068,112 +8679,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test315() throws Throwable {
+    public void test0270() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test315");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) (short) 100);
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
-        int int9 = aVLTree0.height();
-        aVLTree0.delete((int) (short) 1);
-        Avltree.AVLTree aVLTree12 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node13 = null;
-        int int14 = aVLTree12.getBalance(node13);
-        aVLTree12.insert((int) (byte) 100);
-        aVLTree12.insert((int) 'a');
-        Avltree.AVLTree.Node node20 = aVLTree12.find((int) (byte) 100);
-        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
-        aVLTree21.delete((int) 'a');
-        Avltree.AVLTree.Node node26 = aVLTree21.getRoot();
-        aVLTree21.delete(0);
-        Avltree.AVLTree.Node node29 = null;
-        int int30 = aVLTree21.getBalance(node29);
-        int int31 = aVLTree21.height();
-        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
-        Avltree.AVLTree.Node node35 = aVLTree32.getRoot();
-        aVLTree32.delete(100);
-        aVLTree32.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node40 = aVLTree32.getRoot();
-        int int41 = aVLTree21.getBalance(node40);
-        int int42 = aVLTree12.getBalance(node40);
-        Avltree.AVLTree.Node node43 = aVLTree12.getRoot();
-        Avltree.AVLTree.Node node44 = aVLTree12.getRoot();
-        Avltree.AVLTree aVLTree45 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node47 = aVLTree45.find((int) '4');
-        aVLTree45.delete((int) 'a');
-        Avltree.AVLTree.Node node50 = aVLTree45.getRoot();
-        aVLTree45.delete(0);
-        Avltree.AVLTree.Node node53 = null;
-        int int54 = aVLTree45.getBalance(node53);
-        Avltree.AVLTree.Node node55 = null;
-        int int56 = aVLTree45.getBalance(node55);
-        Avltree.AVLTree aVLTree57 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node59 = aVLTree57.find((int) '4');
-        aVLTree57.delete((int) 'a');
-        Avltree.AVLTree.Node node62 = aVLTree57.getRoot();
-        Avltree.AVLTree.Node node63 = null;
-        int int64 = aVLTree57.getBalance(node63);
-        Avltree.AVLTree.Node node66 = aVLTree57.find((int) ' ');
-        Avltree.AVLTree aVLTree67 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node69 = aVLTree67.find((int) '4');
-        Avltree.AVLTree.Node node71 = aVLTree67.find((int) 'a');
-        aVLTree67.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree74 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node75 = null;
-        int int76 = aVLTree74.getBalance(node75);
-        aVLTree74.insert((int) (byte) 100);
-        aVLTree74.insert((int) 'a');
-        Avltree.AVLTree.Node node82 = aVLTree74.find((int) (byte) 100);
-        int int83 = aVLTree67.getBalance(node82);
-        int int84 = aVLTree57.getBalance(node82);
-        int int85 = aVLTree45.getBalance(node82);
-        int int86 = aVLTree12.getBalance(node82);
-        int int87 = aVLTree0.getBalance(node82);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
-        org.junit.Assert.assertNotNull(node20);
-        org.junit.Assert.assertNull(node23);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
-        org.junit.Assert.assertTrue("'" + int31 + "' != '" + (-1) + "'", int31 == (-1));
-        org.junit.Assert.assertNull(node34);
-        org.junit.Assert.assertNull(node35);
-        org.junit.Assert.assertNotNull(node40);
-        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
-        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
-        org.junit.Assert.assertNotNull(node43);
-        org.junit.Assert.assertNotNull(node44);
-        org.junit.Assert.assertNull(node47);
-        org.junit.Assert.assertNull(node50);
-        org.junit.Assert.assertTrue("'" + int54 + "' != '" + 0 + "'", int54 == 0);
-        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
-        org.junit.Assert.assertNull(node59);
-        org.junit.Assert.assertNull(node62);
-        org.junit.Assert.assertTrue("'" + int64 + "' != '" + 0 + "'", int64 == 0);
-        org.junit.Assert.assertNull(node66);
-        org.junit.Assert.assertNull(node69);
-        org.junit.Assert.assertNull(node71);
-        org.junit.Assert.assertTrue("'" + int76 + "' != '" + 0 + "'", int76 == 0);
-        org.junit.Assert.assertNotNull(node82);
-        org.junit.Assert.assertTrue("'" + int83 + "' != '" + (-1) + "'", int83 == (-1));
-        org.junit.Assert.assertTrue("'" + int84 + "' != '" + (-1) + "'", int84 == (-1));
-        org.junit.Assert.assertTrue("'" + int85 + "' != '" + (-1) + "'", int85 == (-1));
-        org.junit.Assert.assertTrue("'" + int86 + "' != '" + (-1) + "'", int86 == (-1));
-        org.junit.Assert.assertTrue("'" + int87 + "' != '" + (-1) + "'", int87 == (-1));
-    }
-
-    @Test
-    public void test316() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test316");
+            System.out.format("%n%s%n", "RegressionTest0.test0270");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10204,33 +8712,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test317() throws Throwable {
+    public void test0271() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test317");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree0.getBalance(node8);
-        int int10 = aVLTree0.height();
-        aVLTree0.delete(100);
-        Avltree.AVLTree.Node node13 = null;
-        int int14 = aVLTree0.getBalance(node13);
-        Avltree.AVLTree.Node node16 = aVLTree0.find((int) (short) 100);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
-        org.junit.Assert.assertNull(node16);
-    }
-
-    @Test
-    public void test318() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test318");
+            System.out.format("%n%s%n", "RegressionTest0.test0271");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -10246,9 +8730,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test319() throws Throwable {
+    public void test0272() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test319");
+            System.out.format("%n%s%n", "RegressionTest0.test0272");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -10267,9 +8751,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test320() throws Throwable {
+    public void test0273() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test320");
+            System.out.format("%n%s%n", "RegressionTest0.test0273");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10287,9 +8771,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test321() throws Throwable {
+    public void test0274() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test321");
+            System.out.format("%n%s%n", "RegressionTest0.test0274");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -10304,9 +8788,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test322() throws Throwable {
+    public void test0275() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test322");
+            System.out.format("%n%s%n", "RegressionTest0.test0275");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -10356,9 +8840,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test323() throws Throwable {
+    public void test0276() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test323");
+            System.out.format("%n%s%n", "RegressionTest0.test0276");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -10372,9 +8856,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test324() throws Throwable {
+    public void test0277() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test324");
+            System.out.format("%n%s%n", "RegressionTest0.test0277");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -10431,9 +8915,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test325() throws Throwable {
+    public void test0278() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test325");
+            System.out.format("%n%s%n", "RegressionTest0.test0278");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10452,9 +8936,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test326() throws Throwable {
+    public void test0279() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test326");
+            System.out.format("%n%s%n", "RegressionTest0.test0279");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -10471,9 +8955,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test327() throws Throwable {
+    public void test0280() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test327");
+            System.out.format("%n%s%n", "RegressionTest0.test0280");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -10495,32 +8979,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test328() throws Throwable {
+    public void test0281() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test328");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
-        aVLTree0.delete((int) '4');
-        Avltree.AVLTree.Node node10 = aVLTree0.find((-1));
-        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (byte) -1);
-        Avltree.AVLTree.Node node14 = aVLTree0.find((int) (short) 0);
-        aVLTree0.insert((int) ' ');
-        int int17 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-    }
-
-    @Test
-    public void test329() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test329");
+            System.out.format("%n%s%n", "RegressionTest0.test0281");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -10538,9 +8999,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test330() throws Throwable {
+    public void test0282() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test330");
+            System.out.format("%n%s%n", "RegressionTest0.test0282");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10559,9 +9020,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test331() throws Throwable {
+    public void test0283() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test331");
+            System.out.format("%n%s%n", "RegressionTest0.test0283");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10583,9 +9044,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test332() throws Throwable {
+    public void test0284() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test332");
+            System.out.format("%n%s%n", "RegressionTest0.test0284");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -10597,27 +9058,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test333() throws Throwable {
+    public void test0285() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test333");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete(1);
-        aVLTree0.delete((int) '#');
-        aVLTree0.delete((int) (short) -1);
-        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
-        aVLTree0.insert(10);
-        int int14 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
-    }
-
-    @Test
-    public void test334() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test334");
+            System.out.format("%n%s%n", "RegressionTest0.test0285");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10711,9 +9154,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test335() throws Throwable {
+    public void test0286() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test335");
+            System.out.format("%n%s%n", "RegressionTest0.test0286");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -10739,9 +9182,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test336() throws Throwable {
+    public void test0287() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test336");
+            System.out.format("%n%s%n", "RegressionTest0.test0287");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -10765,9 +9208,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test337() throws Throwable {
+    public void test0288() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test337");
+            System.out.format("%n%s%n", "RegressionTest0.test0288");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -10829,51 +9272,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test338() throws Throwable {
+    public void test0289() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test338");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (short) -1);
-        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
-        aVLTree6.delete((int) 'a');
-        Avltree.AVLTree.Node node11 = aVLTree6.getRoot();
-        aVLTree6.delete(0);
-        Avltree.AVLTree.Node node14 = null;
-        int int15 = aVLTree6.getBalance(node14);
-        int int16 = aVLTree6.height();
-        aVLTree6.delete(100);
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
-        Avltree.AVLTree.Node node22 = aVLTree19.getRoot();
-        aVLTree19.delete(100);
-        aVLTree19.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node27 = aVLTree19.getRoot();
-        int int28 = aVLTree6.getBalance(node27);
-        int int29 = aVLTree0.getBalance(node27);
-        int int30 = aVLTree0.height();
-        aVLTree0.delete((int) '4');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node22);
-        org.junit.Assert.assertNotNull(node27);
-        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
-        org.junit.Assert.assertTrue("'" + int30 + "' != '" + (-1) + "'", int30 == (-1));
-    }
-
-    @Test
-    public void test339() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test339");
+            System.out.format("%n%s%n", "RegressionTest0.test0289");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         int int3 = aVLTree0.height();
@@ -10934,9 +9335,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test340() throws Throwable {
+    public void test0290() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test340");
+            System.out.format("%n%s%n", "RegressionTest0.test0290");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -10957,9 +9358,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test341() throws Throwable {
+    public void test0291() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test341");
+            System.out.format("%n%s%n", "RegressionTest0.test0291");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -11040,34 +9441,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test342() throws Throwable {
+    public void test0292() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test342");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
-        Avltree.AVLTree.Node node11 = aVLTree8.getRoot();
-        aVLTree8.delete(100);
-        aVLTree8.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node16 = aVLTree8.getRoot();
-        int int17 = aVLTree0.getBalance(node16);
-        aVLTree0.insert((int) (byte) 10);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNotNull(node16);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-    }
-
-    @Test
-    public void test343() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test343");
+            System.out.format("%n%s%n", "RegressionTest0.test0292");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -11082,9 +9458,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test344() throws Throwable {
+    public void test0293() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test344");
+            System.out.format("%n%s%n", "RegressionTest0.test0293");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -11112,39 +9488,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test345() throws Throwable {
+    public void test0294() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test345");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        Avltree.AVLTree aVLTree3 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node5 = aVLTree3.find((int) '4');
-        Avltree.AVLTree.Node node6 = null;
-        int int7 = aVLTree3.getBalance(node6);
-        aVLTree3.insert((int) (short) 100);
-        Avltree.AVLTree.Node node11 = aVLTree3.find((int) ' ');
-        int int12 = aVLTree3.height();
-        Avltree.AVLTree.Node node13 = aVLTree3.getRoot();
-        int int14 = aVLTree0.getBalance(node13);
-        int int15 = aVLTree0.height();
-        Avltree.AVLTree.Node node17 = aVLTree0.find((int) (short) 0);
-        aVLTree0.delete((int) '#');
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertNotNull(node13);
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
-        org.junit.Assert.assertNull(node17);
-    }
-
-    @Test
-    public void test346() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test346");
+            System.out.format("%n%s%n", "RegressionTest0.test0294");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -11157,9 +9503,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test347() throws Throwable {
+    public void test0295() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test347");
+            System.out.format("%n%s%n", "RegressionTest0.test0295");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -11188,9 +9534,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test348() throws Throwable {
+    public void test0296() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test348");
+            System.out.format("%n%s%n", "RegressionTest0.test0296");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -11254,139 +9600,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test349() throws Throwable {
+    public void test0297() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test349");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        int int6 = aVLTree0.height();
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = null;
-        int int12 = aVLTree10.getBalance(node11);
-        aVLTree10.insert((int) (byte) 100);
-        aVLTree10.insert((int) 'a');
-        Avltree.AVLTree.Node node18 = aVLTree10.find((int) (byte) 100);
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
-        aVLTree19.delete((int) 'a');
-        Avltree.AVLTree.Node node24 = aVLTree19.getRoot();
-        aVLTree19.delete(0);
-        Avltree.AVLTree.Node node27 = null;
-        int int28 = aVLTree19.getBalance(node27);
-        int int29 = aVLTree19.height();
-        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node32 = aVLTree30.find((int) '4');
-        Avltree.AVLTree.Node node33 = aVLTree30.getRoot();
-        aVLTree30.delete(100);
-        aVLTree30.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node38 = aVLTree30.getRoot();
-        int int39 = aVLTree19.getBalance(node38);
-        int int40 = aVLTree10.getBalance(node38);
-        int int41 = aVLTree0.getBalance(node38);
-        aVLTree0.insert((int) (short) 1);
-        Avltree.AVLTree.Node node44 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertNotNull(node18);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node24);
-        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + (-1) + "'", int29 == (-1));
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertNull(node33);
-        org.junit.Assert.assertNotNull(node38);
-        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
-        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
-        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
-        org.junit.Assert.assertNotNull(node44);
-    }
-
-    @Test
-    public void test350() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test350");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        aVLTree0.delete((int) (short) -1);
-        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
-        aVLTree8.insert((int) (short) 0);
-        Avltree.AVLTree.Node node14 = aVLTree8.find(100);
-        Avltree.AVLTree aVLTree15 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node17 = aVLTree15.find((int) '4');
-        aVLTree15.delete((int) 'a');
-        Avltree.AVLTree.Node node20 = aVLTree15.getRoot();
-        aVLTree15.delete(0);
-        Avltree.AVLTree.Node node23 = null;
-        int int24 = aVLTree15.getBalance(node23);
-        int int25 = aVLTree15.height();
-        Avltree.AVLTree aVLTree26 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node28 = aVLTree26.find((int) '4');
-        Avltree.AVLTree.Node node29 = aVLTree26.getRoot();
-        aVLTree26.delete(100);
-        aVLTree26.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node34 = aVLTree26.getRoot();
-        int int35 = aVLTree15.getBalance(node34);
-        Avltree.AVLTree aVLTree36 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node38 = aVLTree36.find((int) '4');
-        aVLTree36.delete((int) 'a');
-        Avltree.AVLTree.Node node41 = aVLTree36.getRoot();
-        aVLTree36.delete(0);
-        Avltree.AVLTree.Node node44 = null;
-        int int45 = aVLTree36.getBalance(node44);
-        int int46 = aVLTree36.height();
-        Avltree.AVLTree aVLTree47 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node49 = aVLTree47.find((int) '4');
-        Avltree.AVLTree.Node node50 = aVLTree47.getRoot();
-        aVLTree47.delete(100);
-        aVLTree47.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node55 = aVLTree47.getRoot();
-        int int56 = aVLTree36.getBalance(node55);
-        int int57 = aVLTree15.getBalance(node55);
-        int int58 = aVLTree8.getBalance(node55);
-        int int59 = aVLTree0.getBalance(node55);
-        aVLTree0.insert(1);
-        Avltree.AVLTree.Node node62 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
-        org.junit.Assert.assertTrue("'" + int25 + "' != '" + (-1) + "'", int25 == (-1));
-        org.junit.Assert.assertNull(node28);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNotNull(node34);
-        org.junit.Assert.assertTrue("'" + int35 + "' != '" + 0 + "'", int35 == 0);
-        org.junit.Assert.assertNull(node38);
-        org.junit.Assert.assertNull(node41);
-        org.junit.Assert.assertTrue("'" + int45 + "' != '" + 0 + "'", int45 == 0);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + (-1) + "'", int46 == (-1));
-        org.junit.Assert.assertNull(node49);
-        org.junit.Assert.assertNull(node50);
-        org.junit.Assert.assertNotNull(node55);
-        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
-        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 0 + "'", int57 == 0);
-        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
-        org.junit.Assert.assertTrue("'" + int59 + "' != '" + 0 + "'", int59 == 0);
-        org.junit.Assert.assertNotNull(node62);
-    }
-
-    @Test
-    public void test351() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test351");
+            System.out.format("%n%s%n", "RegressionTest0.test0297");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -11408,9 +9624,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test352() throws Throwable {
+    public void test0298() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test352");
+            System.out.format("%n%s%n", "RegressionTest0.test0298");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -11464,9 +9680,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test353() throws Throwable {
+    public void test0299() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test353");
+            System.out.format("%n%s%n", "RegressionTest0.test0299");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         int int3 = aVLTree0.height();
@@ -11477,9 +9693,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test354() throws Throwable {
+    public void test0300() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test354");
+            System.out.format("%n%s%n", "RegressionTest0.test0300");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -11500,9 +9716,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test355() throws Throwable {
+    public void test0301() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test355");
+            System.out.format("%n%s%n", "RegressionTest0.test0301");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -11535,9 +9751,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test356() throws Throwable {
+    public void test0302() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test356");
+            System.out.format("%n%s%n", "RegressionTest0.test0302");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -11612,27 +9828,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test357() throws Throwable {
+    public void test0303() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test357");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
-        int int3 = aVLTree0.height();
-        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (byte) 100);
-        aVLTree0.delete((int) (short) 100);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node9);
-    }
-
-    @Test
-    public void test358() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test358");
+            System.out.format("%n%s%n", "RegressionTest0.test0303");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -11705,28 +9903,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test359() throws Throwable {
+    public void test0304() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test359");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
-        aVLTree0.delete((int) (short) 10);
-        int int11 = aVLTree0.height();
-        aVLTree0.insert((int) (short) 0);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int11 + "' != '" + (-1) + "'", int11 == (-1));
-    }
-
-    @Test
-    public void test360() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test360");
+            System.out.format("%n%s%n", "RegressionTest0.test0304");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -11801,9 +9980,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test361() throws Throwable {
+    public void test0305() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test361");
+            System.out.format("%n%s%n", "RegressionTest0.test0305");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -11820,9 +9999,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test362() throws Throwable {
+    public void test0306() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test362");
+            System.out.format("%n%s%n", "RegressionTest0.test0306");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -11836,9 +10015,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test363() throws Throwable {
+    public void test0307() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test363");
+            System.out.format("%n%s%n", "RegressionTest0.test0307");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -11898,9 +10077,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test364() throws Throwable {
+    public void test0308() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test364");
+            System.out.format("%n%s%n", "RegressionTest0.test0308");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -11915,9 +10094,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test365() throws Throwable {
+    public void test0309() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test365");
+            System.out.format("%n%s%n", "RegressionTest0.test0309");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -11940,9 +10119,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test366() throws Throwable {
+    public void test0310() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test366");
+            System.out.format("%n%s%n", "RegressionTest0.test0310");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -11960,45 +10139,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test367() throws Throwable {
+    public void test0311() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test367");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        aVLTree0.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node10 = aVLTree0.find((int) (byte) 0);
-        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (short) 1);
-        aVLTree0.insert(0);
-        Avltree.AVLTree aVLTree15 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node17 = aVLTree15.find((int) '4');
-        Avltree.AVLTree.Node node18 = aVLTree15.getRoot();
-        aVLTree15.delete(100);
-        aVLTree15.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node23 = aVLTree15.getRoot();
-        Avltree.AVLTree.Node node25 = aVLTree15.find((int) (byte) 0);
-        aVLTree15.delete((int) '4');
-        Avltree.AVLTree.Node node28 = aVLTree15.getRoot();
-        int int29 = aVLTree0.getBalance(node28);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNotNull(node8);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertNull(node18);
-        org.junit.Assert.assertNotNull(node23);
-        org.junit.Assert.assertNull(node25);
-        org.junit.Assert.assertNotNull(node28);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
-    }
-
-    @Test
-    public void test368() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test368");
+            System.out.format("%n%s%n", "RegressionTest0.test0311");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -12020,9 +10163,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test369() throws Throwable {
+    public void test0312() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test369");
+            System.out.format("%n%s%n", "RegressionTest0.test0312");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -12035,26 +10178,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test370() throws Throwable {
+    public void test0313() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test370");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
-        aVLTree0.delete((int) '4');
-        aVLTree0.delete((int) (short) 100);
-        aVLTree0.insert((int) '#');
-        aVLTree0.insert((int) (byte) 10);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node6);
-    }
-
-    @Test
-    public void test371() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test371");
+            System.out.format("%n%s%n", "RegressionTest0.test0313");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -12129,9 +10255,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test372() throws Throwable {
+    public void test0314() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test372");
+            System.out.format("%n%s%n", "RegressionTest0.test0314");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -12174,9 +10300,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test373() throws Throwable {
+    public void test0315() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test373");
+            System.out.format("%n%s%n", "RegressionTest0.test0315");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -12247,9 +10373,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test374() throws Throwable {
+    public void test0316() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test374");
+            System.out.format("%n%s%n", "RegressionTest0.test0316");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -12341,48 +10467,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test375() throws Throwable {
+    public void test0317() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test375");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete(1);
-        aVLTree0.delete((int) '#');
-        aVLTree0.delete((int) (short) -1);
-        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
-        aVLTree0.insert(10);
-        aVLTree0.delete(1);
-        Avltree.AVLTree.Node node16 = aVLTree0.getRoot();
-        int int17 = aVLTree0.height();
-        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node20 = aVLTree18.find((int) '4');
-        Avltree.AVLTree.Node node21 = null;
-        int int22 = aVLTree18.getBalance(node21);
-        aVLTree18.insert((int) (short) 100);
-        Avltree.AVLTree.Node node26 = aVLTree18.find((int) ' ');
-        int int27 = aVLTree18.height();
-        Avltree.AVLTree.Node node28 = aVLTree18.getRoot();
-        int int29 = aVLTree0.getBalance(node28);
-        aVLTree0.delete((int) (short) -1);
-        int int32 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNotNull(node16);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
-        org.junit.Assert.assertNotNull(node28);
-        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
-        org.junit.Assert.assertTrue("'" + int32 + "' != '" + 0 + "'", int32 == 0);
-    }
-
-    @Test
-    public void test376() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test376");
+            System.out.format("%n%s%n", "RegressionTest0.test0317");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -12427,24 +10514,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test377() throws Throwable {
+    public void test0318() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test377");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.delete((int) (byte) -1);
-        int int5 = aVLTree0.height();
-        aVLTree0.insert((int) (byte) -1);
-        aVLTree0.delete((-1));
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertTrue("'" + int5 + "' != '" + (-1) + "'", int5 == (-1));
-    }
-
-    @Test
-    public void test378() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test378");
+            System.out.format("%n%s%n", "RegressionTest0.test0318");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -12465,9 +10537,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test379() throws Throwable {
+    public void test0319() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test379");
+            System.out.format("%n%s%n", "RegressionTest0.test0319");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -12508,9 +10580,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test380() throws Throwable {
+    public void test0320() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test380");
+            System.out.format("%n%s%n", "RegressionTest0.test0320");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -12525,54 +10597,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test381() throws Throwable {
+    public void test0321() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test381");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree0.getBalance(node8);
-        Avltree.AVLTree.Node node10 = null;
-        int int11 = aVLTree0.getBalance(node10);
-        Avltree.AVLTree aVLTree12 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node14 = aVLTree12.find((int) '4');
-        Avltree.AVLTree.Node node16 = aVLTree12.find((int) 'a');
-        Avltree.AVLTree.Node node17 = aVLTree12.getRoot();
-        aVLTree12.delete((int) (short) 10);
-        Avltree.AVLTree.Node node20 = aVLTree12.getRoot();
-        Avltree.AVLTree.Node node21 = aVLTree12.getRoot();
-        Avltree.AVLTree aVLTree22 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node23 = null;
-        int int24 = aVLTree22.getBalance(node23);
-        aVLTree22.insert((int) (byte) 100);
-        aVLTree22.insert((int) 'a');
-        Avltree.AVLTree.Node node30 = aVLTree22.find((int) (byte) 100);
-        int int31 = aVLTree12.getBalance(node30);
-        int int32 = aVLTree0.getBalance(node30);
-        Avltree.AVLTree.Node node33 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
-        org.junit.Assert.assertNotNull(node30);
-        org.junit.Assert.assertTrue("'" + int31 + "' != '" + (-1) + "'", int31 == (-1));
-        org.junit.Assert.assertTrue("'" + int32 + "' != '" + (-1) + "'", int32 == (-1));
-        org.junit.Assert.assertNull(node33);
-    }
-
-    @Test
-    public void test382() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test382");
+            System.out.format("%n%s%n", "RegressionTest0.test0321");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -12628,31 +10655,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test383() throws Throwable {
+    public void test0322() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test383");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
-        aVLTree0.delete((int) '4');
-        Avltree.AVLTree.Node node10 = aVLTree0.find((-1));
-        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (byte) -1);
-        int int13 = aVLTree0.height();
-        int int14 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertTrue("'" + int13 + "' != '" + (-1) + "'", int13 == (-1));
-        org.junit.Assert.assertTrue("'" + int14 + "' != '" + (-1) + "'", int14 == (-1));
-    }
-
-    @Test
-    public void test384() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test384");
+            System.out.format("%n%s%n", "RegressionTest0.test0322");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -12690,150 +10695,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test385() throws Throwable {
+    public void test0323() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test385");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.insert((int) (byte) 100);
-        int int6 = aVLTree0.height();
-        aVLTree0.insert(10);
-        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
-        aVLTree9.delete((int) 'a');
-        Avltree.AVLTree.Node node15 = aVLTree9.find((int) (short) 0);
-        aVLTree9.insert((int) (short) 1);
-        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node20 = aVLTree18.find((int) '4');
-        Avltree.AVLTree.Node node21 = aVLTree18.getRoot();
-        aVLTree18.delete(100);
-        aVLTree18.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node26 = aVLTree18.getRoot();
-        Avltree.AVLTree aVLTree27 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node29 = aVLTree27.find((int) '4');
-        aVLTree27.delete((int) 'a');
-        Avltree.AVLTree.Node node32 = aVLTree27.getRoot();
-        Avltree.AVLTree.Node node33 = null;
-        int int34 = aVLTree27.getBalance(node33);
-        Avltree.AVLTree.Node node36 = aVLTree27.find((int) ' ');
-        Avltree.AVLTree aVLTree37 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node39 = aVLTree37.find((int) '4');
-        Avltree.AVLTree.Node node41 = aVLTree37.find((int) 'a');
-        aVLTree37.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree44 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node45 = null;
-        int int46 = aVLTree44.getBalance(node45);
-        aVLTree44.insert((int) (byte) 100);
-        aVLTree44.insert((int) 'a');
-        Avltree.AVLTree.Node node52 = aVLTree44.find((int) (byte) 100);
-        int int53 = aVLTree37.getBalance(node52);
-        int int54 = aVLTree27.getBalance(node52);
-        int int55 = aVLTree18.getBalance(node52);
-        Avltree.AVLTree aVLTree56 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node58 = aVLTree56.find((int) '4');
-        Avltree.AVLTree.Node node60 = aVLTree56.find((int) 'a');
-        Avltree.AVLTree.Node node61 = aVLTree56.getRoot();
-        Avltree.AVLTree.Node node62 = aVLTree56.getRoot();
-        Avltree.AVLTree.Node node63 = aVLTree56.getRoot();
-        Avltree.AVLTree aVLTree64 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node65 = null;
-        int int66 = aVLTree64.getBalance(node65);
-        Avltree.AVLTree aVLTree67 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node69 = aVLTree67.find((int) '4');
-        Avltree.AVLTree.Node node70 = aVLTree67.getRoot();
-        aVLTree67.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree73 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node75 = aVLTree73.find((int) '4');
-        Avltree.AVLTree.Node node76 = null;
-        int int77 = aVLTree73.getBalance(node76);
-        aVLTree73.insert((int) (short) 100);
-        Avltree.AVLTree.Node node81 = aVLTree73.find((int) ' ');
-        int int82 = aVLTree73.height();
-        Avltree.AVLTree.Node node83 = aVLTree73.getRoot();
-        int int84 = aVLTree67.getBalance(node83);
-        int int85 = aVLTree64.getBalance(node83);
-        int int86 = aVLTree56.getBalance(node83);
-        int int87 = aVLTree18.getBalance(node83);
-        Avltree.AVLTree.Node node88 = aVLTree18.getRoot();
-        int int89 = aVLTree9.getBalance(node88);
-        int int90 = aVLTree0.getBalance(node88);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNull(node15);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNotNull(node26);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertTrue("'" + int34 + "' != '" + 0 + "'", int34 == 0);
-        org.junit.Assert.assertNull(node36);
-        org.junit.Assert.assertNull(node39);
-        org.junit.Assert.assertNull(node41);
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + 0 + "'", int46 == 0);
-        org.junit.Assert.assertNotNull(node52);
-        org.junit.Assert.assertTrue("'" + int53 + "' != '" + (-1) + "'", int53 == (-1));
-        org.junit.Assert.assertTrue("'" + int54 + "' != '" + (-1) + "'", int54 == (-1));
-        org.junit.Assert.assertTrue("'" + int55 + "' != '" + (-1) + "'", int55 == (-1));
-        org.junit.Assert.assertNull(node58);
-        org.junit.Assert.assertNull(node60);
-        org.junit.Assert.assertNull(node61);
-        org.junit.Assert.assertNull(node62);
-        org.junit.Assert.assertNull(node63);
-        org.junit.Assert.assertTrue("'" + int66 + "' != '" + 0 + "'", int66 == 0);
-        org.junit.Assert.assertNull(node69);
-        org.junit.Assert.assertNull(node70);
-        org.junit.Assert.assertNull(node75);
-        org.junit.Assert.assertTrue("'" + int77 + "' != '" + 0 + "'", int77 == 0);
-        org.junit.Assert.assertNull(node81);
-        org.junit.Assert.assertTrue("'" + int82 + "' != '" + 0 + "'", int82 == 0);
-        org.junit.Assert.assertNotNull(node83);
-        org.junit.Assert.assertTrue("'" + int84 + "' != '" + 0 + "'", int84 == 0);
-        org.junit.Assert.assertTrue("'" + int85 + "' != '" + 0 + "'", int85 == 0);
-        org.junit.Assert.assertTrue("'" + int86 + "' != '" + 0 + "'", int86 == 0);
-        org.junit.Assert.assertTrue("'" + int87 + "' != '" + 0 + "'", int87 == 0);
-        org.junit.Assert.assertNotNull(node88);
-        org.junit.Assert.assertTrue("'" + int89 + "' != '" + 0 + "'", int89 == 0);
-        org.junit.Assert.assertTrue("'" + int90 + "' != '" + 0 + "'", int90 == 0);
-    }
-
-    @Test
-    public void test386() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test386");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        aVLTree0.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree7.getBalance(node8);
-        aVLTree7.insert((int) (byte) 100);
-        aVLTree7.insert((int) 'a');
-        Avltree.AVLTree.Node node15 = aVLTree7.find((int) (byte) 100);
-        int int16 = aVLTree0.getBalance(node15);
-        Avltree.AVLTree.Node node17 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node18 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node20 = aVLTree0.find((int) 'a');
-        aVLTree0.insert((int) 'a');
-        aVLTree0.delete(0);
-        aVLTree0.insert((-1));
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertNotNull(node15);
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertNull(node18);
-        org.junit.Assert.assertNull(node20);
-    }
-
-    @Test
-    public void test387() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test387");
+            System.out.format("%n%s%n", "RegressionTest0.test0323");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         aVLTree0.delete(100);
@@ -12908,35 +10772,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test388() throws Throwable {
+    public void test0324() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test388");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert(0);
-        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree7.getBalance(node8);
-        aVLTree7.insert((int) (byte) 100);
-        aVLTree7.insert((int) 'a');
-        Avltree.AVLTree.Node node14 = aVLTree7.getRoot();
-        int int15 = aVLTree0.getBalance(node14);
-        aVLTree0.insert((int) (short) -1);
-        Avltree.AVLTree.Node node18 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertNotNull(node14);
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
-        org.junit.Assert.assertNotNull(node18);
-    }
-
-    @Test
-    public void test389() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test389");
+            System.out.format("%n%s%n", "RegressionTest0.test0324");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -12952,9 +10790,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test390() throws Throwable {
+    public void test0325() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test390");
+            System.out.format("%n%s%n", "RegressionTest0.test0325");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -13043,9 +10881,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test391() throws Throwable {
+    public void test0326() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test391");
+            System.out.format("%n%s%n", "RegressionTest0.test0326");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -13058,9 +10896,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test392() throws Throwable {
+    public void test0327() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test392");
+            System.out.format("%n%s%n", "RegressionTest0.test0327");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -13154,9 +10992,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test393() throws Throwable {
+    public void test0328() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test393");
+            System.out.format("%n%s%n", "RegressionTest0.test0328");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -13183,9 +11021,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test394() throws Throwable {
+    public void test0329() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test394");
+            System.out.format("%n%s%n", "RegressionTest0.test0329");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.insert((int) (short) 0);
@@ -13207,9 +11045,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test395() throws Throwable {
+    public void test0330() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test395");
+            System.out.format("%n%s%n", "RegressionTest0.test0330");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13230,9 +11068,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test396() throws Throwable {
+    public void test0331() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test396");
+            System.out.format("%n%s%n", "RegressionTest0.test0331");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13255,60 +11093,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test397() throws Throwable {
+    public void test0332() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test397");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete(1);
-        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
-        int int8 = aVLTree0.height();
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        aVLTree0.insert((int) 'a');
-        int int12 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node7);
-        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-    }
-
-    @Test
-    public void test398() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test398");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) '4');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
-        aVLTree0.insert(0);
-        int int11 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 1 + "'", int11 == 1);
-    }
-
-    @Test
-    public void test399() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test399");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node6 = aVLTree0.find((int) '4');
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node6);
-    }
-
-    @Test
-    public void test400() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test400");
+            System.out.format("%n%s%n", "RegressionTest0.test0332");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -13327,9 +11114,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test401() throws Throwable {
+    public void test0333() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test401");
+            System.out.format("%n%s%n", "RegressionTest0.test0333");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13350,9 +11137,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test402() throws Throwable {
+    public void test0334() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test402");
+            System.out.format("%n%s%n", "RegressionTest0.test0334");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -13407,9 +11194,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test403() throws Throwable {
+    public void test0335() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test403");
+            System.out.format("%n%s%n", "RegressionTest0.test0335");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -13427,9 +11214,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test404() throws Throwable {
+    public void test0336() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test404");
+            System.out.format("%n%s%n", "RegressionTest0.test0336");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13483,9 +11270,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test405() throws Throwable {
+    public void test0337() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test405");
+            System.out.format("%n%s%n", "RegressionTest0.test0337");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -13501,9 +11288,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test406() throws Throwable {
+    public void test0338() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test406");
+            System.out.format("%n%s%n", "RegressionTest0.test0338");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13528,37 +11315,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test407() throws Throwable {
+    public void test0339() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test407");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        int int6 = aVLTree0.height();
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
-        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
-        Avltree.AVLTree.Node node12 = null;
-        int int13 = aVLTree9.getBalance(node12);
-        aVLTree9.insert(0);
-        Avltree.AVLTree.Node node16 = aVLTree9.getRoot();
-        int int17 = aVLTree0.getBalance(node16);
-        aVLTree0.delete((int) (byte) 1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
-        org.junit.Assert.assertNotNull(node16);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-    }
-
-    @Test
-    public void test408() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test408");
+            System.out.format("%n%s%n", "RegressionTest0.test0339");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -13570,231 +11329,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test409() throws Throwable {
+    public void test0340() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test409");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.delete(100);
-        aVLTree0.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node10 = aVLTree0.find((int) (byte) 0);
-        aVLTree0.delete((int) '4');
-        Avltree.AVLTree.Node node13 = aVLTree0.getRoot();
-        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
-        aVLTree14.delete((int) 'a');
-        Avltree.AVLTree.Node node19 = aVLTree14.getRoot();
-        aVLTree14.insert((int) (short) 1);
-        Avltree.AVLTree aVLTree22 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node24 = aVLTree22.find((-1));
-        int int25 = aVLTree22.height();
-        Avltree.AVLTree.Node node26 = aVLTree22.getRoot();
-        aVLTree22.insert((int) (byte) 100);
-        aVLTree22.delete(100);
-        Avltree.AVLTree aVLTree31 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node33 = aVLTree31.find((int) '4');
-        aVLTree31.delete((int) 'a');
-        Avltree.AVLTree.Node node36 = aVLTree31.getRoot();
-        aVLTree31.delete(0);
-        Avltree.AVLTree.Node node39 = null;
-        int int40 = aVLTree31.getBalance(node39);
-        Avltree.AVLTree.Node node41 = null;
-        int int42 = aVLTree31.getBalance(node41);
-        Avltree.AVLTree aVLTree43 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node45 = aVLTree43.find((int) '4');
-        aVLTree43.delete((int) 'a');
-        Avltree.AVLTree.Node node48 = aVLTree43.getRoot();
-        Avltree.AVLTree.Node node49 = null;
-        int int50 = aVLTree43.getBalance(node49);
-        Avltree.AVLTree.Node node52 = aVLTree43.find((int) ' ');
-        Avltree.AVLTree aVLTree53 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node55 = aVLTree53.find((int) '4');
-        Avltree.AVLTree.Node node57 = aVLTree53.find((int) 'a');
-        aVLTree53.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree60 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node61 = null;
-        int int62 = aVLTree60.getBalance(node61);
-        aVLTree60.insert((int) (byte) 100);
-        aVLTree60.insert((int) 'a');
-        Avltree.AVLTree.Node node68 = aVLTree60.find((int) (byte) 100);
-        int int69 = aVLTree53.getBalance(node68);
-        int int70 = aVLTree43.getBalance(node68);
-        int int71 = aVLTree31.getBalance(node68);
-        int int72 = aVLTree22.getBalance(node68);
-        int int73 = aVLTree14.getBalance(node68);
-        Avltree.AVLTree aVLTree74 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node76 = aVLTree74.find((int) '4');
-        Avltree.AVLTree.Node node77 = aVLTree74.getRoot();
-        aVLTree74.delete(100);
-        aVLTree74.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node82 = aVLTree74.getRoot();
-        aVLTree74.insert((int) (byte) 100);
-        int int85 = aVLTree74.height();
-        aVLTree74.delete((int) (byte) 0);
-        Avltree.AVLTree.Node node89 = aVLTree74.find(0);
-        int int90 = aVLTree74.height();
-        Avltree.AVLTree.Node node91 = aVLTree74.getRoot();
-        int int92 = aVLTree14.getBalance(node91);
-        int int93 = aVLTree0.getBalance(node91);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNotNull(node8);
-        org.junit.Assert.assertNull(node10);
-        org.junit.Assert.assertNotNull(node13);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node19);
-        org.junit.Assert.assertNull(node24);
-        org.junit.Assert.assertTrue("'" + int25 + "' != '" + (-1) + "'", int25 == (-1));
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertNull(node33);
-        org.junit.Assert.assertNull(node36);
-        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
-        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
-        org.junit.Assert.assertNull(node45);
-        org.junit.Assert.assertNull(node48);
-        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
-        org.junit.Assert.assertNull(node52);
-        org.junit.Assert.assertNull(node55);
-        org.junit.Assert.assertNull(node57);
-        org.junit.Assert.assertTrue("'" + int62 + "' != '" + 0 + "'", int62 == 0);
-        org.junit.Assert.assertNotNull(node68);
-        org.junit.Assert.assertTrue("'" + int69 + "' != '" + (-1) + "'", int69 == (-1));
-        org.junit.Assert.assertTrue("'" + int70 + "' != '" + (-1) + "'", int70 == (-1));
-        org.junit.Assert.assertTrue("'" + int71 + "' != '" + (-1) + "'", int71 == (-1));
-        org.junit.Assert.assertTrue("'" + int72 + "' != '" + (-1) + "'", int72 == (-1));
-        org.junit.Assert.assertTrue("'" + int73 + "' != '" + (-1) + "'", int73 == (-1));
-        org.junit.Assert.assertNull(node76);
-        org.junit.Assert.assertNull(node77);
-        org.junit.Assert.assertNotNull(node82);
-        org.junit.Assert.assertTrue("'" + int85 + "' != '" + 1 + "'", int85 == 1);
-        org.junit.Assert.assertNull(node89);
-        org.junit.Assert.assertTrue("'" + int90 + "' != '" + 1 + "'", int90 == 1);
-        org.junit.Assert.assertNotNull(node91);
-        org.junit.Assert.assertTrue("'" + int92 + "' != '" + 1 + "'", int92 == 1);
-        org.junit.Assert.assertTrue("'" + int93 + "' != '" + 1 + "'", int93 == 1);
-    }
-
-    @Test
-    public void test410() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test410");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert(0);
-        aVLTree0.insert((int) (short) 10);
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node11 = aVLTree0.find((int) (short) 0);
-        Avltree.AVLTree.Node node13 = aVLTree0.find((int) (byte) 1);
-        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
-        aVLTree14.delete((int) 'a');
-        Avltree.AVLTree.Node node20 = aVLTree14.find((int) (short) 0);
-        aVLTree14.insert((int) (short) 1);
-        Avltree.AVLTree aVLTree23 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node25 = aVLTree23.find((int) '4');
-        Avltree.AVLTree.Node node26 = aVLTree23.getRoot();
-        aVLTree23.delete(100);
-        aVLTree23.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node31 = aVLTree23.getRoot();
-        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
-        aVLTree32.delete((int) 'a');
-        Avltree.AVLTree.Node node37 = aVLTree32.getRoot();
-        Avltree.AVLTree.Node node38 = null;
-        int int39 = aVLTree32.getBalance(node38);
-        Avltree.AVLTree.Node node41 = aVLTree32.find((int) ' ');
-        Avltree.AVLTree aVLTree42 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node44 = aVLTree42.find((int) '4');
-        Avltree.AVLTree.Node node46 = aVLTree42.find((int) 'a');
-        aVLTree42.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree49 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node50 = null;
-        int int51 = aVLTree49.getBalance(node50);
-        aVLTree49.insert((int) (byte) 100);
-        aVLTree49.insert((int) 'a');
-        Avltree.AVLTree.Node node57 = aVLTree49.find((int) (byte) 100);
-        int int58 = aVLTree42.getBalance(node57);
-        int int59 = aVLTree32.getBalance(node57);
-        int int60 = aVLTree23.getBalance(node57);
-        Avltree.AVLTree aVLTree61 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node63 = aVLTree61.find((int) '4');
-        Avltree.AVLTree.Node node65 = aVLTree61.find((int) 'a');
-        Avltree.AVLTree.Node node66 = aVLTree61.getRoot();
-        Avltree.AVLTree.Node node67 = aVLTree61.getRoot();
-        Avltree.AVLTree.Node node68 = aVLTree61.getRoot();
-        Avltree.AVLTree aVLTree69 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node70 = null;
-        int int71 = aVLTree69.getBalance(node70);
-        Avltree.AVLTree aVLTree72 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node74 = aVLTree72.find((int) '4');
-        Avltree.AVLTree.Node node75 = aVLTree72.getRoot();
-        aVLTree72.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree78 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node80 = aVLTree78.find((int) '4');
-        Avltree.AVLTree.Node node81 = null;
-        int int82 = aVLTree78.getBalance(node81);
-        aVLTree78.insert((int) (short) 100);
-        Avltree.AVLTree.Node node86 = aVLTree78.find((int) ' ');
-        int int87 = aVLTree78.height();
-        Avltree.AVLTree.Node node88 = aVLTree78.getRoot();
-        int int89 = aVLTree72.getBalance(node88);
-        int int90 = aVLTree69.getBalance(node88);
-        int int91 = aVLTree61.getBalance(node88);
-        int int92 = aVLTree23.getBalance(node88);
-        Avltree.AVLTree.Node node93 = aVLTree23.getRoot();
-        int int94 = aVLTree14.getBalance(node93);
-        int int95 = aVLTree0.getBalance(node93);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertNotNull(node9);
-        org.junit.Assert.assertNotNull(node11);
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNull(node25);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertNotNull(node31);
-        org.junit.Assert.assertNull(node34);
-        org.junit.Assert.assertNull(node37);
-        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
-        org.junit.Assert.assertNull(node41);
-        org.junit.Assert.assertNull(node44);
-        org.junit.Assert.assertNull(node46);
-        org.junit.Assert.assertTrue("'" + int51 + "' != '" + 0 + "'", int51 == 0);
-        org.junit.Assert.assertNotNull(node57);
-        org.junit.Assert.assertTrue("'" + int58 + "' != '" + (-1) + "'", int58 == (-1));
-        org.junit.Assert.assertTrue("'" + int59 + "' != '" + (-1) + "'", int59 == (-1));
-        org.junit.Assert.assertTrue("'" + int60 + "' != '" + (-1) + "'", int60 == (-1));
-        org.junit.Assert.assertNull(node63);
-        org.junit.Assert.assertNull(node65);
-        org.junit.Assert.assertNull(node66);
-        org.junit.Assert.assertNull(node67);
-        org.junit.Assert.assertNull(node68);
-        org.junit.Assert.assertTrue("'" + int71 + "' != '" + 0 + "'", int71 == 0);
-        org.junit.Assert.assertNull(node74);
-        org.junit.Assert.assertNull(node75);
-        org.junit.Assert.assertNull(node80);
-        org.junit.Assert.assertTrue("'" + int82 + "' != '" + 0 + "'", int82 == 0);
-        org.junit.Assert.assertNull(node86);
-        org.junit.Assert.assertTrue("'" + int87 + "' != '" + 0 + "'", int87 == 0);
-        org.junit.Assert.assertNotNull(node88);
-        org.junit.Assert.assertTrue("'" + int89 + "' != '" + 0 + "'", int89 == 0);
-        org.junit.Assert.assertTrue("'" + int90 + "' != '" + 0 + "'", int90 == 0);
-        org.junit.Assert.assertTrue("'" + int91 + "' != '" + 0 + "'", int91 == 0);
-        org.junit.Assert.assertTrue("'" + int92 + "' != '" + 0 + "'", int92 == 0);
-        org.junit.Assert.assertNotNull(node93);
-        org.junit.Assert.assertTrue("'" + int94 + "' != '" + 0 + "'", int94 == 0);
-        org.junit.Assert.assertTrue("'" + int95 + "' != '" + 0 + "'", int95 == 0);
-    }
-
-    @Test
-    public void test411() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test411");
+            System.out.format("%n%s%n", "RegressionTest0.test0340");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13831,9 +11368,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test412() throws Throwable {
+    public void test0341() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test412");
+            System.out.format("%n%s%n", "RegressionTest0.test0341");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -13856,9 +11393,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test413() throws Throwable {
+    public void test0342() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test413");
+            System.out.format("%n%s%n", "RegressionTest0.test0342");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -13935,44 +11472,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test414() throws Throwable {
+    public void test0343() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test414");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        Avltree.AVLTree aVLTree3 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node5 = aVLTree3.find((int) '4');
-        Avltree.AVLTree.Node node6 = aVLTree3.getRoot();
-        aVLTree3.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
-        Avltree.AVLTree.Node node12 = null;
-        int int13 = aVLTree9.getBalance(node12);
-        aVLTree9.insert((int) (short) 100);
-        Avltree.AVLTree.Node node17 = aVLTree9.find((int) ' ');
-        int int18 = aVLTree9.height();
-        Avltree.AVLTree.Node node19 = aVLTree9.getRoot();
-        int int20 = aVLTree3.getBalance(node19);
-        int int21 = aVLTree0.getBalance(node19);
-        int int22 = aVLTree0.height();
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
-        org.junit.Assert.assertNotNull(node19);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + (-1) + "'", int22 == (-1));
-    }
-
-    @Test
-    public void test415() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test415");
+            System.out.format("%n%s%n", "RegressionTest0.test0343");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -13998,9 +11500,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test416() throws Throwable {
+    public void test0344() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test416");
+            System.out.format("%n%s%n", "RegressionTest0.test0344");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -14012,40 +11514,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test417() throws Throwable {
+    public void test0345() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test417");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
-        aVLTree0.insert((int) (byte) 100);
-        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
-        Avltree.AVLTree.Node node9 = null;
-        int int10 = aVLTree6.getBalance(node9);
-        aVLTree6.insert((int) (short) 100);
-        Avltree.AVLTree.Node node14 = aVLTree6.find((int) ' ');
-        int int15 = aVLTree6.height();
-        Avltree.AVLTree.Node node16 = aVLTree6.getRoot();
-        int int17 = aVLTree0.getBalance(node16);
-        Avltree.AVLTree.Node node19 = aVLTree0.find((int) '4');
-        aVLTree0.insert((int) (byte) -1);
-        aVLTree0.delete((int) (byte) -1);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node3);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
-        org.junit.Assert.assertNotNull(node16);
-        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
-        org.junit.Assert.assertNull(node19);
-    }
-
-    @Test
-    public void test418() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test418");
+            System.out.format("%n%s%n", "RegressionTest0.test0345");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -14061,9 +11532,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test419() throws Throwable {
+    public void test0346() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test419");
+            System.out.format("%n%s%n", "RegressionTest0.test0346");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -14089,29 +11560,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test420() throws Throwable {
+    public void test0347() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test420");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete((int) (short) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        aVLTree0.delete((int) (byte) 100);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertNull(node9);
-    }
-
-    @Test
-    public void test421() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test421");
+            System.out.format("%n%s%n", "RegressionTest0.test0347");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -14131,9 +11582,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test422() throws Throwable {
+    public void test0348() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test422");
+            System.out.format("%n%s%n", "RegressionTest0.test0348");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -14197,9 +11648,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test423() throws Throwable {
+    public void test0349() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test423");
+            System.out.format("%n%s%n", "RegressionTest0.test0349");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -14265,9 +11716,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test424() throws Throwable {
+    public void test0350() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test424");
+            System.out.format("%n%s%n", "RegressionTest0.test0350");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -14375,9 +11826,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test425() throws Throwable {
+    public void test0351() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test425");
+            System.out.format("%n%s%n", "RegressionTest0.test0351");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -14390,9 +11841,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test426() throws Throwable {
+    public void test0352() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test426");
+            System.out.format("%n%s%n", "RegressionTest0.test0352");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -14421,9 +11872,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test427() throws Throwable {
+    public void test0353() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test427");
+            System.out.format("%n%s%n", "RegressionTest0.test0353");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -14441,9 +11892,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test428() throws Throwable {
+    public void test0354() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test428");
+            System.out.format("%n%s%n", "RegressionTest0.test0354");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -14502,9 +11953,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test429() throws Throwable {
+    public void test0355() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test429");
+            System.out.format("%n%s%n", "RegressionTest0.test0355");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -14517,9 +11968,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test430() throws Throwable {
+    public void test0356() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test430");
+            System.out.format("%n%s%n", "RegressionTest0.test0356");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -14556,9 +12007,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test431() throws Throwable {
+    public void test0357() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test431");
+            System.out.format("%n%s%n", "RegressionTest0.test0357");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -14596,9 +12047,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test432() throws Throwable {
+    public void test0358() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test432");
+            System.out.format("%n%s%n", "RegressionTest0.test0358");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -14617,42 +12068,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test433() throws Throwable {
+    public void test0359() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test433");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        aVLTree0.insert((int) (short) -1);
-        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
-        aVLTree7.insert((int) (short) 0);
-        Avltree.AVLTree.Node node13 = aVLTree7.find(100);
-        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
-        Avltree.AVLTree.Node node17 = aVLTree14.getRoot();
-        aVLTree14.delete(100);
-        aVLTree14.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node22 = aVLTree14.getRoot();
-        int int23 = aVLTree7.getBalance(node22);
-        int int24 = aVLTree0.getBalance(node22);
-        Avltree.AVLTree.Node node25 = aVLTree0.getRoot();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertNotNull(node22);
-        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 0 + "'", int23 == 0);
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
-        org.junit.Assert.assertNotNull(node25);
-    }
-
-    @Test
-    public void test434() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test434");
+            System.out.format("%n%s%n", "RegressionTest0.test0359");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -14672,9 +12090,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test435() throws Throwable {
+    public void test0360() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test435");
+            System.out.format("%n%s%n", "RegressionTest0.test0360");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -14708,9 +12126,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test436() throws Throwable {
+    public void test0361() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test436");
+            System.out.format("%n%s%n", "RegressionTest0.test0361");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -14761,9 +12179,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test437() throws Throwable {
+    public void test0362() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test437");
+            System.out.format("%n%s%n", "RegressionTest0.test0362");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -14844,9 +12262,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test438() throws Throwable {
+    public void test0363() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test438");
+            System.out.format("%n%s%n", "RegressionTest0.test0363");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -14875,9 +12293,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test439() throws Throwable {
+    public void test0364() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test439");
+            System.out.format("%n%s%n", "RegressionTest0.test0364");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -14892,9 +12310,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test440() throws Throwable {
+    public void test0365() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test440");
+            System.out.format("%n%s%n", "RegressionTest0.test0365");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -14910,9 +12328,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test441() throws Throwable {
+    public void test0366() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test441");
+            System.out.format("%n%s%n", "RegressionTest0.test0366");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -14936,9 +12354,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test442() throws Throwable {
+    public void test0367() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test442");
+            System.out.format("%n%s%n", "RegressionTest0.test0367");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -14959,9 +12377,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test443() throws Throwable {
+    public void test0368() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test443");
+            System.out.format("%n%s%n", "RegressionTest0.test0368");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -15026,9 +12444,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test444() throws Throwable {
+    public void test0369() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test444");
+            System.out.format("%n%s%n", "RegressionTest0.test0369");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -15050,9 +12468,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test445() throws Throwable {
+    public void test0370() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test445");
+            System.out.format("%n%s%n", "RegressionTest0.test0370");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15142,9 +12560,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test446() throws Throwable {
+    public void test0371() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test446");
+            System.out.format("%n%s%n", "RegressionTest0.test0371");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         int int3 = aVLTree0.height();
@@ -15188,9 +12606,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test447() throws Throwable {
+    public void test0372() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test447");
+            System.out.format("%n%s%n", "RegressionTest0.test0372");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -15206,57 +12624,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test448() throws Throwable {
+    public void test0373() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test448");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        aVLTree0.delete((int) (byte) -1);
-        aVLTree0.delete((int) (byte) 0);
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node7 = aVLTree0.find(1);
-        Avltree.AVLTree.Node node9 = aVLTree0.find(10);
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node11 = null;
-        int int12 = aVLTree10.getBalance(node11);
-        aVLTree10.delete((int) (byte) -1);
-        int int15 = aVLTree10.height();
-        int int16 = aVLTree10.height();
-        Avltree.AVLTree.Node node18 = aVLTree10.find((int) '#');
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
-        Avltree.AVLTree.Node node23 = aVLTree19.find((int) 'a');
-        aVLTree19.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree26 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node27 = null;
-        int int28 = aVLTree26.getBalance(node27);
-        aVLTree26.insert((int) (byte) 100);
-        aVLTree26.insert((int) 'a');
-        Avltree.AVLTree.Node node34 = aVLTree26.find((int) (byte) 100);
-        int int35 = aVLTree19.getBalance(node34);
-        int int36 = aVLTree10.getBalance(node34);
-        int int37 = aVLTree0.getBalance(node34);
-        int int38 = aVLTree0.height();
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node7);
-        org.junit.Assert.assertNull(node9);
-        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
-        org.junit.Assert.assertTrue("'" + int15 + "' != '" + (-1) + "'", int15 == (-1));
-        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
-        org.junit.Assert.assertNull(node18);
-        org.junit.Assert.assertNull(node21);
-        org.junit.Assert.assertNull(node23);
-        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
-        org.junit.Assert.assertNotNull(node34);
-        org.junit.Assert.assertTrue("'" + int35 + "' != '" + (-1) + "'", int35 == (-1));
-        org.junit.Assert.assertTrue("'" + int36 + "' != '" + (-1) + "'", int36 == (-1));
-        org.junit.Assert.assertTrue("'" + int37 + "' != '" + (-1) + "'", int37 == (-1));
-        org.junit.Assert.assertTrue("'" + int38 + "' != '" + (-1) + "'", int38 == (-1));
-    }
-
-    @Test
-    public void test449() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test449");
+            System.out.format("%n%s%n", "RegressionTest0.test0373");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -15277,9 +12647,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test450() throws Throwable {
+    public void test0374() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test450");
+            System.out.format("%n%s%n", "RegressionTest0.test0374");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15316,9 +12686,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test451() throws Throwable {
+    public void test0375() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test451");
+            System.out.format("%n%s%n", "RegressionTest0.test0375");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15343,9 +12713,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test452() throws Throwable {
+    public void test0376() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test452");
+            System.out.format("%n%s%n", "RegressionTest0.test0376");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15356,9 +12726,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test453() throws Throwable {
+    public void test0377() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test453");
+            System.out.format("%n%s%n", "RegressionTest0.test0377");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15371,9 +12741,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test454() throws Throwable {
+    public void test0378() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test454");
+            System.out.format("%n%s%n", "RegressionTest0.test0378");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         aVLTree0.delete((int) (byte) -1);
         aVLTree0.delete((int) (byte) 0);
@@ -15385,9 +12755,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test455() throws Throwable {
+    public void test0379() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test455");
+            System.out.format("%n%s%n", "RegressionTest0.test0379");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node1 = null;
         int int2 = aVLTree0.getBalance(node1);
@@ -15447,9 +12817,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test456() throws Throwable {
+    public void test0380() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test456");
+            System.out.format("%n%s%n", "RegressionTest0.test0380");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15545,9 +12915,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test457() throws Throwable {
+    public void test0381() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test457");
+            System.out.format("%n%s%n", "RegressionTest0.test0381");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -15569,9 +12939,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test458() throws Throwable {
+    public void test0382() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test458");
+            System.out.format("%n%s%n", "RegressionTest0.test0382");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -15645,9 +13015,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test459() throws Throwable {
+    public void test0383() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test459");
+            System.out.format("%n%s%n", "RegressionTest0.test0383");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15661,32 +13031,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test460() throws Throwable {
+    public void test0384() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test460");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node1 = null;
-        int int2 = aVLTree0.getBalance(node1);
-        aVLTree0.insert((int) (byte) 100);
-        aVLTree0.insert((int) 'a');
-        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (byte) 100);
-        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
-        Avltree.AVLTree.Node node11 = aVLTree0.find(10);
-        Avltree.AVLTree.Node node12 = aVLTree0.getRoot();
-        aVLTree0.insert((int) (short) 10);
-        Avltree.AVLTree.Node node16 = aVLTree0.find((int) (short) -1);
-        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
-        org.junit.Assert.assertNotNull(node8);
-        org.junit.Assert.assertNotNull(node9);
-        org.junit.Assert.assertNull(node11);
-        org.junit.Assert.assertNotNull(node12);
-        org.junit.Assert.assertNull(node16);
-    }
-
-    @Test
-    public void test461() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test461");
+            System.out.format("%n%s%n", "RegressionTest0.test0384");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15699,9 +13046,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test462() throws Throwable {
+    public void test0385() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test462");
+            System.out.format("%n%s%n", "RegressionTest0.test0385");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15732,9 +13079,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test463() throws Throwable {
+    public void test0386() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test463");
+            System.out.format("%n%s%n", "RegressionTest0.test0386");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -15751,43 +13098,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test464() throws Throwable {
+    public void test0387() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test464");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete(0);
-        Avltree.AVLTree.Node node8 = null;
-        int int9 = aVLTree0.getBalance(node8);
-        int int10 = aVLTree0.height();
-        aVLTree0.delete(100);
-        Avltree.AVLTree aVLTree13 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node15 = aVLTree13.find((int) '4');
-        Avltree.AVLTree.Node node16 = aVLTree13.getRoot();
-        aVLTree13.delete(100);
-        aVLTree13.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node21 = aVLTree13.getRoot();
-        int int22 = aVLTree0.getBalance(node21);
-        Avltree.AVLTree.Node node23 = aVLTree0.getRoot();
-        int int24 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
-        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
-        org.junit.Assert.assertNull(node15);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNotNull(node21);
-        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
-        org.junit.Assert.assertNull(node23);
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + (-1) + "'", int24 == (-1));
-    }
-
-    @Test
-    public void test465() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test465");
+            System.out.format("%n%s%n", "RegressionTest0.test0387");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -15803,9 +13116,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test466() throws Throwable {
+    public void test0388() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test466");
+            System.out.format("%n%s%n", "RegressionTest0.test0388");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15819,9 +13132,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test467() throws Throwable {
+    public void test0389() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test467");
+            System.out.format("%n%s%n", "RegressionTest0.test0389");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -15857,9 +13170,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test468() throws Throwable {
+    public void test0390() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test468");
+            System.out.format("%n%s%n", "RegressionTest0.test0390");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -15896,9 +13209,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test469() throws Throwable {
+    public void test0391() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test469");
+            System.out.format("%n%s%n", "RegressionTest0.test0391");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -15941,9 +13254,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test470() throws Throwable {
+    public void test0392() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test470");
+            System.out.format("%n%s%n", "RegressionTest0.test0392");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -15978,21 +13291,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test471() throws Throwable {
+    public void test0393() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test471");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        aVLTree0.delete((int) (byte) -1);
-        aVLTree0.delete((int) (byte) 0);
-        aVLTree0.insert((int) (byte) -1);
-        int int7 = aVLTree0.height();
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-    }
-
-    @Test
-    public void test472() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test472");
+            System.out.format("%n%s%n", "RegressionTest0.test0393");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16032,9 +13333,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test473() throws Throwable {
+    public void test0394() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test473");
+            System.out.format("%n%s%n", "RegressionTest0.test0394");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16050,9 +13351,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test474() throws Throwable {
+    public void test0395() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test474");
+            System.out.format("%n%s%n", "RegressionTest0.test0395");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -16112,9 +13413,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test475() throws Throwable {
+    public void test0396() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test475");
+            System.out.format("%n%s%n", "RegressionTest0.test0396");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -16136,85 +13437,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test476() throws Throwable {
+    public void test0397() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test476");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node3 = null;
-        int int4 = aVLTree0.getBalance(node3);
-        aVLTree0.insert((int) 'a');
-        int int7 = aVLTree0.height();
-        aVLTree0.delete(0);
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
-        Avltree.AVLTree.Node node14 = aVLTree10.find((int) 'a');
-        Avltree.AVLTree.Node node16 = aVLTree10.find((int) ' ');
-        Avltree.AVLTree.Node node18 = aVLTree10.find((int) (byte) 100);
-        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node20 = aVLTree19.getRoot();
-        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
-        Avltree.AVLTree.Node node24 = aVLTree21.getRoot();
-        Avltree.AVLTree.Node node26 = aVLTree21.find((int) (short) -1);
-        Avltree.AVLTree aVLTree27 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node29 = aVLTree27.find((int) '4');
-        aVLTree27.delete((int) 'a');
-        Avltree.AVLTree.Node node32 = aVLTree27.getRoot();
-        aVLTree27.delete(0);
-        Avltree.AVLTree.Node node35 = null;
-        int int36 = aVLTree27.getBalance(node35);
-        int int37 = aVLTree27.height();
-        aVLTree27.delete(100);
-        Avltree.AVLTree aVLTree40 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node42 = aVLTree40.find((int) '4');
-        Avltree.AVLTree.Node node43 = aVLTree40.getRoot();
-        aVLTree40.delete(100);
-        aVLTree40.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node48 = aVLTree40.getRoot();
-        int int49 = aVLTree27.getBalance(node48);
-        int int50 = aVLTree21.getBalance(node48);
-        int int51 = aVLTree19.getBalance(node48);
-        int int52 = aVLTree10.getBalance(node48);
-        int int53 = aVLTree0.getBalance(node48);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertNull(node14);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node18);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNull(node23);
-        org.junit.Assert.assertNull(node24);
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertTrue("'" + int36 + "' != '" + 0 + "'", int36 == 0);
-        org.junit.Assert.assertTrue("'" + int37 + "' != '" + (-1) + "'", int37 == (-1));
-        org.junit.Assert.assertNull(node42);
-        org.junit.Assert.assertNull(node43);
-        org.junit.Assert.assertNotNull(node48);
-        org.junit.Assert.assertTrue("'" + int49 + "' != '" + 0 + "'", int49 == 0);
-        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
-        org.junit.Assert.assertTrue("'" + int51 + "' != '" + 0 + "'", int51 == 0);
-        org.junit.Assert.assertTrue("'" + int52 + "' != '" + 0 + "'", int52 == 0);
-        org.junit.Assert.assertTrue("'" + int53 + "' != '" + 0 + "'", int53 == 0);
-    }
-
-    @Test
-    public void test477() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test477");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        aVLTree0.delete((int) (byte) -1);
-        aVLTree0.delete((int) 'a');
-    }
-
-    @Test
-    public void test478() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test478");
+            System.out.format("%n%s%n", "RegressionTest0.test0397");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -16231,9 +13456,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test479() throws Throwable {
+    public void test0398() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test479");
+            System.out.format("%n%s%n", "RegressionTest0.test0398");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16274,9 +13499,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test480() throws Throwable {
+    public void test0399() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test480");
+            System.out.format("%n%s%n", "RegressionTest0.test0399");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -16339,22 +13564,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test481() throws Throwable {
+    public void test0400() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test481");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        aVLTree0.delete((int) (byte) -1);
-        aVLTree0.delete((int) (byte) 0);
-        aVLTree0.insert((int) (byte) -1);
-        aVLTree0.insert(1);
-        int int9 = aVLTree0.height();
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 1 + "'", int9 == 1);
-    }
-
-    @Test
-    public void test482() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test482");
+            System.out.format("%n%s%n", "RegressionTest0.test0400");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -16406,9 +13618,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test483() throws Throwable {
+    public void test0401() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test483");
+            System.out.format("%n%s%n", "RegressionTest0.test0401");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16423,9 +13635,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test484() throws Throwable {
+    public void test0402() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test484");
+            System.out.format("%n%s%n", "RegressionTest0.test0402");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16441,9 +13653,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test485() throws Throwable {
+    public void test0403() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test485");
+            System.out.format("%n%s%n", "RegressionTest0.test0403");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16463,9 +13675,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test486() throws Throwable {
+    public void test0404() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test486");
+            System.out.format("%n%s%n", "RegressionTest0.test0404");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -16485,9 +13697,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test487() throws Throwable {
+    public void test0405() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test487");
+            System.out.format("%n%s%n", "RegressionTest0.test0405");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -16516,79 +13728,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test488() throws Throwable {
+    public void test0406() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test488");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
-        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
-        aVLTree0.delete((int) (short) 10);
-        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
-        int int9 = aVLTree0.height();
-        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
-        aVLTree10.insert((int) (short) 0);
-        Avltree.AVLTree.Node node16 = aVLTree10.find(100);
-        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
-        Avltree.AVLTree.Node node20 = aVLTree17.getRoot();
-        aVLTree17.delete(100);
-        aVLTree17.insert((int) (byte) 10);
-        Avltree.AVLTree.Node node25 = aVLTree17.getRoot();
-        int int26 = aVLTree10.getBalance(node25);
-        int int27 = aVLTree0.getBalance(node25);
-        Avltree.AVLTree.Node node29 = aVLTree0.find((int) (short) 10);
-        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node32 = aVLTree30.find((-1));
-        aVLTree30.delete(100);
-        Avltree.AVLTree.Node node36 = aVLTree30.find((int) '#');
-        Avltree.AVLTree aVLTree37 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node39 = aVLTree37.find((int) '4');
-        aVLTree37.delete((int) 'a');
-        Avltree.AVLTree.Node node42 = aVLTree37.getRoot();
-        Avltree.AVLTree.Node node43 = null;
-        int int44 = aVLTree37.getBalance(node43);
-        Avltree.AVLTree.Node node46 = aVLTree37.find((int) ' ');
-        aVLTree37.insert((-1));
-        Avltree.AVLTree.Node node49 = aVLTree37.getRoot();
-        int int50 = aVLTree37.height();
-        Avltree.AVLTree.Node node52 = aVLTree37.find((int) (short) -1);
-        aVLTree37.insert((int) ' ');
-        Avltree.AVLTree.Node node55 = aVLTree37.getRoot();
-        int int56 = aVLTree30.getBalance(node55);
-        int int57 = aVLTree0.getBalance(node55);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node4);
-        org.junit.Assert.assertNull(node5);
-        org.junit.Assert.assertNull(node8);
-        org.junit.Assert.assertTrue("'" + int9 + "' != '" + (-1) + "'", int9 == (-1));
-        org.junit.Assert.assertNull(node12);
-        org.junit.Assert.assertNull(node16);
-        org.junit.Assert.assertNull(node19);
-        org.junit.Assert.assertNull(node20);
-        org.junit.Assert.assertNotNull(node25);
-        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
-        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNull(node32);
-        org.junit.Assert.assertNull(node36);
-        org.junit.Assert.assertNull(node39);
-        org.junit.Assert.assertNull(node42);
-        org.junit.Assert.assertTrue("'" + int44 + "' != '" + 0 + "'", int44 == 0);
-        org.junit.Assert.assertNull(node46);
-        org.junit.Assert.assertNotNull(node49);
-        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
-        org.junit.Assert.assertNotNull(node52);
-        org.junit.Assert.assertNotNull(node55);
-        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 1 + "'", int56 == 1);
-        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 1 + "'", int57 == 1);
-    }
-
-    @Test
-    public void test489() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test489");
+            System.out.format("%n%s%n", "RegressionTest0.test0406");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -16662,64 +13804,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test490() throws Throwable {
+    public void test0407() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test490");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        int int3 = aVLTree0.height();
-        aVLTree0.insert((-1));
-        aVLTree0.delete((int) (byte) 1);
-        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
-        aVLTree8.delete((int) (byte) -1);
-        aVLTree8.delete((int) (byte) 0);
-        Avltree.AVLTree.Node node13 = aVLTree8.getRoot();
-        Avltree.AVLTree.Node node15 = aVLTree8.find(1);
-        Avltree.AVLTree.Node node17 = aVLTree8.find(10);
-        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node19 = null;
-        int int20 = aVLTree18.getBalance(node19);
-        aVLTree18.delete((int) (byte) -1);
-        int int23 = aVLTree18.height();
-        int int24 = aVLTree18.height();
-        Avltree.AVLTree.Node node26 = aVLTree18.find((int) '#');
-        Avltree.AVLTree aVLTree27 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node29 = aVLTree27.find((int) '4');
-        Avltree.AVLTree.Node node31 = aVLTree27.find((int) 'a');
-        aVLTree27.delete((int) (short) 10);
-        Avltree.AVLTree aVLTree34 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node35 = null;
-        int int36 = aVLTree34.getBalance(node35);
-        aVLTree34.insert((int) (byte) 100);
-        aVLTree34.insert((int) 'a');
-        Avltree.AVLTree.Node node42 = aVLTree34.find((int) (byte) 100);
-        int int43 = aVLTree27.getBalance(node42);
-        int int44 = aVLTree18.getBalance(node42);
-        int int45 = aVLTree8.getBalance(node42);
-        int int46 = aVLTree0.getBalance(node42);
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
-        org.junit.Assert.assertNull(node13);
-        org.junit.Assert.assertNull(node15);
-        org.junit.Assert.assertNull(node17);
-        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
-        org.junit.Assert.assertTrue("'" + int23 + "' != '" + (-1) + "'", int23 == (-1));
-        org.junit.Assert.assertTrue("'" + int24 + "' != '" + (-1) + "'", int24 == (-1));
-        org.junit.Assert.assertNull(node26);
-        org.junit.Assert.assertNull(node29);
-        org.junit.Assert.assertNull(node31);
-        org.junit.Assert.assertTrue("'" + int36 + "' != '" + 0 + "'", int36 == 0);
-        org.junit.Assert.assertNotNull(node42);
-        org.junit.Assert.assertTrue("'" + int43 + "' != '" + (-1) + "'", int43 == (-1));
-        org.junit.Assert.assertTrue("'" + int44 + "' != '" + (-1) + "'", int44 == (-1));
-        org.junit.Assert.assertTrue("'" + int45 + "' != '" + (-1) + "'", int45 == (-1));
-        org.junit.Assert.assertTrue("'" + int46 + "' != '" + (-1) + "'", int46 == (-1));
-    }
-
-    @Test
-    public void test491() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test491");
+            System.out.format("%n%s%n", "RegressionTest0.test0407");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         aVLTree0.delete((int) 'a');
@@ -16740,9 +13827,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test492() throws Throwable {
+    public void test0408() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test492");
+            System.out.format("%n%s%n", "RegressionTest0.test0408");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16797,23 +13884,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test493() throws Throwable {
+    public void test0409() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test493");
-        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
-        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.insert((int) (short) 0);
-        Avltree.AVLTree.Node node6 = aVLTree0.find(100);
-        int int7 = aVLTree0.height();
-        org.junit.Assert.assertNull(node2);
-        org.junit.Assert.assertNull(node6);
-        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
-    }
-
-    @Test
-    public void test494() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test494");
+            System.out.format("%n%s%n", "RegressionTest0.test0409");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -16870,9 +13943,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test495() throws Throwable {
+    public void test0410() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test495");
+            System.out.format("%n%s%n", "RegressionTest0.test0410");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16958,9 +14031,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test496() throws Throwable {
+    public void test0411() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test496");
+            System.out.format("%n%s%n", "RegressionTest0.test0411");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -16983,9 +14056,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test497() throws Throwable {
+    public void test0412() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test497");
+            System.out.format("%n%s%n", "RegressionTest0.test0412");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -17055,9 +14128,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test498() throws Throwable {
+    public void test0413() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test498");
+            System.out.format("%n%s%n", "RegressionTest0.test0413");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
@@ -17085,9 +14158,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test499() throws Throwable {
+    public void test0414() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test499");
+            System.out.format("%n%s%n", "RegressionTest0.test0414");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
@@ -17189,9 +14262,9 @@ public class RegressionTest0 {
     }
 
     @Test
-    public void test500() throws Throwable {
+    public void test0415() throws Throwable {
         if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test500");
+            System.out.format("%n%s%n", "RegressionTest0.test0415");
         Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
         Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
         Avltree.AVLTree.Node node3 = null;
@@ -17269,6 +14342,3098 @@ public class RegressionTest0 {
         org.junit.Assert.assertTrue("'" + int65 + "' != '" + 0 + "'", int65 == 0);
         org.junit.Assert.assertNotNull(node66);
         org.junit.Assert.assertTrue("'" + int67 + "' != '" + 0 + "'", int67 == 0);
+    }
+
+    @Test
+    public void test0416() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0416");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) '4');
+        Avltree.AVLTree.Node node8 = aVLTree0.find(100);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
+        aVLTree10.delete((int) 'a');
+        Avltree.AVLTree.Node node15 = aVLTree10.getRoot();
+        aVLTree10.delete(0);
+        Avltree.AVLTree.Node node18 = null;
+        int int19 = aVLTree10.getBalance(node18);
+        int int20 = aVLTree10.height();
+        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
+        Avltree.AVLTree.Node node24 = aVLTree21.getRoot();
+        aVLTree21.delete(100);
+        aVLTree21.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node29 = aVLTree21.getRoot();
+        int int30 = aVLTree10.getBalance(node29);
+        Avltree.AVLTree aVLTree31 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node33 = aVLTree31.find((int) '4');
+        aVLTree31.delete((int) 'a');
+        Avltree.AVLTree.Node node36 = aVLTree31.getRoot();
+        aVLTree31.delete(0);
+        Avltree.AVLTree.Node node39 = null;
+        int int40 = aVLTree31.getBalance(node39);
+        int int41 = aVLTree31.height();
+        Avltree.AVLTree aVLTree42 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node44 = aVLTree42.find((int) '4');
+        Avltree.AVLTree.Node node45 = aVLTree42.getRoot();
+        aVLTree42.delete(100);
+        aVLTree42.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node50 = aVLTree42.getRoot();
+        int int51 = aVLTree31.getBalance(node50);
+        int int52 = aVLTree10.getBalance(node50);
+        int int53 = aVLTree0.getBalance(node50);
+        Avltree.AVLTree.Node node55 = aVLTree0.find(100);
+        int int56 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNotNull(node9);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + (-1) + "'", int20 == (-1));
+        org.junit.Assert.assertNull(node23);
+        org.junit.Assert.assertNull(node24);
+        org.junit.Assert.assertNotNull(node29);
+        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertNull(node36);
+        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + (-1) + "'", int41 == (-1));
+        org.junit.Assert.assertNull(node44);
+        org.junit.Assert.assertNull(node45);
+        org.junit.Assert.assertNotNull(node50);
+        org.junit.Assert.assertTrue("'" + int51 + "' != '" + 0 + "'", int51 == 0);
+        org.junit.Assert.assertTrue("'" + int52 + "' != '" + 0 + "'", int52 == 0);
+        org.junit.Assert.assertTrue("'" + int53 + "' != '" + 0 + "'", int53 == 0);
+        org.junit.Assert.assertNull(node55);
+        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
+    }
+
+    @Test
+    public void test0417() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0417");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node10 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
+        Avltree.AVLTree.Node node14 = aVLTree11.getRoot();
+        aVLTree11.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
+        Avltree.AVLTree.Node node20 = null;
+        int int21 = aVLTree17.getBalance(node20);
+        aVLTree17.insert((int) (short) 100);
+        Avltree.AVLTree.Node node25 = aVLTree17.find((int) ' ');
+        int int26 = aVLTree17.height();
+        Avltree.AVLTree.Node node27 = aVLTree17.getRoot();
+        int int28 = aVLTree11.getBalance(node27);
+        int int29 = aVLTree0.getBalance(node27);
+        java.lang.Class<?> wildcardClass30 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+        org.junit.Assert.assertNull(node25);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+        org.junit.Assert.assertNotNull(node27);
+        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
+        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass30);
+    }
+
+    @Test
+    public void test0418() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0418");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        aVLTree0.insert((int) (short) -1);
+        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
+        aVLTree7.insert((int) (short) 0);
+        Avltree.AVLTree.Node node13 = aVLTree7.find(100);
+        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
+        Avltree.AVLTree.Node node17 = aVLTree14.getRoot();
+        aVLTree14.delete(100);
+        aVLTree14.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node22 = aVLTree14.getRoot();
+        int int23 = aVLTree7.getBalance(node22);
+        int int24 = aVLTree0.getBalance(node22);
+        aVLTree0.delete((int) (byte) -1);
+        aVLTree0.delete((int) '#');
+        Avltree.AVLTree.Node node29 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNull(node17);
+        org.junit.Assert.assertNotNull(node22);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 0 + "'", int23 == 0);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+        org.junit.Assert.assertNull(node29);
+    }
+
+    @Test
+    public void test0419() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0419");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.delete(1);
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        int int8 = aVLTree0.height();
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node11 = aVLTree0.find((int) '#');
+        java.lang.Class<?> wildcardClass12 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNotNull(wildcardClass12);
+    }
+
+    @Test
+    public void test0420() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0420");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.insert((int) (short) 1);
+        aVLTree0.insert((int) '#');
+        Avltree.AVLTree.Node node10 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNotNull(node11);
+    }
+
+    @Test
+    public void test0421() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0421");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        aVLTree0.delete(0);
+        Avltree.AVLTree.Node node8 = null;
+        int int9 = aVLTree0.getBalance(node8);
+        Avltree.AVLTree.Node node10 = null;
+        int int11 = aVLTree0.getBalance(node10);
+        aVLTree0.delete((int) (short) 0);
+        Avltree.AVLTree.Node node14 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node15 = null;
+        int int16 = aVLTree0.getBalance(node15);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+    }
+
+    @Test
+    public void test0422() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0422");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = null;
+        int int2 = aVLTree0.getBalance(node1);
+        aVLTree0.insert((int) (byte) 100);
+        aVLTree0.delete((int) '4');
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) 100);
+        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
+        Avltree.AVLTree.Node node13 = aVLTree9.find((int) 'a');
+        Avltree.AVLTree.Node node15 = aVLTree9.find((int) ' ');
+        Avltree.AVLTree.Node node17 = aVLTree9.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node19 = aVLTree18.getRoot();
+        Avltree.AVLTree aVLTree20 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node22 = aVLTree20.find((int) '4');
+        Avltree.AVLTree.Node node23 = aVLTree20.getRoot();
+        Avltree.AVLTree.Node node25 = aVLTree20.find((int) (short) -1);
+        Avltree.AVLTree aVLTree26 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node28 = aVLTree26.find((int) '4');
+        aVLTree26.delete((int) 'a');
+        Avltree.AVLTree.Node node31 = aVLTree26.getRoot();
+        aVLTree26.delete(0);
+        Avltree.AVLTree.Node node34 = null;
+        int int35 = aVLTree26.getBalance(node34);
+        int int36 = aVLTree26.height();
+        aVLTree26.delete(100);
+        Avltree.AVLTree aVLTree39 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node41 = aVLTree39.find((int) '4');
+        Avltree.AVLTree.Node node42 = aVLTree39.getRoot();
+        aVLTree39.delete(100);
+        aVLTree39.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node47 = aVLTree39.getRoot();
+        int int48 = aVLTree26.getBalance(node47);
+        int int49 = aVLTree20.getBalance(node47);
+        int int50 = aVLTree18.getBalance(node47);
+        int int51 = aVLTree9.getBalance(node47);
+        aVLTree9.delete(10);
+        Avltree.AVLTree aVLTree54 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node56 = aVLTree54.find((int) '4');
+        Avltree.AVLTree.Node node57 = null;
+        int int58 = aVLTree54.getBalance(node57);
+        aVLTree54.insert(0);
+        aVLTree54.insert((int) (short) 10);
+        Avltree.AVLTree.Node node63 = aVLTree54.getRoot();
+        Avltree.AVLTree aVLTree64 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node65 = null;
+        int int66 = aVLTree64.getBalance(node65);
+        aVLTree64.insert((int) (byte) 100);
+        aVLTree64.insert((int) 'a');
+        Avltree.AVLTree.Node node72 = aVLTree64.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree73 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node75 = aVLTree73.find((int) '4');
+        aVLTree73.delete((int) 'a');
+        Avltree.AVLTree.Node node78 = aVLTree73.getRoot();
+        aVLTree73.delete(0);
+        Avltree.AVLTree.Node node81 = null;
+        int int82 = aVLTree73.getBalance(node81);
+        int int83 = aVLTree73.height();
+        Avltree.AVLTree aVLTree84 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node86 = aVLTree84.find((int) '4');
+        Avltree.AVLTree.Node node87 = aVLTree84.getRoot();
+        aVLTree84.delete(100);
+        aVLTree84.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node92 = aVLTree84.getRoot();
+        int int93 = aVLTree73.getBalance(node92);
+        int int94 = aVLTree64.getBalance(node92);
+        int int95 = aVLTree54.getBalance(node92);
+        int int96 = aVLTree9.getBalance(node92);
+        int int97 = aVLTree0.getBalance(node92);
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertNotNull(node8);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertNull(node17);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertNull(node23);
+        org.junit.Assert.assertNull(node25);
+        org.junit.Assert.assertNull(node28);
+        org.junit.Assert.assertNull(node31);
+        org.junit.Assert.assertTrue("'" + int35 + "' != '" + 0 + "'", int35 == 0);
+        org.junit.Assert.assertTrue("'" + int36 + "' != '" + (-1) + "'", int36 == (-1));
+        org.junit.Assert.assertNull(node41);
+        org.junit.Assert.assertNull(node42);
+        org.junit.Assert.assertNotNull(node47);
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + 0 + "'", int48 == 0);
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + 0 + "'", int49 == 0);
+        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
+        org.junit.Assert.assertTrue("'" + int51 + "' != '" + 0 + "'", int51 == 0);
+        org.junit.Assert.assertNull(node56);
+        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
+        org.junit.Assert.assertNotNull(node63);
+        org.junit.Assert.assertTrue("'" + int66 + "' != '" + 0 + "'", int66 == 0);
+        org.junit.Assert.assertNotNull(node72);
+        org.junit.Assert.assertNull(node75);
+        org.junit.Assert.assertNull(node78);
+        org.junit.Assert.assertTrue("'" + int82 + "' != '" + 0 + "'", int82 == 0);
+        org.junit.Assert.assertTrue("'" + int83 + "' != '" + (-1) + "'", int83 == (-1));
+        org.junit.Assert.assertNull(node86);
+        org.junit.Assert.assertNull(node87);
+        org.junit.Assert.assertNotNull(node92);
+        org.junit.Assert.assertTrue("'" + int93 + "' != '" + 0 + "'", int93 == 0);
+        org.junit.Assert.assertTrue("'" + int94 + "' != '" + 0 + "'", int94 == 0);
+        org.junit.Assert.assertTrue("'" + int95 + "' != '" + 0 + "'", int95 == 0);
+        org.junit.Assert.assertTrue("'" + int96 + "' != '" + 0 + "'", int96 == 0);
+        org.junit.Assert.assertTrue("'" + int97 + "' != '" + 0 + "'", int97 == 0);
+    }
+
+    @Test
+    public void test0423() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0423");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        aVLTree0.insert((-1));
+        int int12 = aVLTree0.height();
+        aVLTree0.insert(1);
+        java.lang.Class<?> wildcardClass15 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass15);
+    }
+
+    @Test
+    public void test0424() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0424");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
+        aVLTree0.delete(100);
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) '#');
+        int int7 = aVLTree0.height();
+        java.lang.Class<?> wildcardClass8 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + (-1) + "'", int7 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass8);
+    }
+
+    @Test
+    public void test0425() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0425");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (short) -1);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node9);
+    }
+
+    @Test
+    public void test0426() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0426");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node10 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 1);
+        int int13 = aVLTree0.height();
+        Avltree.AVLTree.Node node14 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertNotNull(node14);
+    }
+
+    @Test
+    public void test0427() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0427");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        aVLTree0.insert((-1));
+        Avltree.AVLTree.Node node12 = aVLTree0.getRoot();
+        int int13 = aVLTree0.height();
+        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
+        Avltree.AVLTree.Node node17 = aVLTree14.getRoot();
+        aVLTree14.delete(100);
+        aVLTree14.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node22 = aVLTree14.getRoot();
+        Avltree.AVLTree aVLTree23 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node25 = aVLTree23.find((int) '4');
+        aVLTree23.delete((int) 'a');
+        Avltree.AVLTree.Node node28 = aVLTree23.getRoot();
+        Avltree.AVLTree.Node node29 = null;
+        int int30 = aVLTree23.getBalance(node29);
+        Avltree.AVLTree.Node node32 = aVLTree23.find((int) ' ');
+        Avltree.AVLTree aVLTree33 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node35 = aVLTree33.find((int) '4');
+        Avltree.AVLTree.Node node37 = aVLTree33.find((int) 'a');
+        aVLTree33.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree40 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node41 = null;
+        int int42 = aVLTree40.getBalance(node41);
+        aVLTree40.insert((int) (byte) 100);
+        aVLTree40.insert((int) 'a');
+        Avltree.AVLTree.Node node48 = aVLTree40.find((int) (byte) 100);
+        int int49 = aVLTree33.getBalance(node48);
+        int int50 = aVLTree23.getBalance(node48);
+        int int51 = aVLTree14.getBalance(node48);
+        Avltree.AVLTree aVLTree52 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node54 = aVLTree52.find((int) '4');
+        Avltree.AVLTree.Node node56 = aVLTree52.find((int) 'a');
+        Avltree.AVLTree.Node node57 = aVLTree52.getRoot();
+        Avltree.AVLTree.Node node58 = aVLTree52.getRoot();
+        Avltree.AVLTree.Node node59 = aVLTree52.getRoot();
+        Avltree.AVLTree aVLTree60 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node61 = null;
+        int int62 = aVLTree60.getBalance(node61);
+        Avltree.AVLTree aVLTree63 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node65 = aVLTree63.find((int) '4');
+        Avltree.AVLTree.Node node66 = aVLTree63.getRoot();
+        aVLTree63.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree69 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node71 = aVLTree69.find((int) '4');
+        Avltree.AVLTree.Node node72 = null;
+        int int73 = aVLTree69.getBalance(node72);
+        aVLTree69.insert((int) (short) 100);
+        Avltree.AVLTree.Node node77 = aVLTree69.find((int) ' ');
+        int int78 = aVLTree69.height();
+        Avltree.AVLTree.Node node79 = aVLTree69.getRoot();
+        int int80 = aVLTree63.getBalance(node79);
+        int int81 = aVLTree60.getBalance(node79);
+        int int82 = aVLTree52.getBalance(node79);
+        int int83 = aVLTree14.getBalance(node79);
+        int int84 = aVLTree0.getBalance(node79);
+        int int85 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNotNull(node12);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNull(node17);
+        org.junit.Assert.assertNotNull(node22);
+        org.junit.Assert.assertNull(node25);
+        org.junit.Assert.assertNull(node28);
+        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
+        org.junit.Assert.assertNull(node32);
+        org.junit.Assert.assertNull(node35);
+        org.junit.Assert.assertNull(node37);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+        org.junit.Assert.assertNotNull(node48);
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + (-1) + "'", int49 == (-1));
+        org.junit.Assert.assertTrue("'" + int50 + "' != '" + (-1) + "'", int50 == (-1));
+        org.junit.Assert.assertTrue("'" + int51 + "' != '" + (-1) + "'", int51 == (-1));
+        org.junit.Assert.assertNull(node54);
+        org.junit.Assert.assertNull(node56);
+        org.junit.Assert.assertNull(node57);
+        org.junit.Assert.assertNull(node58);
+        org.junit.Assert.assertNull(node59);
+        org.junit.Assert.assertTrue("'" + int62 + "' != '" + 0 + "'", int62 == 0);
+        org.junit.Assert.assertNull(node65);
+        org.junit.Assert.assertNull(node66);
+        org.junit.Assert.assertNull(node71);
+        org.junit.Assert.assertTrue("'" + int73 + "' != '" + 0 + "'", int73 == 0);
+        org.junit.Assert.assertNull(node77);
+        org.junit.Assert.assertTrue("'" + int78 + "' != '" + 0 + "'", int78 == 0);
+        org.junit.Assert.assertNotNull(node79);
+        org.junit.Assert.assertTrue("'" + int80 + "' != '" + 0 + "'", int80 == 0);
+        org.junit.Assert.assertTrue("'" + int81 + "' != '" + 0 + "'", int81 == 0);
+        org.junit.Assert.assertTrue("'" + int82 + "' != '" + 0 + "'", int82 == 0);
+        org.junit.Assert.assertTrue("'" + int83 + "' != '" + 0 + "'", int83 == 0);
+        org.junit.Assert.assertTrue("'" + int84 + "' != '" + 0 + "'", int84 == 0);
+        org.junit.Assert.assertTrue("'" + int85 + "' != '" + 0 + "'", int85 == 0);
+    }
+
+    @Test
+    public void test0428() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0428");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (short) 10);
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        int int9 = aVLTree0.height();
+        int int10 = aVLTree0.height();
+        Avltree.AVLTree.Node node12 = aVLTree0.find(10);
+        aVLTree0.insert(0);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + (-1) + "'", int9 == (-1));
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
+        org.junit.Assert.assertNull(node12);
+    }
+
+    @Test
+    public void test0429() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0429");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        int int3 = aVLTree0.height();
+        int int4 = aVLTree0.height();
+        aVLTree0.delete((int) (byte) 0);
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (short) 10);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + (-1) + "'", int4 == (-1));
+        org.junit.Assert.assertNull(node7);
+    }
+
+    @Test
+    public void test0430() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0430");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert(0);
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
+        Avltree.AVLTree.Node node11 = aVLTree8.getRoot();
+        aVLTree8.delete(100);
+        int int14 = aVLTree8.height();
+        Avltree.AVLTree.Node node16 = aVLTree8.find((int) (short) -1);
+        aVLTree8.insert(0);
+        Avltree.AVLTree.Node node19 = aVLTree8.getRoot();
+        int int20 = aVLTree0.getBalance(node19);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNotNull(node7);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + (-1) + "'", int14 == (-1));
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNotNull(node19);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+    }
+
+    @Test
+    public void test0431() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0431");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
+        Avltree.AVLTree.Node node9 = null;
+        int int10 = aVLTree6.getBalance(node9);
+        aVLTree6.insert((int) (short) 100);
+        Avltree.AVLTree.Node node14 = aVLTree6.find((int) ' ');
+        int int15 = aVLTree6.height();
+        Avltree.AVLTree.Node node16 = aVLTree6.getRoot();
+        int int17 = aVLTree0.getBalance(node16);
+        aVLTree0.insert((int) (byte) 0);
+        Avltree.AVLTree.Node node20 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertNotNull(node16);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertNotNull(node20);
+    }
+
+    @Test
+    public void test0432() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0432");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (short) -1);
+        aVLTree0.delete((int) ' ');
+        int int8 = aVLTree0.height();
+        java.lang.Class<?> wildcardClass9 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test0433() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0433");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node10 = aVLTree9.getRoot();
+        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
+        Avltree.AVLTree.Node node14 = aVLTree11.getRoot();
+        Avltree.AVLTree.Node node16 = aVLTree11.find((int) (short) -1);
+        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
+        aVLTree17.delete((int) 'a');
+        Avltree.AVLTree.Node node22 = aVLTree17.getRoot();
+        aVLTree17.delete(0);
+        Avltree.AVLTree.Node node25 = null;
+        int int26 = aVLTree17.getBalance(node25);
+        int int27 = aVLTree17.height();
+        aVLTree17.delete(100);
+        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node32 = aVLTree30.find((int) '4');
+        Avltree.AVLTree.Node node33 = aVLTree30.getRoot();
+        aVLTree30.delete(100);
+        aVLTree30.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node38 = aVLTree30.getRoot();
+        int int39 = aVLTree17.getBalance(node38);
+        int int40 = aVLTree11.getBalance(node38);
+        int int41 = aVLTree9.getBalance(node38);
+        int int42 = aVLTree0.getBalance(node38);
+        aVLTree0.delete(10);
+        Avltree.AVLTree.Node node46 = aVLTree0.find(100);
+        aVLTree0.delete((int) '4');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + (-1) + "'", int27 == (-1));
+        org.junit.Assert.assertNull(node32);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertNotNull(node38);
+        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
+        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+        org.junit.Assert.assertNull(node46);
+    }
+
+    @Test
+    public void test0434() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0434");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) '4');
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
+        Avltree.AVLTree.Node node10 = aVLTree0.find((int) (byte) 0);
+        int int11 = aVLTree0.height();
+        Avltree.AVLTree.Node node13 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node15 = null;
+        int int16 = aVLTree14.getBalance(node15);
+        aVLTree14.insert((int) (byte) 100);
+        aVLTree14.insert((int) 'a');
+        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
+        Avltree.AVLTree.Node node24 = null;
+        int int25 = aVLTree21.getBalance(node24);
+        aVLTree21.insert((int) (short) 100);
+        Avltree.AVLTree.Node node29 = aVLTree21.find((int) ' ');
+        int int30 = aVLTree21.height();
+        Avltree.AVLTree.Node node31 = aVLTree21.getRoot();
+        int int32 = aVLTree14.getBalance(node31);
+        Avltree.AVLTree aVLTree33 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node35 = aVLTree33.find((int) '4');
+        aVLTree33.delete((int) 'a');
+        Avltree.AVLTree.Node node38 = aVLTree33.getRoot();
+        aVLTree33.delete(0);
+        Avltree.AVLTree.Node node41 = null;
+        int int42 = aVLTree33.getBalance(node41);
+        int int43 = aVLTree33.height();
+        aVLTree33.delete(100);
+        Avltree.AVLTree aVLTree46 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node48 = aVLTree46.find((int) '4');
+        Avltree.AVLTree.Node node49 = aVLTree46.getRoot();
+        aVLTree46.delete(100);
+        aVLTree46.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node54 = aVLTree46.getRoot();
+        int int55 = aVLTree33.getBalance(node54);
+        int int56 = aVLTree14.getBalance(node54);
+        int int57 = aVLTree0.getBalance(node54);
+        java.lang.Class<?> wildcardClass58 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 0 + "'", int11 == 0);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertNull(node23);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + 0 + "'", int25 == 0);
+        org.junit.Assert.assertNull(node29);
+        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
+        org.junit.Assert.assertNotNull(node31);
+        org.junit.Assert.assertTrue("'" + int32 + "' != '" + 0 + "'", int32 == 0);
+        org.junit.Assert.assertNull(node35);
+        org.junit.Assert.assertNull(node38);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+        org.junit.Assert.assertTrue("'" + int43 + "' != '" + (-1) + "'", int43 == (-1));
+        org.junit.Assert.assertNull(node48);
+        org.junit.Assert.assertNull(node49);
+        org.junit.Assert.assertNotNull(node54);
+        org.junit.Assert.assertTrue("'" + int55 + "' != '" + 0 + "'", int55 == 0);
+        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
+        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 0 + "'", int57 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass58);
+    }
+
+    @Test
+    public void test0435() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0435");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.insert((int) (short) 1);
+        aVLTree0.insert((int) '#');
+        aVLTree0.delete(10);
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        aVLTree0.insert(0);
+        java.lang.Class<?> wildcardClass14 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNotNull(node11);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test0436() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0436");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) (short) 100);
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
+        int int9 = aVLTree0.height();
+        aVLTree0.insert((int) 'a');
+        Avltree.AVLTree.Node node13 = aVLTree0.find((-1));
+        Avltree.AVLTree.Node node15 = aVLTree0.find((int) (byte) 0);
+        aVLTree0.delete((int) ' ');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node15);
+    }
+
+    @Test
+    public void test0437() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0437");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
+        aVLTree0.delete(100);
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) '#');
+        int int7 = aVLTree0.height();
+        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
+        Avltree.AVLTree.Node node11 = aVLTree8.getRoot();
+        aVLTree8.delete(100);
+        aVLTree8.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node16 = aVLTree8.getRoot();
+        int int17 = aVLTree0.getBalance(node16);
+        Avltree.AVLTree.Node node19 = aVLTree0.find((int) '4');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + (-1) + "'", int7 == (-1));
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNotNull(node16);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertNull(node19);
+    }
+
+    @Test
+    public void test0438() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0438");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        aVLTree0.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node13 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node14 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNotNull(node14);
+    }
+
+    @Test
+    public void test0439() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0439");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        aVLTree0.delete((int) (short) -1);
+        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
+        aVLTree8.insert((int) (short) 0);
+        Avltree.AVLTree.Node node14 = aVLTree8.find(100);
+        Avltree.AVLTree aVLTree15 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node17 = aVLTree15.find((int) '4');
+        aVLTree15.delete((int) 'a');
+        Avltree.AVLTree.Node node20 = aVLTree15.getRoot();
+        aVLTree15.delete(0);
+        Avltree.AVLTree.Node node23 = null;
+        int int24 = aVLTree15.getBalance(node23);
+        int int25 = aVLTree15.height();
+        Avltree.AVLTree aVLTree26 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node28 = aVLTree26.find((int) '4');
+        Avltree.AVLTree.Node node29 = aVLTree26.getRoot();
+        aVLTree26.delete(100);
+        aVLTree26.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node34 = aVLTree26.getRoot();
+        int int35 = aVLTree15.getBalance(node34);
+        Avltree.AVLTree aVLTree36 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node38 = aVLTree36.find((int) '4');
+        aVLTree36.delete((int) 'a');
+        Avltree.AVLTree.Node node41 = aVLTree36.getRoot();
+        aVLTree36.delete(0);
+        Avltree.AVLTree.Node node44 = null;
+        int int45 = aVLTree36.getBalance(node44);
+        int int46 = aVLTree36.height();
+        Avltree.AVLTree aVLTree47 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node49 = aVLTree47.find((int) '4');
+        Avltree.AVLTree.Node node50 = aVLTree47.getRoot();
+        aVLTree47.delete(100);
+        aVLTree47.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node55 = aVLTree47.getRoot();
+        int int56 = aVLTree36.getBalance(node55);
+        int int57 = aVLTree15.getBalance(node55);
+        int int58 = aVLTree8.getBalance(node55);
+        int int59 = aVLTree0.getBalance(node55);
+        aVLTree0.insert(1);
+        Avltree.AVLTree.Node node63 = aVLTree0.find((int) (byte) 0);
+        Avltree.AVLTree.Node node64 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node65 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node17);
+        org.junit.Assert.assertNull(node20);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+        org.junit.Assert.assertTrue("'" + int25 + "' != '" + (-1) + "'", int25 == (-1));
+        org.junit.Assert.assertNull(node28);
+        org.junit.Assert.assertNull(node29);
+        org.junit.Assert.assertNotNull(node34);
+        org.junit.Assert.assertTrue("'" + int35 + "' != '" + 0 + "'", int35 == 0);
+        org.junit.Assert.assertNull(node38);
+        org.junit.Assert.assertNull(node41);
+        org.junit.Assert.assertTrue("'" + int45 + "' != '" + 0 + "'", int45 == 0);
+        org.junit.Assert.assertTrue("'" + int46 + "' != '" + (-1) + "'", int46 == (-1));
+        org.junit.Assert.assertNull(node49);
+        org.junit.Assert.assertNull(node50);
+        org.junit.Assert.assertNotNull(node55);
+        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
+        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 0 + "'", int57 == 0);
+        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
+        org.junit.Assert.assertTrue("'" + int59 + "' != '" + 0 + "'", int59 == 0);
+        org.junit.Assert.assertNull(node63);
+        org.junit.Assert.assertNotNull(node64);
+        org.junit.Assert.assertNotNull(node65);
+    }
+
+    @Test
+    public void test0440() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0440");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        aVLTree0.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 100);
+        int int11 = aVLTree0.height();
+        aVLTree0.insert((int) (byte) -1);
+        aVLTree0.delete((int) (byte) 1);
+        Avltree.AVLTree.Node node16 = aVLTree0.getRoot();
+        java.lang.Class<?> wildcardClass17 = node16.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNotNull(node8);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 1 + "'", int11 == 1);
+        org.junit.Assert.assertNotNull(node16);
+        org.junit.Assert.assertNotNull(wildcardClass17);
+    }
+
+    @Test
+    public void test0441() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0441");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (byte) 1);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) (byte) -1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+    }
+
+    @Test
+    public void test0442() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0442");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
+        Avltree.AVLTree.Node node14 = aVLTree10.find((int) 'a');
+        aVLTree10.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node18 = null;
+        int int19 = aVLTree17.getBalance(node18);
+        aVLTree17.insert((int) (byte) 100);
+        aVLTree17.insert((int) 'a');
+        Avltree.AVLTree.Node node25 = aVLTree17.find((int) (byte) 100);
+        int int26 = aVLTree10.getBalance(node25);
+        int int27 = aVLTree0.getBalance(node25);
+        Avltree.AVLTree.Node node29 = aVLTree0.find((int) (short) 0);
+        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node31 = null;
+        int int32 = aVLTree30.getBalance(node31);
+        aVLTree30.insert((int) (byte) 100);
+        aVLTree30.insert((int) 'a');
+        Avltree.AVLTree.Node node38 = aVLTree30.find((int) (byte) 100);
+        Avltree.AVLTree.Node node39 = aVLTree30.getRoot();
+        Avltree.AVLTree aVLTree40 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node41 = null;
+        int int42 = aVLTree40.getBalance(node41);
+        aVLTree40.insert((int) (byte) 100);
+        aVLTree40.insert((int) 'a');
+        Avltree.AVLTree.Node node47 = aVLTree40.getRoot();
+        int int48 = aVLTree30.getBalance(node47);
+        int int49 = aVLTree0.getBalance(node47);
+        Avltree.AVLTree.Node node51 = aVLTree0.find((int) (short) 10);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+        org.junit.Assert.assertNotNull(node25);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + (-1) + "'", int26 == (-1));
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + (-1) + "'", int27 == (-1));
+        org.junit.Assert.assertNull(node29);
+        org.junit.Assert.assertTrue("'" + int32 + "' != '" + 0 + "'", int32 == 0);
+        org.junit.Assert.assertNotNull(node38);
+        org.junit.Assert.assertNotNull(node39);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+        org.junit.Assert.assertNotNull(node47);
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + (-1) + "'", int48 == (-1));
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + (-1) + "'", int49 == (-1));
+        org.junit.Assert.assertNull(node51);
+    }
+
+    @Test
+    public void test0443() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0443");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = aVLTree0.getRoot();
+        int int2 = aVLTree0.height();
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) (byte) -1);
+        org.junit.Assert.assertNull(node1);
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + (-1) + "'", int2 == (-1));
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node6);
+    }
+
+    @Test
+    public void test0444() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0444");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
+        int int7 = aVLTree0.height();
+        aVLTree0.insert((int) 'a');
+        java.lang.Class<?> wildcardClass10 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + (-1) + "'", int7 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test0445() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0445");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        int int3 = aVLTree0.height();
+        aVLTree0.delete((int) (byte) 1);
+        aVLTree0.insert((int) (byte) -1);
+        aVLTree0.delete((int) '#');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
+    }
+
+    @Test
+    public void test0446() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0446");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
+        aVLTree0.delete(100);
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) '#');
+        int int7 = aVLTree0.height();
+        Avltree.AVLTree.Node node9 = aVLTree0.find(10);
+        Avltree.AVLTree.Node node10 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) -1);
+        aVLTree0.insert(0);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + (-1) + "'", int7 == (-1));
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node10);
+    }
+
+    @Test
+    public void test0447() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0447");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        aVLTree0.insert((-1));
+        Avltree.AVLTree.Node node12 = aVLTree0.getRoot();
+        int int13 = aVLTree0.height();
+        aVLTree0.delete((int) (byte) 10);
+        aVLTree0.delete((int) (short) -1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNotNull(node12);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+    }
+
+    @Test
+    public void test0448() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0448");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) (short) 100);
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
+        int int9 = aVLTree0.height();
+        aVLTree0.insert((int) 'a');
+        Avltree.AVLTree.Node node13 = aVLTree0.find((-1));
+        int int14 = aVLTree0.height();
+        int int15 = aVLTree0.height();
+        int int16 = aVLTree0.height();
+        aVLTree0.delete((int) 'a');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 1 + "'", int14 == 1);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 1 + "'", int15 == 1);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 1 + "'", int16 == 1);
+    }
+
+    @Test
+    public void test0449() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0449");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        aVLTree0.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (short) 0);
+        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
+        aVLTree11.delete((int) 'a');
+        Avltree.AVLTree.Node node16 = aVLTree11.getRoot();
+        aVLTree11.delete(0);
+        Avltree.AVLTree.Node node19 = null;
+        int int20 = aVLTree11.getBalance(node19);
+        int int21 = aVLTree11.height();
+        Avltree.AVLTree aVLTree22 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node24 = aVLTree22.find((int) '4');
+        Avltree.AVLTree.Node node25 = aVLTree22.getRoot();
+        aVLTree22.delete(100);
+        aVLTree22.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node30 = aVLTree22.getRoot();
+        int int31 = aVLTree11.getBalance(node30);
+        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
+        aVLTree32.delete((int) 'a');
+        Avltree.AVLTree.Node node37 = aVLTree32.getRoot();
+        aVLTree32.delete(0);
+        Avltree.AVLTree.Node node40 = null;
+        int int41 = aVLTree32.getBalance(node40);
+        int int42 = aVLTree32.height();
+        Avltree.AVLTree aVLTree43 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node45 = aVLTree43.find((int) '4');
+        Avltree.AVLTree.Node node46 = aVLTree43.getRoot();
+        aVLTree43.delete(100);
+        aVLTree43.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node51 = aVLTree43.getRoot();
+        int int52 = aVLTree32.getBalance(node51);
+        int int53 = aVLTree11.getBalance(node51);
+        int int54 = aVLTree0.getBalance(node51);
+        aVLTree0.delete((int) (short) -1);
+        aVLTree0.delete((int) (byte) 1);
+        // The following exception was thrown during execution in test generation
+        try {
+            aVLTree0.delete(10);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNotNull(node8);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + (-1) + "'", int21 == (-1));
+        org.junit.Assert.assertNull(node24);
+        org.junit.Assert.assertNull(node25);
+        org.junit.Assert.assertNotNull(node30);
+        org.junit.Assert.assertTrue("'" + int31 + "' != '" + 0 + "'", int31 == 0);
+        org.junit.Assert.assertNull(node34);
+        org.junit.Assert.assertNull(node37);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + (-1) + "'", int42 == (-1));
+        org.junit.Assert.assertNull(node45);
+        org.junit.Assert.assertNull(node46);
+        org.junit.Assert.assertNotNull(node51);
+        org.junit.Assert.assertTrue("'" + int52 + "' != '" + 0 + "'", int52 == 0);
+        org.junit.Assert.assertTrue("'" + int53 + "' != '" + 0 + "'", int53 == 0);
+        org.junit.Assert.assertTrue("'" + int54 + "' != '" + 0 + "'", int54 == 0);
+    }
+
+    @Test
+    public void test0450() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0450");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) 'a');
+        aVLTree0.delete((int) (byte) 10);
+        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
+        Avltree.AVLTree.Node node13 = aVLTree9.find((int) 'a');
+        Avltree.AVLTree.Node node14 = aVLTree9.getRoot();
+        Avltree.AVLTree.Node node15 = aVLTree9.getRoot();
+        Avltree.AVLTree.Node node16 = aVLTree9.getRoot();
+        aVLTree9.delete((int) (byte) 10);
+        int int19 = aVLTree9.height();
+        Avltree.AVLTree.Node node21 = aVLTree9.find((int) (short) 10);
+        Avltree.AVLTree aVLTree22 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node24 = aVLTree22.find((int) '4');
+        Avltree.AVLTree.Node node25 = aVLTree22.getRoot();
+        aVLTree22.delete(100);
+        aVLTree22.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node30 = aVLTree22.getRoot();
+        int int31 = aVLTree9.getBalance(node30);
+        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
+        Avltree.AVLTree.Node node36 = aVLTree32.find((int) 'a');
+        Avltree.AVLTree.Node node38 = aVLTree32.find((int) ' ');
+        Avltree.AVLTree.Node node40 = aVLTree32.find(0);
+        Avltree.AVLTree aVLTree41 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node43 = aVLTree41.find((int) '4');
+        aVLTree41.delete((int) 'a');
+        aVLTree41.delete(1);
+        aVLTree41.delete((int) '#');
+        aVLTree41.delete((int) (short) -1);
+        Avltree.AVLTree.Node node52 = aVLTree41.getRoot();
+        Avltree.AVLTree.Node node54 = aVLTree41.find((int) (byte) 100);
+        int int55 = aVLTree41.height();
+        Avltree.AVLTree aVLTree56 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node58 = aVLTree56.find((int) '4');
+        Avltree.AVLTree.Node node59 = aVLTree56.getRoot();
+        aVLTree56.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree62 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node64 = aVLTree62.find((int) '4');
+        Avltree.AVLTree.Node node66 = aVLTree62.find((int) 'a');
+        aVLTree62.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree69 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node70 = null;
+        int int71 = aVLTree69.getBalance(node70);
+        aVLTree69.insert((int) (byte) 100);
+        aVLTree69.insert((int) 'a');
+        Avltree.AVLTree.Node node77 = aVLTree69.find((int) (byte) 100);
+        int int78 = aVLTree62.getBalance(node77);
+        int int79 = aVLTree56.getBalance(node77);
+        int int80 = aVLTree41.getBalance(node77);
+        int int81 = aVLTree32.getBalance(node77);
+        int int82 = aVLTree9.getBalance(node77);
+        int int83 = aVLTree0.getBalance(node77);
+        java.lang.Class<?> wildcardClass84 = node77.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + (-1) + "'", int19 == (-1));
+        org.junit.Assert.assertNull(node21);
+        org.junit.Assert.assertNull(node24);
+        org.junit.Assert.assertNull(node25);
+        org.junit.Assert.assertNotNull(node30);
+        org.junit.Assert.assertTrue("'" + int31 + "' != '" + 0 + "'", int31 == 0);
+        org.junit.Assert.assertNull(node34);
+        org.junit.Assert.assertNull(node36);
+        org.junit.Assert.assertNull(node38);
+        org.junit.Assert.assertNull(node40);
+        org.junit.Assert.assertNull(node43);
+        org.junit.Assert.assertNull(node52);
+        org.junit.Assert.assertNull(node54);
+        org.junit.Assert.assertTrue("'" + int55 + "' != '" + (-1) + "'", int55 == (-1));
+        org.junit.Assert.assertNull(node58);
+        org.junit.Assert.assertNull(node59);
+        org.junit.Assert.assertNull(node64);
+        org.junit.Assert.assertNull(node66);
+        org.junit.Assert.assertTrue("'" + int71 + "' != '" + 0 + "'", int71 == 0);
+        org.junit.Assert.assertNotNull(node77);
+        org.junit.Assert.assertTrue("'" + int78 + "' != '" + (-1) + "'", int78 == (-1));
+        org.junit.Assert.assertTrue("'" + int79 + "' != '" + (-1) + "'", int79 == (-1));
+        org.junit.Assert.assertTrue("'" + int80 + "' != '" + (-1) + "'", int80 == (-1));
+        org.junit.Assert.assertTrue("'" + int81 + "' != '" + (-1) + "'", int81 == (-1));
+        org.junit.Assert.assertTrue("'" + int82 + "' != '" + (-1) + "'", int82 == (-1));
+        org.junit.Assert.assertTrue("'" + int83 + "' != '" + (-1) + "'", int83 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass84);
+    }
+
+    @Test
+    public void test0451() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0451");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node10 = aVLTree9.getRoot();
+        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
+        Avltree.AVLTree.Node node14 = aVLTree11.getRoot();
+        Avltree.AVLTree.Node node16 = aVLTree11.find((int) (short) -1);
+        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
+        aVLTree17.delete((int) 'a');
+        Avltree.AVLTree.Node node22 = aVLTree17.getRoot();
+        aVLTree17.delete(0);
+        Avltree.AVLTree.Node node25 = null;
+        int int26 = aVLTree17.getBalance(node25);
+        int int27 = aVLTree17.height();
+        aVLTree17.delete(100);
+        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node32 = aVLTree30.find((int) '4');
+        Avltree.AVLTree.Node node33 = aVLTree30.getRoot();
+        aVLTree30.delete(100);
+        aVLTree30.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node38 = aVLTree30.getRoot();
+        int int39 = aVLTree17.getBalance(node38);
+        int int40 = aVLTree11.getBalance(node38);
+        int int41 = aVLTree9.getBalance(node38);
+        int int42 = aVLTree0.getBalance(node38);
+        java.lang.Class<?> wildcardClass43 = node38.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + (-1) + "'", int27 == (-1));
+        org.junit.Assert.assertNull(node32);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertNotNull(node38);
+        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
+        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass43);
+    }
+
+    @Test
+    public void test0452() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0452");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (byte) 10);
+        int int10 = aVLTree0.height();
+        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (short) 10);
+        Avltree.AVLTree.Node node14 = aVLTree0.find(10);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node14);
+    }
+
+    @Test
+    public void test0453() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0453");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (short) 10);
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        int int9 = aVLTree0.height();
+        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
+        aVLTree10.insert((int) (short) 0);
+        Avltree.AVLTree.Node node16 = aVLTree10.find(100);
+        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
+        Avltree.AVLTree.Node node20 = aVLTree17.getRoot();
+        aVLTree17.delete(100);
+        aVLTree17.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node25 = aVLTree17.getRoot();
+        int int26 = aVLTree10.getBalance(node25);
+        int int27 = aVLTree0.getBalance(node25);
+        aVLTree0.delete(100);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + (-1) + "'", int9 == (-1));
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertNull(node20);
+        org.junit.Assert.assertNotNull(node25);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
+    }
+
+    @Test
+    public void test0454() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0454");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node10 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 1);
+        Avltree.AVLTree aVLTree13 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node15 = aVLTree13.find((int) '4');
+        aVLTree13.delete((int) 'a');
+        Avltree.AVLTree.Node node18 = aVLTree13.getRoot();
+        aVLTree13.delete(0);
+        Avltree.AVLTree.Node node21 = null;
+        int int22 = aVLTree13.getBalance(node21);
+        int int23 = aVLTree13.height();
+        Avltree.AVLTree aVLTree24 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node26 = aVLTree24.find((int) '4');
+        Avltree.AVLTree.Node node27 = aVLTree24.getRoot();
+        aVLTree24.delete(100);
+        aVLTree24.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node32 = aVLTree24.getRoot();
+        int int33 = aVLTree13.getBalance(node32);
+        int int34 = aVLTree0.getBalance(node32);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertNull(node18);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + (-1) + "'", int23 == (-1));
+        org.junit.Assert.assertNull(node26);
+        org.junit.Assert.assertNull(node27);
+        org.junit.Assert.assertNotNull(node32);
+        org.junit.Assert.assertTrue("'" + int33 + "' != '" + 0 + "'", int33 == 0);
+        org.junit.Assert.assertTrue("'" + int34 + "' != '" + 0 + "'", int34 == 0);
+    }
+
+    @Test
+    public void test0455() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0455");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.insert((int) (short) 0);
+        Avltree.AVLTree.Node node6 = aVLTree0.find(100);
+        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
+        aVLTree7.delete((int) 'a');
+        Avltree.AVLTree.Node node12 = aVLTree7.getRoot();
+        aVLTree7.delete(0);
+        Avltree.AVLTree.Node node15 = null;
+        int int16 = aVLTree7.getBalance(node15);
+        int int17 = aVLTree7.height();
+        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node20 = aVLTree18.find((int) '4');
+        Avltree.AVLTree.Node node21 = aVLTree18.getRoot();
+        aVLTree18.delete(100);
+        aVLTree18.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node26 = aVLTree18.getRoot();
+        int int27 = aVLTree7.getBalance(node26);
+        Avltree.AVLTree aVLTree28 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node30 = aVLTree28.find((int) '4');
+        aVLTree28.delete((int) 'a');
+        Avltree.AVLTree.Node node33 = aVLTree28.getRoot();
+        aVLTree28.delete(0);
+        Avltree.AVLTree.Node node36 = null;
+        int int37 = aVLTree28.getBalance(node36);
+        int int38 = aVLTree28.height();
+        Avltree.AVLTree aVLTree39 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node41 = aVLTree39.find((int) '4');
+        Avltree.AVLTree.Node node42 = aVLTree39.getRoot();
+        aVLTree39.delete(100);
+        aVLTree39.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node47 = aVLTree39.getRoot();
+        int int48 = aVLTree28.getBalance(node47);
+        int int49 = aVLTree7.getBalance(node47);
+        int int50 = aVLTree0.getBalance(node47);
+        Avltree.AVLTree.Node node51 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (byte) -1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+        org.junit.Assert.assertNull(node20);
+        org.junit.Assert.assertNull(node21);
+        org.junit.Assert.assertNotNull(node26);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
+        org.junit.Assert.assertNull(node30);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertTrue("'" + int37 + "' != '" + 0 + "'", int37 == 0);
+        org.junit.Assert.assertTrue("'" + int38 + "' != '" + (-1) + "'", int38 == (-1));
+        org.junit.Assert.assertNull(node41);
+        org.junit.Assert.assertNull(node42);
+        org.junit.Assert.assertNotNull(node47);
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + 0 + "'", int48 == 0);
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + 0 + "'", int49 == 0);
+        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
+        org.junit.Assert.assertNotNull(node51);
+    }
+
+    @Test
+    public void test0456() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0456");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node11 = aVLTree0.find(1);
+        aVLTree0.delete((int) ' ');
+        aVLTree0.delete(0);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node11);
+    }
+
+    @Test
+    public void test0457() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0457");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) (short) 100);
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
+        int int9 = aVLTree0.height();
+        java.lang.Class<?> wildcardClass10 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test0458() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0458");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
+        aVLTree7.delete((int) 'a');
+        Avltree.AVLTree.Node node12 = aVLTree7.getRoot();
+        aVLTree7.delete(0);
+        Avltree.AVLTree.Node node15 = null;
+        int int16 = aVLTree7.getBalance(node15);
+        int int17 = aVLTree7.height();
+        Avltree.AVLTree aVLTree18 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node20 = aVLTree18.find((int) '4');
+        Avltree.AVLTree.Node node21 = aVLTree18.getRoot();
+        aVLTree18.delete(100);
+        aVLTree18.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node26 = aVLTree18.getRoot();
+        int int27 = aVLTree7.getBalance(node26);
+        Avltree.AVLTree aVLTree28 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node30 = aVLTree28.find((int) '4');
+        aVLTree28.delete((int) 'a');
+        Avltree.AVLTree.Node node33 = aVLTree28.getRoot();
+        aVLTree28.delete(0);
+        Avltree.AVLTree.Node node36 = null;
+        int int37 = aVLTree28.getBalance(node36);
+        int int38 = aVLTree28.height();
+        Avltree.AVLTree aVLTree39 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node41 = aVLTree39.find((int) '4');
+        Avltree.AVLTree.Node node42 = aVLTree39.getRoot();
+        aVLTree39.delete(100);
+        aVLTree39.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node47 = aVLTree39.getRoot();
+        int int48 = aVLTree28.getBalance(node47);
+        int int49 = aVLTree7.getBalance(node47);
+        int int50 = aVLTree0.getBalance(node47);
+        int int51 = aVLTree0.height();
+        aVLTree0.delete((int) (byte) 10);
+        Avltree.AVLTree.Node node54 = aVLTree0.getRoot();
+        // The following exception was thrown during execution in test generation
+        try {
+            java.lang.Class<?> wildcardClass55 = node54.getClass();
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+        org.junit.Assert.assertNull(node20);
+        org.junit.Assert.assertNull(node21);
+        org.junit.Assert.assertNotNull(node26);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + 0 + "'", int27 == 0);
+        org.junit.Assert.assertNull(node30);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertTrue("'" + int37 + "' != '" + 0 + "'", int37 == 0);
+        org.junit.Assert.assertTrue("'" + int38 + "' != '" + (-1) + "'", int38 == (-1));
+        org.junit.Assert.assertNull(node41);
+        org.junit.Assert.assertNull(node42);
+        org.junit.Assert.assertNotNull(node47);
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + 0 + "'", int48 == 0);
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + 0 + "'", int49 == 0);
+        org.junit.Assert.assertTrue("'" + int50 + "' != '" + 0 + "'", int50 == 0);
+        org.junit.Assert.assertTrue("'" + int51 + "' != '" + (-1) + "'", int51 == (-1));
+        org.junit.Assert.assertNull(node54);
+    }
+
+    @Test
+    public void test0459() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0459");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
+        Avltree.AVLTree.Node node10 = aVLTree6.find((int) 'a');
+        Avltree.AVLTree.Node node11 = aVLTree6.getRoot();
+        aVLTree6.delete((int) (short) 10);
+        Avltree.AVLTree.Node node14 = aVLTree6.getRoot();
+        Avltree.AVLTree.Node node15 = aVLTree6.getRoot();
+        aVLTree6.insert((int) (byte) 100);
+        Avltree.AVLTree.Node node18 = aVLTree6.getRoot();
+        int int19 = aVLTree0.getBalance(node18);
+        java.lang.Class<?> wildcardClass20 = node18.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertNotNull(node18);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 0 + "'", int19 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass20);
+    }
+
+    @Test
+    public void test0460() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0460");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        aVLTree0.delete(0);
+        Avltree.AVLTree.Node node8 = null;
+        int int9 = aVLTree0.getBalance(node8);
+        int int10 = aVLTree0.height();
+        Avltree.AVLTree aVLTree11 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node13 = aVLTree11.find((int) '4');
+        Avltree.AVLTree.Node node14 = aVLTree11.getRoot();
+        aVLTree11.delete(100);
+        aVLTree11.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node19 = aVLTree11.getRoot();
+        int int20 = aVLTree0.getBalance(node19);
+        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
+        aVLTree21.delete((int) 'a');
+        Avltree.AVLTree.Node node26 = aVLTree21.getRoot();
+        aVLTree21.delete(0);
+        Avltree.AVLTree.Node node29 = null;
+        int int30 = aVLTree21.getBalance(node29);
+        int int31 = aVLTree21.height();
+        Avltree.AVLTree aVLTree32 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node34 = aVLTree32.find((int) '4');
+        Avltree.AVLTree.Node node35 = aVLTree32.getRoot();
+        aVLTree32.delete(100);
+        aVLTree32.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node40 = aVLTree32.getRoot();
+        int int41 = aVLTree21.getBalance(node40);
+        int int42 = aVLTree0.getBalance(node40);
+        aVLTree0.delete((int) (byte) 100);
+        aVLTree0.insert((int) ' ');
+        aVLTree0.delete((int) (byte) -1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNotNull(node19);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+        org.junit.Assert.assertNull(node23);
+        org.junit.Assert.assertNull(node26);
+        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
+        org.junit.Assert.assertTrue("'" + int31 + "' != '" + (-1) + "'", int31 == (-1));
+        org.junit.Assert.assertNull(node34);
+        org.junit.Assert.assertNull(node35);
+        org.junit.Assert.assertNotNull(node40);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+    }
+
+    @Test
+    public void test0461() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0461");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        aVLTree0.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 100);
+        int int11 = aVLTree0.height();
+        aVLTree0.insert((int) (short) -1);
+        Avltree.AVLTree.Node node14 = aVLTree0.getRoot();
+        int int15 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNotNull(node8);
+        org.junit.Assert.assertTrue("'" + int11 + "' != '" + 1 + "'", int11 == 1);
+        org.junit.Assert.assertNotNull(node14);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 1 + "'", int15 == 1);
+    }
+
+    @Test
+    public void test0462() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0462");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
+        int int3 = aVLTree0.height();
+        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (byte) 100);
+        aVLTree0.delete((int) (short) 100);
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        java.lang.Class<?> wildcardClass9 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test0463() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0463");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        aVLTree0.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node8 = null;
+        int int9 = aVLTree7.getBalance(node8);
+        aVLTree7.insert((int) (byte) 100);
+        aVLTree7.insert((int) 'a');
+        Avltree.AVLTree.Node node15 = aVLTree7.find((int) (byte) 100);
+        int int16 = aVLTree0.getBalance(node15);
+        int int17 = aVLTree0.height();
+        aVLTree0.insert(1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertNotNull(node15);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + (-1) + "'", int17 == (-1));
+    }
+
+    @Test
+    public void test0464() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0464");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node11 = aVLTree0.find(1);
+        aVLTree0.delete(10);
+        Avltree.AVLTree.Node node14 = null;
+        int int15 = aVLTree0.getBalance(node14);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+    }
+
+    @Test
+    public void test0465() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0465");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.insert((int) (short) 0);
+        java.lang.Class<?> wildcardClass5 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNotNull(wildcardClass5);
+    }
+
+    @Test
+    public void test0466() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0466");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = null;
+        int int2 = aVLTree0.getBalance(node1);
+        aVLTree0.insert((int) (byte) 100);
+        aVLTree0.insert((int) 'a');
+        Avltree.AVLTree.Node node8 = aVLTree0.find((-1));
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertNull(node8);
+    }
+
+    @Test
+    public void test0467() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0467");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        int int3 = aVLTree0.height();
+        int int4 = aVLTree0.height();
+        aVLTree0.delete((int) (byte) 0);
+        aVLTree0.insert((int) (short) 0);
+        java.lang.Class<?> wildcardClass9 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + (-1) + "'", int4 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass9);
+    }
+
+    @Test
+    public void test0468() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0468");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) '4');
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) 0);
+        aVLTree0.insert((int) (byte) 1);
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNotNull(node11);
+    }
+
+    @Test
+    public void test0469() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0469");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert(0);
+        aVLTree0.insert((int) (short) 10);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node11 = null;
+        int int12 = aVLTree10.getBalance(node11);
+        aVLTree10.insert((int) (byte) 100);
+        aVLTree10.insert((int) 'a');
+        Avltree.AVLTree.Node node18 = aVLTree10.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
+        aVLTree19.delete((int) 'a');
+        Avltree.AVLTree.Node node24 = aVLTree19.getRoot();
+        aVLTree19.delete(0);
+        Avltree.AVLTree.Node node27 = null;
+        int int28 = aVLTree19.getBalance(node27);
+        int int29 = aVLTree19.height();
+        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node32 = aVLTree30.find((int) '4');
+        Avltree.AVLTree.Node node33 = aVLTree30.getRoot();
+        aVLTree30.delete(100);
+        aVLTree30.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node38 = aVLTree30.getRoot();
+        int int39 = aVLTree19.getBalance(node38);
+        int int40 = aVLTree10.getBalance(node38);
+        int int41 = aVLTree0.getBalance(node38);
+        Avltree.AVLTree.Node node43 = aVLTree0.find((int) (byte) -1);
+        Avltree.AVLTree.Node node45 = aVLTree0.find((int) (byte) -1);
+        Avltree.AVLTree.Node node46 = aVLTree0.getRoot();
+        java.lang.Class<?> wildcardClass47 = node46.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNotNull(node9);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertNotNull(node18);
+        org.junit.Assert.assertNull(node21);
+        org.junit.Assert.assertNull(node24);
+        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
+        org.junit.Assert.assertTrue("'" + int29 + "' != '" + (-1) + "'", int29 == (-1));
+        org.junit.Assert.assertNull(node32);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertNotNull(node38);
+        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
+        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + 0 + "'", int41 == 0);
+        org.junit.Assert.assertNull(node43);
+        org.junit.Assert.assertNull(node45);
+        org.junit.Assert.assertNotNull(node46);
+        org.junit.Assert.assertNotNull(wildcardClass47);
+    }
+
+    @Test
+    public void test0470() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0470");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (byte) 10);
+        aVLTree0.insert((int) '#');
+        int int12 = aVLTree0.height();
+        java.lang.Class<?> wildcardClass13 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + 0 + "'", int12 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass13);
+    }
+
+    @Test
+    public void test0471() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0471");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        aVLTree0.delete(0);
+        Avltree.AVLTree.Node node8 = null;
+        int int9 = aVLTree0.getBalance(node8);
+        int int10 = aVLTree0.height();
+        aVLTree0.delete(100);
+        Avltree.AVLTree.Node node13 = aVLTree0.getRoot();
+        int int14 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + (-1) + "'", int14 == (-1));
+    }
+
+    @Test
+    public void test0472() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0472");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.insert((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNotNull(node5);
+    }
+
+    @Test
+    public void test0473() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0473");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        aVLTree0.delete(0);
+        Avltree.AVLTree.Node node8 = null;
+        int int9 = aVLTree0.getBalance(node8);
+        int int10 = aVLTree0.height();
+        aVLTree0.delete(100);
+        aVLTree0.insert(10);
+        Avltree.AVLTree.Node node15 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + (-1) + "'", int10 == (-1));
+        org.junit.Assert.assertNotNull(node15);
+    }
+
+    @Test
+    public void test0474() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0474");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node8 = aVLTree0.find(0);
+        Avltree.AVLTree.Node node10 = aVLTree0.find((int) (byte) 0);
+        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (byte) -1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node12);
+    }
+
+    @Test
+    public void test0475() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0475");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
+        aVLTree6.insert((int) (short) 0);
+        Avltree.AVLTree.Node node12 = aVLTree6.find(100);
+        Avltree.AVLTree aVLTree13 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node15 = aVLTree13.find((int) '4');
+        aVLTree13.delete((int) 'a');
+        Avltree.AVLTree.Node node18 = aVLTree13.getRoot();
+        aVLTree13.delete(0);
+        Avltree.AVLTree.Node node21 = null;
+        int int22 = aVLTree13.getBalance(node21);
+        int int23 = aVLTree13.height();
+        Avltree.AVLTree aVLTree24 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node26 = aVLTree24.find((int) '4');
+        Avltree.AVLTree.Node node27 = aVLTree24.getRoot();
+        aVLTree24.delete(100);
+        aVLTree24.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node32 = aVLTree24.getRoot();
+        int int33 = aVLTree13.getBalance(node32);
+        Avltree.AVLTree aVLTree34 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node36 = aVLTree34.find((int) '4');
+        aVLTree34.delete((int) 'a');
+        Avltree.AVLTree.Node node39 = aVLTree34.getRoot();
+        aVLTree34.delete(0);
+        Avltree.AVLTree.Node node42 = null;
+        int int43 = aVLTree34.getBalance(node42);
+        int int44 = aVLTree34.height();
+        Avltree.AVLTree aVLTree45 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node47 = aVLTree45.find((int) '4');
+        Avltree.AVLTree.Node node48 = aVLTree45.getRoot();
+        aVLTree45.delete(100);
+        aVLTree45.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node53 = aVLTree45.getRoot();
+        int int54 = aVLTree34.getBalance(node53);
+        int int55 = aVLTree13.getBalance(node53);
+        int int56 = aVLTree6.getBalance(node53);
+        int int57 = aVLTree0.getBalance(node53);
+        int int58 = aVLTree0.height();
+        aVLTree0.insert((int) (byte) 0);
+        aVLTree0.delete(10);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertNull(node18);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + (-1) + "'", int23 == (-1));
+        org.junit.Assert.assertNull(node26);
+        org.junit.Assert.assertNull(node27);
+        org.junit.Assert.assertNotNull(node32);
+        org.junit.Assert.assertTrue("'" + int33 + "' != '" + 0 + "'", int33 == 0);
+        org.junit.Assert.assertNull(node36);
+        org.junit.Assert.assertNull(node39);
+        org.junit.Assert.assertTrue("'" + int43 + "' != '" + 0 + "'", int43 == 0);
+        org.junit.Assert.assertTrue("'" + int44 + "' != '" + (-1) + "'", int44 == (-1));
+        org.junit.Assert.assertNull(node47);
+        org.junit.Assert.assertNull(node48);
+        org.junit.Assert.assertNotNull(node53);
+        org.junit.Assert.assertTrue("'" + int54 + "' != '" + 0 + "'", int54 == 0);
+        org.junit.Assert.assertTrue("'" + int55 + "' != '" + 0 + "'", int55 == 0);
+        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
+        org.junit.Assert.assertTrue("'" + int57 + "' != '" + 0 + "'", int57 == 0);
+        org.junit.Assert.assertTrue("'" + int58 + "' != '" + (-1) + "'", int58 == (-1));
+    }
+
+    @Test
+    public void test0476() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0476");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 100);
+        int int6 = aVLTree0.height();
+        aVLTree0.delete((int) (byte) 10);
+        aVLTree0.delete((int) (byte) 1);
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node13 = aVLTree0.find((int) '4');
+        java.lang.Class<?> wildcardClass14 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
+        org.junit.Assert.assertNotNull(node11);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNotNull(wildcardClass14);
+    }
+
+    @Test
+    public void test0477() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0477");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        aVLTree0.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree7 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node9 = aVLTree7.find((int) '4');
+        Avltree.AVLTree.Node node10 = aVLTree7.getRoot();
+        Avltree.AVLTree.Node node12 = aVLTree7.find((int) (short) -1);
+        Avltree.AVLTree aVLTree13 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node15 = aVLTree13.find((int) '4');
+        aVLTree13.delete((int) 'a');
+        Avltree.AVLTree.Node node18 = aVLTree13.getRoot();
+        aVLTree13.delete(0);
+        Avltree.AVLTree.Node node21 = null;
+        int int22 = aVLTree13.getBalance(node21);
+        int int23 = aVLTree13.height();
+        aVLTree13.delete(100);
+        Avltree.AVLTree aVLTree26 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node28 = aVLTree26.find((int) '4');
+        Avltree.AVLTree.Node node29 = aVLTree26.getRoot();
+        aVLTree26.delete(100);
+        aVLTree26.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node34 = aVLTree26.getRoot();
+        int int35 = aVLTree13.getBalance(node34);
+        int int36 = aVLTree7.getBalance(node34);
+        Avltree.AVLTree.Node node37 = aVLTree7.getRoot();
+        Avltree.AVLTree aVLTree38 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node40 = aVLTree38.find((-1));
+        int int41 = aVLTree38.height();
+        Avltree.AVLTree.Node node42 = aVLTree38.getRoot();
+        aVLTree38.insert((int) (byte) 100);
+        aVLTree38.delete(100);
+        Avltree.AVLTree aVLTree47 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node49 = aVLTree47.find((int) '4');
+        aVLTree47.delete((int) 'a');
+        Avltree.AVLTree.Node node52 = aVLTree47.getRoot();
+        aVLTree47.delete(0);
+        Avltree.AVLTree.Node node55 = null;
+        int int56 = aVLTree47.getBalance(node55);
+        Avltree.AVLTree.Node node57 = null;
+        int int58 = aVLTree47.getBalance(node57);
+        Avltree.AVLTree aVLTree59 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node61 = aVLTree59.find((int) '4');
+        aVLTree59.delete((int) 'a');
+        Avltree.AVLTree.Node node64 = aVLTree59.getRoot();
+        Avltree.AVLTree.Node node65 = null;
+        int int66 = aVLTree59.getBalance(node65);
+        Avltree.AVLTree.Node node68 = aVLTree59.find((int) ' ');
+        Avltree.AVLTree aVLTree69 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node71 = aVLTree69.find((int) '4');
+        Avltree.AVLTree.Node node73 = aVLTree69.find((int) 'a');
+        aVLTree69.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree76 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node77 = null;
+        int int78 = aVLTree76.getBalance(node77);
+        aVLTree76.insert((int) (byte) 100);
+        aVLTree76.insert((int) 'a');
+        Avltree.AVLTree.Node node84 = aVLTree76.find((int) (byte) 100);
+        int int85 = aVLTree69.getBalance(node84);
+        int int86 = aVLTree59.getBalance(node84);
+        int int87 = aVLTree47.getBalance(node84);
+        int int88 = aVLTree38.getBalance(node84);
+        int int89 = aVLTree7.getBalance(node84);
+        int int90 = aVLTree0.getBalance(node84);
+        java.lang.Class<?> wildcardClass91 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertNull(node18);
+        org.junit.Assert.assertTrue("'" + int22 + "' != '" + 0 + "'", int22 == 0);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + (-1) + "'", int23 == (-1));
+        org.junit.Assert.assertNull(node28);
+        org.junit.Assert.assertNull(node29);
+        org.junit.Assert.assertNotNull(node34);
+        org.junit.Assert.assertTrue("'" + int35 + "' != '" + 0 + "'", int35 == 0);
+        org.junit.Assert.assertTrue("'" + int36 + "' != '" + 0 + "'", int36 == 0);
+        org.junit.Assert.assertNull(node37);
+        org.junit.Assert.assertNull(node40);
+        org.junit.Assert.assertTrue("'" + int41 + "' != '" + (-1) + "'", int41 == (-1));
+        org.junit.Assert.assertNull(node42);
+        org.junit.Assert.assertNull(node49);
+        org.junit.Assert.assertNull(node52);
+        org.junit.Assert.assertTrue("'" + int56 + "' != '" + 0 + "'", int56 == 0);
+        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
+        org.junit.Assert.assertNull(node61);
+        org.junit.Assert.assertNull(node64);
+        org.junit.Assert.assertTrue("'" + int66 + "' != '" + 0 + "'", int66 == 0);
+        org.junit.Assert.assertNull(node68);
+        org.junit.Assert.assertNull(node71);
+        org.junit.Assert.assertNull(node73);
+        org.junit.Assert.assertTrue("'" + int78 + "' != '" + 0 + "'", int78 == 0);
+        org.junit.Assert.assertNotNull(node84);
+        org.junit.Assert.assertTrue("'" + int85 + "' != '" + (-1) + "'", int85 == (-1));
+        org.junit.Assert.assertTrue("'" + int86 + "' != '" + (-1) + "'", int86 == (-1));
+        org.junit.Assert.assertTrue("'" + int87 + "' != '" + (-1) + "'", int87 == (-1));
+        org.junit.Assert.assertTrue("'" + int88 + "' != '" + (-1) + "'", int88 == (-1));
+        org.junit.Assert.assertTrue("'" + int89 + "' != '" + (-1) + "'", int89 == (-1));
+        org.junit.Assert.assertTrue("'" + int90 + "' != '" + (-1) + "'", int90 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass91);
+    }
+
+    @Test
+    public void test0478() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0478");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.delete(1);
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        int int8 = aVLTree0.height();
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node11 = aVLTree0.find((int) '#');
+        int int12 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertTrue("'" + int12 + "' != '" + (-1) + "'", int12 == (-1));
+    }
+
+    @Test
+    public void test0479() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0479");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) (short) 100);
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) ' ');
+        int int9 = aVLTree0.height();
+        aVLTree0.delete(0);
+        aVLTree0.delete(10);
+        aVLTree0.insert(0);
+        // The following exception was thrown during execution in test generation
+        try {
+            aVLTree0.delete(100);
+            org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException; message: null");
+        } catch (java.lang.NullPointerException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 0 + "'", int9 == 0);
+    }
+
+    @Test
+    public void test0480() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0480");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((-1));
+        int int3 = aVLTree0.height();
+        Avltree.AVLTree.Node node4 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree5 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree5.getBalance(node6);
+        aVLTree5.insert((int) (byte) 100);
+        aVLTree5.insert((int) 'a');
+        Avltree.AVLTree.Node node13 = aVLTree5.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree14 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node16 = aVLTree14.find((int) '4');
+        aVLTree14.delete((int) 'a');
+        Avltree.AVLTree.Node node19 = aVLTree14.getRoot();
+        aVLTree14.delete(0);
+        Avltree.AVLTree.Node node22 = null;
+        int int23 = aVLTree14.getBalance(node22);
+        int int24 = aVLTree14.height();
+        Avltree.AVLTree aVLTree25 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node27 = aVLTree25.find((int) '4');
+        Avltree.AVLTree.Node node28 = aVLTree25.getRoot();
+        aVLTree25.delete(100);
+        aVLTree25.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node33 = aVLTree25.getRoot();
+        int int34 = aVLTree14.getBalance(node33);
+        int int35 = aVLTree5.getBalance(node33);
+        Avltree.AVLTree.Node node36 = aVLTree5.getRoot();
+        int int37 = aVLTree0.getBalance(node36);
+        java.lang.Class<?> wildcardClass38 = node36.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int3 + "' != '" + (-1) + "'", int3 == (-1));
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNotNull(node13);
+        org.junit.Assert.assertNull(node16);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + 0 + "'", int23 == 0);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + (-1) + "'", int24 == (-1));
+        org.junit.Assert.assertNull(node27);
+        org.junit.Assert.assertNull(node28);
+        org.junit.Assert.assertNotNull(node33);
+        org.junit.Assert.assertTrue("'" + int34 + "' != '" + 0 + "'", int34 == 0);
+        org.junit.Assert.assertTrue("'" + int35 + "' != '" + 0 + "'", int35 == 0);
+        org.junit.Assert.assertNotNull(node36);
+        org.junit.Assert.assertTrue("'" + int37 + "' != '" + (-1) + "'", int37 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass38);
+    }
+
+    @Test
+    public void test0481() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0481");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.delete(1);
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node8 = aVLTree0.getRoot();
+        int int9 = aVLTree0.height();
+        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
+        Avltree.AVLTree.Node node13 = aVLTree10.getRoot();
+        aVLTree10.delete(100);
+        int int16 = aVLTree10.height();
+        Avltree.AVLTree aVLTree17 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node19 = aVLTree17.find((int) '4');
+        aVLTree17.delete((int) 'a');
+        Avltree.AVLTree.Node node22 = aVLTree17.getRoot();
+        aVLTree17.delete(0);
+        Avltree.AVLTree.Node node25 = null;
+        int int26 = aVLTree17.getBalance(node25);
+        int int27 = aVLTree17.height();
+        Avltree.AVLTree aVLTree28 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node30 = aVLTree28.find((int) '4');
+        Avltree.AVLTree.Node node31 = aVLTree28.getRoot();
+        aVLTree28.delete(100);
+        aVLTree28.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node36 = aVLTree28.getRoot();
+        int int37 = aVLTree17.getBalance(node36);
+        Avltree.AVLTree aVLTree38 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node40 = aVLTree38.find((int) '4');
+        aVLTree38.delete((int) 'a');
+        Avltree.AVLTree.Node node43 = aVLTree38.getRoot();
+        aVLTree38.delete(0);
+        Avltree.AVLTree.Node node46 = null;
+        int int47 = aVLTree38.getBalance(node46);
+        int int48 = aVLTree38.height();
+        Avltree.AVLTree aVLTree49 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node51 = aVLTree49.find((int) '4');
+        Avltree.AVLTree.Node node52 = aVLTree49.getRoot();
+        aVLTree49.delete(100);
+        aVLTree49.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node57 = aVLTree49.getRoot();
+        int int58 = aVLTree38.getBalance(node57);
+        int int59 = aVLTree17.getBalance(node57);
+        int int60 = aVLTree10.getBalance(node57);
+        Avltree.AVLTree aVLTree61 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node63 = aVLTree61.find((int) '4');
+        aVLTree61.delete((int) 'a');
+        Avltree.AVLTree.Node node66 = aVLTree61.getRoot();
+        aVLTree61.delete((int) (byte) 1);
+        Avltree.AVLTree aVLTree69 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node70 = null;
+        int int71 = aVLTree69.getBalance(node70);
+        Avltree.AVLTree aVLTree72 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node74 = aVLTree72.find((int) '4');
+        Avltree.AVLTree.Node node75 = aVLTree72.getRoot();
+        aVLTree72.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree78 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node80 = aVLTree78.find((int) '4');
+        Avltree.AVLTree.Node node81 = null;
+        int int82 = aVLTree78.getBalance(node81);
+        aVLTree78.insert((int) (short) 100);
+        Avltree.AVLTree.Node node86 = aVLTree78.find((int) ' ');
+        int int87 = aVLTree78.height();
+        Avltree.AVLTree.Node node88 = aVLTree78.getRoot();
+        int int89 = aVLTree72.getBalance(node88);
+        int int90 = aVLTree69.getBalance(node88);
+        int int91 = aVLTree61.getBalance(node88);
+        int int92 = aVLTree10.getBalance(node88);
+        int int93 = aVLTree0.getBalance(node88);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + (-1) + "'", int9 == (-1));
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + (-1) + "'", int27 == (-1));
+        org.junit.Assert.assertNull(node30);
+        org.junit.Assert.assertNull(node31);
+        org.junit.Assert.assertNotNull(node36);
+        org.junit.Assert.assertTrue("'" + int37 + "' != '" + 0 + "'", int37 == 0);
+        org.junit.Assert.assertNull(node40);
+        org.junit.Assert.assertNull(node43);
+        org.junit.Assert.assertTrue("'" + int47 + "' != '" + 0 + "'", int47 == 0);
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + (-1) + "'", int48 == (-1));
+        org.junit.Assert.assertNull(node51);
+        org.junit.Assert.assertNull(node52);
+        org.junit.Assert.assertNotNull(node57);
+        org.junit.Assert.assertTrue("'" + int58 + "' != '" + 0 + "'", int58 == 0);
+        org.junit.Assert.assertTrue("'" + int59 + "' != '" + 0 + "'", int59 == 0);
+        org.junit.Assert.assertTrue("'" + int60 + "' != '" + 0 + "'", int60 == 0);
+        org.junit.Assert.assertNull(node63);
+        org.junit.Assert.assertNull(node66);
+        org.junit.Assert.assertTrue("'" + int71 + "' != '" + 0 + "'", int71 == 0);
+        org.junit.Assert.assertNull(node74);
+        org.junit.Assert.assertNull(node75);
+        org.junit.Assert.assertNull(node80);
+        org.junit.Assert.assertTrue("'" + int82 + "' != '" + 0 + "'", int82 == 0);
+        org.junit.Assert.assertNull(node86);
+        org.junit.Assert.assertTrue("'" + int87 + "' != '" + 0 + "'", int87 == 0);
+        org.junit.Assert.assertNotNull(node88);
+        org.junit.Assert.assertTrue("'" + int89 + "' != '" + 0 + "'", int89 == 0);
+        org.junit.Assert.assertTrue("'" + int90 + "' != '" + 0 + "'", int90 == 0);
+        org.junit.Assert.assertTrue("'" + int91 + "' != '" + 0 + "'", int91 == 0);
+        org.junit.Assert.assertTrue("'" + int92 + "' != '" + 0 + "'", int92 == 0);
+        org.junit.Assert.assertTrue("'" + int93 + "' != '" + 0 + "'", int93 == 0);
+    }
+
+    @Test
+    public void test0482() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0482");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = null;
+        int int7 = aVLTree0.getBalance(node6);
+        Avltree.AVLTree.Node node9 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node10 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        aVLTree0.delete((int) (byte) 1);
+        Avltree.AVLTree.Node node15 = aVLTree0.find(10);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + 0 + "'", int7 == 0);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node15);
+    }
+
+    @Test
+    public void test0483() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0483");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (short) -1);
+        aVLTree0.delete((int) ' ');
+        int int8 = aVLTree0.height();
+        aVLTree0.delete((int) '#');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
+    }
+
+    @Test
+    public void test0484() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0484");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
+        aVLTree0.delete((int) '4');
+        Avltree.AVLTree.Node node10 = aVLTree0.find((-1));
+        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (byte) -1);
+        Avltree.AVLTree.Node node14 = aVLTree0.find((int) (short) 0);
+        Avltree.AVLTree.Node node15 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertNull(node15);
+    }
+
+    @Test
+    public void test0485() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0485");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert((int) '4');
+        aVLTree0.delete((int) (short) 1);
+        aVLTree0.insert(0);
+        aVLTree0.delete((int) (byte) 1);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+    }
+
+    @Test
+    public void test0486() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0486");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
+        Avltree.AVLTree.Node node9 = null;
+        int int10 = aVLTree6.getBalance(node9);
+        aVLTree6.insert((int) (short) 100);
+        Avltree.AVLTree.Node node14 = aVLTree6.find((int) ' ');
+        int int15 = aVLTree6.height();
+        Avltree.AVLTree.Node node16 = aVLTree6.getRoot();
+        int int17 = aVLTree0.getBalance(node16);
+        Avltree.AVLTree.Node node19 = aVLTree0.find((int) '4');
+        Avltree.AVLTree aVLTree20 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node22 = aVLTree20.find((-1));
+        int int23 = aVLTree20.height();
+        Avltree.AVLTree.Node node25 = aVLTree20.find((int) (byte) 100);
+        aVLTree20.insert(0);
+        Avltree.AVLTree.Node node28 = aVLTree20.getRoot();
+        int int29 = aVLTree0.getBalance(node28);
+        aVLTree0.insert((int) (byte) 1);
+        aVLTree0.delete((int) (byte) 1);
+        Avltree.AVLTree.Node node34 = aVLTree0.getRoot();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertTrue("'" + int10 + "' != '" + 0 + "'", int10 == 0);
+        org.junit.Assert.assertNull(node14);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertNotNull(node16);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertNull(node19);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + (-1) + "'", int23 == (-1));
+        org.junit.Assert.assertNull(node25);
+        org.junit.Assert.assertNotNull(node28);
+        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
+        org.junit.Assert.assertNotNull(node34);
+    }
+
+    @Test
+    public void test0487() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0487");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = null;
+        int int2 = aVLTree0.getBalance(node1);
+        Avltree.AVLTree aVLTree3 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node5 = aVLTree3.find((int) '4');
+        Avltree.AVLTree.Node node6 = aVLTree3.getRoot();
+        aVLTree3.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
+        Avltree.AVLTree.Node node12 = null;
+        int int13 = aVLTree9.getBalance(node12);
+        aVLTree9.insert((int) (short) 100);
+        Avltree.AVLTree.Node node17 = aVLTree9.find((int) ' ');
+        int int18 = aVLTree9.height();
+        Avltree.AVLTree.Node node19 = aVLTree9.getRoot();
+        int int20 = aVLTree3.getBalance(node19);
+        int int21 = aVLTree0.getBalance(node19);
+        Avltree.AVLTree.Node node23 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree aVLTree24 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node25 = null;
+        int int26 = aVLTree24.getBalance(node25);
+        aVLTree24.insert((int) (byte) 100);
+        aVLTree24.insert((int) 'a');
+        Avltree.AVLTree.Node node32 = aVLTree24.find((int) (byte) 100);
+        Avltree.AVLTree aVLTree33 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node35 = aVLTree33.find((int) '4');
+        aVLTree33.delete((int) 'a');
+        Avltree.AVLTree.Node node38 = aVLTree33.getRoot();
+        aVLTree33.delete(0);
+        Avltree.AVLTree.Node node41 = null;
+        int int42 = aVLTree33.getBalance(node41);
+        int int43 = aVLTree33.height();
+        Avltree.AVLTree aVLTree44 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node46 = aVLTree44.find((int) '4');
+        Avltree.AVLTree.Node node47 = aVLTree44.getRoot();
+        aVLTree44.delete(100);
+        aVLTree44.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node52 = aVLTree44.getRoot();
+        int int53 = aVLTree33.getBalance(node52);
+        int int54 = aVLTree24.getBalance(node52);
+        Avltree.AVLTree.Node node55 = aVLTree24.getRoot();
+        int int56 = aVLTree0.getBalance(node55);
+        aVLTree0.delete((int) 'a');
+        int int59 = aVLTree0.height();
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertTrue("'" + int13 + "' != '" + 0 + "'", int13 == 0);
+        org.junit.Assert.assertNull(node17);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + 0 + "'", int18 == 0);
+        org.junit.Assert.assertNotNull(node19);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+        org.junit.Assert.assertTrue("'" + int21 + "' != '" + 0 + "'", int21 == 0);
+        org.junit.Assert.assertNull(node23);
+        org.junit.Assert.assertTrue("'" + int26 + "' != '" + 0 + "'", int26 == 0);
+        org.junit.Assert.assertNotNull(node32);
+        org.junit.Assert.assertNull(node35);
+        org.junit.Assert.assertNull(node38);
+        org.junit.Assert.assertTrue("'" + int42 + "' != '" + 0 + "'", int42 == 0);
+        org.junit.Assert.assertTrue("'" + int43 + "' != '" + (-1) + "'", int43 == (-1));
+        org.junit.Assert.assertNull(node46);
+        org.junit.Assert.assertNull(node47);
+        org.junit.Assert.assertNotNull(node52);
+        org.junit.Assert.assertTrue("'" + int53 + "' != '" + 0 + "'", int53 == 0);
+        org.junit.Assert.assertTrue("'" + int54 + "' != '" + 0 + "'", int54 == 0);
+        org.junit.Assert.assertNotNull(node55);
+        org.junit.Assert.assertTrue("'" + int56 + "' != '" + (-1) + "'", int56 == (-1));
+        org.junit.Assert.assertTrue("'" + int59 + "' != '" + (-1) + "'", int59 == (-1));
+    }
+
+    @Test
+    public void test0488() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0488");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.delete(1);
+        aVLTree0.delete((int) '#');
+        aVLTree0.delete((int) (short) -1);
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node13 = aVLTree0.find((int) (byte) 100);
+        Avltree.AVLTree.Node node15 = aVLTree0.find((int) ' ');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.insert((int) 'a');
+        int int20 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node15);
+        org.junit.Assert.assertTrue("'" + int20 + "' != '" + 0 + "'", int20 == 0);
+    }
+
+    @Test
+    public void test0489() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0489");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
+        aVLTree0.delete((int) '4');
+        Avltree.AVLTree.Node node10 = aVLTree0.find((-1));
+        Avltree.AVLTree.Node node12 = aVLTree0.find((int) (byte) -1);
+        Avltree.AVLTree.Node node14 = aVLTree0.find((int) (short) 0);
+        aVLTree0.insert((int) ' ');
+        aVLTree0.delete(100);
+        aVLTree0.insert(10);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertNull(node14);
+    }
+
+    @Test
+    public void test0490() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0490");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = null;
+        int int2 = aVLTree0.getBalance(node1);
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.insert((int) (byte) 100);
+        Avltree.AVLTree.Node node7 = aVLTree0.find((int) (byte) 0);
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node7);
+    }
+
+    @Test
+    public void test0491() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0491");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node5 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node6 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node7 = aVLTree0.getRoot();
+        int int8 = aVLTree0.height();
+        aVLTree0.delete((int) (short) 0);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertTrue("'" + int8 + "' != '" + (-1) + "'", int8 == (-1));
+    }
+
+    @Test
+    public void test0492() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0492");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree10 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node12 = aVLTree10.find((int) '4');
+        Avltree.AVLTree.Node node13 = null;
+        int int14 = aVLTree10.getBalance(node13);
+        aVLTree10.insert(0);
+        aVLTree10.insert((int) (short) 10);
+        int int19 = aVLTree10.height();
+        aVLTree10.delete((-1));
+        Avltree.AVLTree aVLTree22 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node23 = null;
+        int int24 = aVLTree22.getBalance(node23);
+        aVLTree22.delete((int) (byte) -1);
+        int int27 = aVLTree22.height();
+        int int28 = aVLTree22.height();
+        Avltree.AVLTree.Node node30 = aVLTree22.find((int) '#');
+        Avltree.AVLTree aVLTree31 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node33 = aVLTree31.find((int) '4');
+        Avltree.AVLTree.Node node35 = aVLTree31.find((int) 'a');
+        aVLTree31.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree38 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node39 = null;
+        int int40 = aVLTree38.getBalance(node39);
+        aVLTree38.insert((int) (byte) 100);
+        aVLTree38.insert((int) 'a');
+        Avltree.AVLTree.Node node46 = aVLTree38.find((int) (byte) 100);
+        int int47 = aVLTree31.getBalance(node46);
+        int int48 = aVLTree22.getBalance(node46);
+        int int49 = aVLTree10.getBalance(node46);
+        int int50 = aVLTree0.getBalance(node46);
+        java.lang.Class<?> wildcardClass51 = node46.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNull(node12);
+        org.junit.Assert.assertTrue("'" + int14 + "' != '" + 0 + "'", int14 == 0);
+        org.junit.Assert.assertTrue("'" + int19 + "' != '" + 1 + "'", int19 == 1);
+        org.junit.Assert.assertTrue("'" + int24 + "' != '" + 0 + "'", int24 == 0);
+        org.junit.Assert.assertTrue("'" + int27 + "' != '" + (-1) + "'", int27 == (-1));
+        org.junit.Assert.assertTrue("'" + int28 + "' != '" + (-1) + "'", int28 == (-1));
+        org.junit.Assert.assertNull(node30);
+        org.junit.Assert.assertNull(node33);
+        org.junit.Assert.assertNull(node35);
+        org.junit.Assert.assertTrue("'" + int40 + "' != '" + 0 + "'", int40 == 0);
+        org.junit.Assert.assertNotNull(node46);
+        org.junit.Assert.assertTrue("'" + int47 + "' != '" + (-1) + "'", int47 == (-1));
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + (-1) + "'", int48 == (-1));
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + (-1) + "'", int49 == (-1));
+        org.junit.Assert.assertTrue("'" + int50 + "' != '" + (-1) + "'", int50 == (-1));
+        org.junit.Assert.assertNotNull(wildcardClass51);
+    }
+
+    @Test
+    public void test0493() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0493");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = null;
+        int int4 = aVLTree0.getBalance(node3);
+        aVLTree0.insert(0);
+        aVLTree0.insert((int) (short) 10);
+        int int9 = aVLTree0.height();
+        aVLTree0.delete((-1));
+        // The following exception was thrown during execution in test generation
+        try {
+            aVLTree0.insert((int) (short) 0);
+            org.junit.Assert.fail("Expected exception of type java.lang.RuntimeException; message: duplicate Key!");
+        } catch (java.lang.RuntimeException e) {
+            // Expected exception.
+        }
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertTrue("'" + int4 + "' != '" + 0 + "'", int4 == 0);
+        org.junit.Assert.assertTrue("'" + int9 + "' != '" + 1 + "'", int9 == 1);
+    }
+
+    @Test
+    public void test0494() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0494");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node5 = aVLTree0.find((int) (short) -1);
+        Avltree.AVLTree aVLTree6 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node8 = aVLTree6.find((int) '4');
+        aVLTree6.delete((int) 'a');
+        Avltree.AVLTree.Node node11 = aVLTree6.getRoot();
+        aVLTree6.delete(0);
+        Avltree.AVLTree.Node node14 = null;
+        int int15 = aVLTree6.getBalance(node14);
+        int int16 = aVLTree6.height();
+        aVLTree6.delete(100);
+        Avltree.AVLTree aVLTree19 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node21 = aVLTree19.find((int) '4');
+        Avltree.AVLTree.Node node22 = aVLTree19.getRoot();
+        aVLTree19.delete(100);
+        aVLTree19.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node27 = aVLTree19.getRoot();
+        int int28 = aVLTree6.getBalance(node27);
+        int int29 = aVLTree0.getBalance(node27);
+        aVLTree0.delete((int) ' ');
+        java.lang.Class<?> wildcardClass32 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node3);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertTrue("'" + int15 + "' != '" + 0 + "'", int15 == 0);
+        org.junit.Assert.assertTrue("'" + int16 + "' != '" + (-1) + "'", int16 == (-1));
+        org.junit.Assert.assertNull(node21);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertNotNull(node27);
+        org.junit.Assert.assertTrue("'" + int28 + "' != '" + 0 + "'", int28 == 0);
+        org.junit.Assert.assertTrue("'" + int29 + "' != '" + 0 + "'", int29 == 0);
+        org.junit.Assert.assertNotNull(wildcardClass32);
+    }
+
+    @Test
+    public void test0495() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0495");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = null;
+        int int2 = aVLTree0.getBalance(node1);
+        aVLTree0.delete((int) (byte) -1);
+        int int5 = aVLTree0.height();
+        int int6 = aVLTree0.height();
+        Avltree.AVLTree.Node node8 = aVLTree0.find((int) '#');
+        Avltree.AVLTree.Node node9 = aVLTree0.getRoot();
+        java.lang.Class<?> wildcardClass10 = aVLTree0.getClass();
+        org.junit.Assert.assertTrue("'" + int2 + "' != '" + 0 + "'", int2 == 0);
+        org.junit.Assert.assertTrue("'" + int5 + "' != '" + (-1) + "'", int5 == (-1));
+        org.junit.Assert.assertTrue("'" + int6 + "' != '" + (-1) + "'", int6 == (-1));
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node9);
+        org.junit.Assert.assertNotNull(wildcardClass10);
+    }
+
+    @Test
+    public void test0496() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0496");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        Avltree.AVLTree.Node node6 = aVLTree0.find((int) ' ');
+        Avltree.AVLTree.Node node8 = aVLTree0.find(0);
+        Avltree.AVLTree aVLTree9 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node11 = aVLTree9.find((int) '4');
+        aVLTree9.delete((int) 'a');
+        aVLTree9.delete(1);
+        aVLTree9.delete((int) '#');
+        aVLTree9.delete((int) (short) -1);
+        Avltree.AVLTree.Node node20 = aVLTree9.getRoot();
+        Avltree.AVLTree.Node node22 = aVLTree9.find((int) (byte) 100);
+        int int23 = aVLTree9.height();
+        Avltree.AVLTree aVLTree24 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node26 = aVLTree24.find((int) '4');
+        Avltree.AVLTree.Node node27 = aVLTree24.getRoot();
+        aVLTree24.insert((int) (byte) 100);
+        Avltree.AVLTree aVLTree30 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node32 = aVLTree30.find((int) '4');
+        Avltree.AVLTree.Node node34 = aVLTree30.find((int) 'a');
+        aVLTree30.delete((int) (short) 10);
+        Avltree.AVLTree aVLTree37 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node38 = null;
+        int int39 = aVLTree37.getBalance(node38);
+        aVLTree37.insert((int) (byte) 100);
+        aVLTree37.insert((int) 'a');
+        Avltree.AVLTree.Node node45 = aVLTree37.find((int) (byte) 100);
+        int int46 = aVLTree30.getBalance(node45);
+        int int47 = aVLTree24.getBalance(node45);
+        int int48 = aVLTree9.getBalance(node45);
+        int int49 = aVLTree0.getBalance(node45);
+        Avltree.AVLTree.Node node51 = aVLTree0.find(0);
+        int int52 = aVLTree0.height();
+        int int53 = aVLTree0.height();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node6);
+        org.junit.Assert.assertNull(node8);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node20);
+        org.junit.Assert.assertNull(node22);
+        org.junit.Assert.assertTrue("'" + int23 + "' != '" + (-1) + "'", int23 == (-1));
+        org.junit.Assert.assertNull(node26);
+        org.junit.Assert.assertNull(node27);
+        org.junit.Assert.assertNull(node32);
+        org.junit.Assert.assertNull(node34);
+        org.junit.Assert.assertTrue("'" + int39 + "' != '" + 0 + "'", int39 == 0);
+        org.junit.Assert.assertNotNull(node45);
+        org.junit.Assert.assertTrue("'" + int46 + "' != '" + (-1) + "'", int46 == (-1));
+        org.junit.Assert.assertTrue("'" + int47 + "' != '" + (-1) + "'", int47 == (-1));
+        org.junit.Assert.assertTrue("'" + int48 + "' != '" + (-1) + "'", int48 == (-1));
+        org.junit.Assert.assertTrue("'" + int49 + "' != '" + (-1) + "'", int49 == (-1));
+        org.junit.Assert.assertNull(node51);
+        org.junit.Assert.assertTrue("'" + int52 + "' != '" + (-1) + "'", int52 == (-1));
+        org.junit.Assert.assertTrue("'" + int53 + "' != '" + (-1) + "'", int53 == (-1));
+    }
+
+    @Test
+    public void test0497() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0497");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.delete(1);
+        aVLTree0.delete((int) '#');
+        aVLTree0.delete((int) (short) -1);
+        Avltree.AVLTree.Node node11 = aVLTree0.getRoot();
+        Avltree.AVLTree.Node node13 = aVLTree0.find((int) (byte) 100);
+        Avltree.AVLTree.Node node15 = aVLTree0.find((int) ' ');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.insert((int) 'a');
+        aVLTree0.delete((int) '#');
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node11);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertNull(node15);
+    }
+
+    @Test
+    public void test0498() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0498");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        Avltree.AVLTree.Node node4 = aVLTree0.find((int) 'a');
+        aVLTree0.delete((int) (short) 10);
+        int int7 = aVLTree0.height();
+        aVLTree0.delete((int) '#');
+        Avltree.AVLTree.Node node11 = aVLTree0.find((int) (byte) 1);
+        aVLTree0.insert((int) (short) 100);
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertTrue("'" + int7 + "' != '" + (-1) + "'", int7 == (-1));
+        org.junit.Assert.assertNull(node11);
+    }
+
+    @Test
+    public void test0499() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0499");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node1 = aVLTree0.getRoot();
+        Avltree.AVLTree aVLTree2 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node4 = aVLTree2.find((int) '4');
+        Avltree.AVLTree.Node node5 = aVLTree2.getRoot();
+        Avltree.AVLTree.Node node7 = aVLTree2.find((int) (short) -1);
+        Avltree.AVLTree aVLTree8 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node10 = aVLTree8.find((int) '4');
+        aVLTree8.delete((int) 'a');
+        Avltree.AVLTree.Node node13 = aVLTree8.getRoot();
+        aVLTree8.delete(0);
+        Avltree.AVLTree.Node node16 = null;
+        int int17 = aVLTree8.getBalance(node16);
+        int int18 = aVLTree8.height();
+        aVLTree8.delete(100);
+        Avltree.AVLTree aVLTree21 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node23 = aVLTree21.find((int) '4');
+        Avltree.AVLTree.Node node24 = aVLTree21.getRoot();
+        aVLTree21.delete(100);
+        aVLTree21.insert((int) (byte) 10);
+        Avltree.AVLTree.Node node29 = aVLTree21.getRoot();
+        int int30 = aVLTree8.getBalance(node29);
+        int int31 = aVLTree2.getBalance(node29);
+        int int32 = aVLTree0.getBalance(node29);
+        Avltree.AVLTree.Node node34 = aVLTree0.find(10);
+        int int35 = aVLTree0.height();
+        org.junit.Assert.assertNull(node1);
+        org.junit.Assert.assertNull(node4);
+        org.junit.Assert.assertNull(node5);
+        org.junit.Assert.assertNull(node7);
+        org.junit.Assert.assertNull(node10);
+        org.junit.Assert.assertNull(node13);
+        org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
+        org.junit.Assert.assertTrue("'" + int18 + "' != '" + (-1) + "'", int18 == (-1));
+        org.junit.Assert.assertNull(node23);
+        org.junit.Assert.assertNull(node24);
+        org.junit.Assert.assertNotNull(node29);
+        org.junit.Assert.assertTrue("'" + int30 + "' != '" + 0 + "'", int30 == 0);
+        org.junit.Assert.assertTrue("'" + int31 + "' != '" + 0 + "'", int31 == 0);
+        org.junit.Assert.assertTrue("'" + int32 + "' != '" + 0 + "'", int32 == 0);
+        org.junit.Assert.assertNull(node34);
+        org.junit.Assert.assertTrue("'" + int35 + "' != '" + (-1) + "'", int35 == (-1));
+    }
+
+    @Test
+    public void test0500() throws Throwable {
+        if (debug)
+            System.out.format("%n%s%n", "RegressionTest0.test0500");
+        Avltree.AVLTree aVLTree0 = new Avltree.AVLTree();
+        Avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        aVLTree0.delete((int) 'a');
+        aVLTree0.delete(1);
+        aVLTree0.delete((int) '#');
+        aVLTree0.delete((int) (short) -1);
+        aVLTree0.insert(10);
+        java.lang.Class<?> wildcardClass13 = aVLTree0.getClass();
+        org.junit.Assert.assertNull(node2);
+        org.junit.Assert.assertNotNull(wildcardClass13);
     }
 }
 
